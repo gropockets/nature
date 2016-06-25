@@ -1,0 +1,43 @@
+- name: Lavanilla
+  description: This fresh new deoderant comes with a wonderful vanilla scent.
+  scent: Vanilla
+  type: Solid Stick
+  manufacturer: Lavanilla
+  id: 1001
+  price: 6.99
+  path: products/deoderant/lavanilla
+  amazon: http://amzn.to/1W7HpQX
+  image: assets/images/lavanila-healthy-deodorant.jpg
+
+- name: Schmidt's Lavender and Sage
+  description: This delightful deoderant comes from Portland, Oregon. It comes with a plastic spatula for no-mess application.
+  scent: Lavender & Sage
+  type: Jar Solid
+  manufacturer: Schmidt's
+  id: 1002
+  price: 8.99
+  amazon: http://amzn.to/1UEzCc8
+  path: products/deoderant/schmidts
+  image: assets/images/300x400-schmidts-natural-deodorant-lavender-sage.jpg
+  
+- name: Herban Cowboy
+  description: With it's masculine, woodsy fragrance, Urben Cowboy offers a new take on natural deoderant for men.
+  scent: Forest
+  type: Solid Stick
+  manufacturer: Herban Cowboy
+  id: 1003
+  price: 5.99
+  amazon: http://amzn.to/1UEznhp
+  path: products/deoderant/urben
+  image: assets/images/herban-cowboy-forest.jpg
+
+- name: EO Organic Deoderant Spray
+  description: A perfume for your armpits!  With one of smallest ingredient lists to be found, EO Organic Deoderant Spray boasts only essential oils and organic alchol on the label.
+  scent: Lavender
+  type: Spray (Pump) 
+  manufacturer: EO Organic
+  id: 1004
+  price: 8.99
+  amazon: http://amzn.to/1PB0XGG
+  path: products/deoderant/urben
+  image: assets/images/eo-organic-lavender-deoderant.jpg
