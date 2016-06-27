@@ -1,0 +1,30 @@
+<% products.each do |p| %>
+  <div class="col-md-4" >
+    <div class="card">
+      <div class="card-image">
+        <img src="<%= p.image %>" class="img-responsive" style="height:200px; width:auto; margin: 0 auto;">
+      </div>
+      <div class="card-title"><%= p.name %></div>
+      <div class="card-copy">
+        <p><%= p.description %></p>
+      </div>
+      <a href="<%= p.amazon%>" class="btn btn-primary btn-sm">Buy from Amazon</a>
+      <div class="card-stats">
+        <ul>
+          <li>
+            <%= p.scent %>
+            <span>Scent</span>
+          </li>
+          <li>
+            <%= p.type %>
+            <span>Type</span>
+          </li>
+          <li>
+            <%= p.price %>
+            <span>Avg Price</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<% end %>

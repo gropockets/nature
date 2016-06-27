@@ -14,19 +14,7 @@ description: This is a page description.
 
 <div class="container">
   <p><%= greek 500 %></p>
-
   <div class="row">
-    <% data.products.each do |p| %>
-      <%#<div class="col-md-4" style="background-image: url(assets/images/lavanila-healthy-deodorant.jpg); background-repeat: no-repeat; background-size: contain; background-position: center">%>
-      <div class="col-md-4" >
-        <img src="<%= p.image %>" class="img-responsive" style="height:200px; margin: 0 auto;">
-        <h4><%= p.name %></h4>
-        <p><%= p.description %></p>
-        <p>Scent: <%= p.scent %></p>
-        <p>Type: <%= p.type %></p>
-        <a href="<%= p.amazon%>"><p style="font-weight:bold"><%= p.price %></p>
-        <p><a href="" class="btn btn-default">Read More</a></p>
-      </div>
-    <% end %>
+    <%= partial(:product_grid_cards, :locals => { :products => data.products }) %>
   </div>
 </div>

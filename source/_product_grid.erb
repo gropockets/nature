@@ -1,0 +1,11 @@
+<% products.each do |p| %>
+  <div class="col-md-4" >
+    <img src="<%= p.image %>" class="img-responsive" style="height:200px; margin: 0 auto;">
+    <h4><%= p.name %></h4>
+    <p><%= p.description %></p>
+    <p>Scent: <%= p.scent %></p>
+    <p>Type: <%= p.type %></p>
+    <a href="<%= p.amazon%>"><p style="font-weight:bold"><%= p.price %></p>
+      <p><a href="" class="btn btn-default">Read More</a></p>
+  </div>
+<% end %>
