@@ -5,6 +5,7 @@
   manufacturer: Lavanilla
   id: 1001
   price: 6.99
+  stars: 4.2
   path: products/deoderant/lavanilla
   amazon: http://amzn.to/1W7HpQX
   image: assets/images/lavanila-healthy-deodorant.jpg
@@ -16,6 +17,7 @@
   manufacturer: Schmidt's
   id: 1002
   price: 8.99
+  stars: 2.4
   amazon: http://amzn.to/1UEzCc8
   path: products/deoderant/schmidts
   image: assets/images/300x400-schmidts-natural-deodorant-lavender-sage.jpg
@@ -26,7 +28,8 @@
   type: Solid Stick
   manufacturer: Herban Cowboy
   id: 1003
-  price: 5.99
+  price: 6.99
+  stars: 5.0
   amazon: http://amzn.to/1UEznhp
   path: products/deoderant/urben
   image: assets/images/herban-cowboy-forest.jpg
@@ -38,6 +41,7 @@
   manufacturer: EO Organic
   id: 1004
   price: 8.99
+  stars: 2.4
   amazon: http://amzn.to/1PB0XGG
   path: products/deoderant/urben
   image: assets/images/eo-organic-lavender-deoderant.jpg
