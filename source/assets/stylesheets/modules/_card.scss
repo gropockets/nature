@@ -5,6 +5,7 @@
 
 .card {
   background-color: #f7f7f7;
+  /*pastel green from keep.com - background-color: #72dfad;*/
   border: 1px solid #ddd;
   cursor: pointer;
   margin-bottom: 1.5em;
@@ -67,6 +68,11 @@
       }
     }
   }
+  
+  .buy-button {
+    margin: 0 auto;
+    text-align: center;
+  }
 
   // An optional ribbon can be added on the top right of the card
   .ribbon-wrapper {
@@ -91,4 +97,9 @@
       width: 120px;
     }
   }
+}
+
+.card-box {
+  padding-left: 0px;
+  padding-right: 0px;
 }
