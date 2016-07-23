@@ -14,39 +14,11 @@ description: This is a page description.
 
 <div class="container">
   <div class="row">
-    <div class="card-box col-md-8">
+    <div class="card-box col-md-9">
       <%= partial(:product_grid_cards, :locals => { :products => data.products }) %>
     </div>
-    <div class="col-md-4">
-      <div class="well">
-        <div class="block">
-          <h3>Popular Posts</h3>
-          <div class="post-snippet">
-            <div class="thumbnail">
-              <img width="60px" height="60px" src="assets/images/manliness-organic-deoderant.jpg">
-            </div>
-            <div class="headline">
-              <a href="#">Would you put this creepy deoderant on your pits?</a>
-            </div>
-          </div>
-          <div class="post-snippet">
-            <div class="thumbnail">
-              <img width="60px" height="60px" src="assets/images/jack-black-cool-ctrl-natural-deodorant.jpg">
-            </div>
-            <div class="headline">
-              <a href="#">Check out this awesome article about all natural deoderant.</a>
-            </div>
-          </div>
-          <div class="post-snippet">
-            <div class="thumbnail">
-              <img width="60px" height="60px" src="assets/images/jack-black-cool-ctrl-natural-deodorant.jpg">
-            </div>
-            <div class="headline">
-              <a href="#">Check out this awesome article about all natural deoderant.</a>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="col-md-3">
+      <%= partial(:side_well) %>
     </div>
   </div>
 </div>
