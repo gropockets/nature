@@ -1,10 +1,12 @@
-<% products.each do |p| %>
+<% products.deoderant.each do |p| %>
   <div class="col-md-4" >
     <div class="card">
       <div class="card-image">
         <img src="<%= p.image %>" class="img-responsive" style="height:200px; width:auto; margin: 0 auto;">
       </div>
-      <div class="card-title"><%= p.name %></div>
+      <div class="card-title">
+          <h4><%= p.name %></h4>
+      </div>
       <div class="card-copy">
         <p><%= p.description %></p>
       </div>
