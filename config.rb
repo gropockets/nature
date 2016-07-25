@@ -39,3 +39,7 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
 end
+
+data.products.each do |type, products|
+  proxy "/products/#{type}.html", "/products/template.html", :locals => { :product_type => products }, :ignore => true
+end

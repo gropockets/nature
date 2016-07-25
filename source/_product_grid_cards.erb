@@ -1,8 +1,8 @@
-<% products.deoderant.each do |p| %>
+<% products.each do |p| %>
   <div class="col-md-4" >
     <div class="card">
       <div class="card-image">
-        <img src="<%= p.image %>" class="img-responsive" style="height:200px; width:auto; margin: 0 auto;">
+        <%= image_tag p.image, :style => "height:200px; width:auto; margin: 0 auto;", :class => "img-responsive"  %>
       </div>
       <div class="card-title">
           <h4><%= p.name %></h4>
