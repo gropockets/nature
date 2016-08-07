@@ -15,43 +15,10 @@ description: This is a page description.
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <article id="post-1" class="post-listing">
-        <figure class="featured-thumbnail thumbnail">
-          <a href="#" title="Maverick Deoderant">
-            <img width="750" height="290" src="assets/images/maverick-deoderant-long.jpg" class="attachment-post-thumbnail" alt="1422331_49962985">
-          </a>
-        </figure>
-        <header class="post-header ">
-          <span class="featured_badge"><i class="fa fa-thumb-tack"></i><strong>Featured</strong></span>
-          <h3 class="post-title">
-            <a href="#" title="Permalink to: Etiam vitae risus vitae">Etiam vitae risus vitae</a>
-          </h3>
-        </header>
-        <!-- Post Content -->
-        <div class="post_content">
-          <div class="excerpt">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel dui ac est semper eleifend. Etiam vitae risus vitae sem tincidunt ullamcorper in et sapien. Sed scelerisque, nibh et mollis mattis, odio lacus porta risus, quis interdum sapien augue ut dolor. Ut gravida commodo tortor, ut vehicula dolor. Pellentesque et aliquam lorem, congue condimentum nisl… </p>
-          </div>
-          <a href="#" class="more_link">Read More</a>
-        </div>
-        <span class="post_type_label "></span>
-        <%#<span class="post_date"><time datetime="2015-04-28T12:14:51">April 28, 2015</time></span>%>
-        <!-- Post Meta -->
-        <div class="post-meta default">
-          <span class="post-category">
-            <a href="#" rel="category tag">#Alcohol-Free</a> 
-            <a href="#" rel="category tag">#Lavender</a> 
-            <a href="#" rel="category tag">#Organic</a>
-          </span>
-          <span class="post_comment"><i class="fa fa-comments"></i><a href="http://www.cherryframework.com/free-themes/duena/hello-world/#comments" class="comments-link">1 comment</a></span>
-          <span class="post_author"><i class="fa fa-calendar"></i><a href="http://www.cherryframework.com/free-themes/duena/author/chd-admin/" title="Posts by chd-admin" rel="author">August 17, 2016</a></span>
-          <div class="clear"></div>
-        </div>
-        <!--// Post Meta -->
-      </article> 
+      <%= partial(:post_list) %>
     </div>
     <div class="col-md-4">
-      <p>We review the best natural hygiene products to provide you with honest, balanced information.</p>
+      <%= partial(:side_well) %>
     </div>
   </div>
 </div>
