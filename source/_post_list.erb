@@ -1,7 +1,6 @@
 <% blog.articles[0...2].each do |article| %>
   <article id="post-1" class="post-listing">
     <figure class="featured-thumbnail thumbnail">
-      <a href="blog.html" title="<%= article.title %>">
       <% link_to article do %>
         <%= image_tag article.data.img, :style => "height:290px; width:auto; margin: 0 auto;", :class => "attachment-post-thumbnail"  %>
       <% end %>
