@@ -1,0 +1,25 @@
+<% wrap_layout :layout do %>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <article class="post-listing">
+          <figure class="featured-thumbnail thumbnail">
+            <% link_to current_article do %>
+              <%= image_tag current_article.data.img, :style => "height:290px; width:auto; margin: 0 auto;", :class => "attachment-post-thumbnail"  %>
+            <% end %>
+          </figure>
+          <header class="post-header ">
+            <span class="featured_badge"><i class="fa fa-thumb-tack"></i><strong>Featured</strong></span>
+            <h3 class="post-title">
+              <%= link_to current_article.title, current_article %>
+            </h3>
+          </header>
+          <%= yield %>
+        </article>
+      </div>
+      <div class="col-md-4">
+        <%= partial(:side_well) %>
+      </div>
+    </div>
+  </div>
+<% end %>
