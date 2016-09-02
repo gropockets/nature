@@ -15,7 +15,9 @@ description: This is a page description.
 <div class="container">
   <div class="row">
     <div class="card-box col-md-9">
-      <%= partial(:product_grid_cards, :locals => { :products => data.products }) %>
+      <% data.products.each do |type, products| %>
+        <%= partial(:product_grid_cards, :locals => { :products => products }) %>
+      <% end %>
     </div>
     <div class="col-md-3">
       <%= partial(:side_well) %>
