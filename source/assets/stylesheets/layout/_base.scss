@@ -18,10 +18,33 @@ nav {
   padding-right: 9px;
 }
 
+.side-block {
+  /* #border: 1px solid #e3e3e3; */
+  float: left;
+  max-width: 100%;
+  width: 100%;
+  box-shadow: 1px 0px 9px rgba(0, 0, 0, 0.22);
+  margin-bottom: 20px;
+}
+
+.about-block {
+  float: left;
+}
+
+.img-block {
+  float: left;
+  img {
+    max-width: 100%;
+  }
+}
+
 .well {
   background-color: #fff;
   padding: 30px;
+  width: 100%;
+  margin-bottom: 0px;
   overflow: hidden;
+  float: left;
   clear: both;
   h3 {
     font-size: 14px;

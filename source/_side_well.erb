@@ -1,37 +1,51 @@
-<div class="social-block">
-  <a href="#"><i class="fa fa-twitter"></i></a>
-  <a href="#"><i class="fa fa-facebook"></i></a>
-  <a href="#"><i class="fa fa-google-plus"></i></a>
-  <a href="#"><i class="fa fa-linkedin"></i></a>
-  <a href="#"><i class="fa fa-rss"></i></a>
-</div>
-<div class="well">
-  <div class="block">
-    <h3>Popular Posts</h3>
-    <div class="post-snippet">
-      <div class="thumbnail">
-        <%= image_tag "manliness-organic-deoderant.jpg", :width => "60px", :height => "60px"  %>
+<div class="about-block side-block">
+  <div class="social-block">
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-google-plus"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-rss"></i></a>
+  </div>
+  <div class="well">
+    <div>
+      <h2>Popular Posts</h2>
+      <div class="post-snippet">
+        <div class="thumbnail">
+          <%= image_tag "manliness-organic-deoderant.jpg", :width => "60px", :height => "60px"  %>
+        </div>
+        <div class="headline">
+          <a href="#">Would you put this creepy deoderant on your pits?</a>
+        </div>
       </div>
-      <div class="headline">
-        <a href="#">Would you put this creepy deoderant on your pits?</a>
+      <div class="post-snippet">
+        <div class="thumbnail">
+          <%= image_tag "jack-black-cool-ctrl-natural-deodorant.jpg", :width => "60px", :height => "60px"  %>
+        </div>
+        <div class="headline">
+          <a href="#">Check out this awesome article about all natural deoderant.</a>
+        </div>
       </div>
-    </div>
-    <div class="post-snippet">
-      <div class="thumbnail">
-        <%= image_tag "jack-black-cool-ctrl-natural-deodorant.jpg", :width => "60px", :height => "60px"  %>
-      </div>
-      <div class="headline">
-        <a href="#">Check out this awesome article about all natural deoderant.</a>
-      </div>
-    </div>
-    <div class="post-snippet">
-      <div class="thumbnail">
-        <%= image_tag "jack-black-cool-ctrl-natural-deodorant.jpg", :width => "60px", :height => "60px"  %>
-      </div>
-      <div class="headline">
-        <a href="#">Check out this awesome article about all natural deoderant.</a>
+      <div class="post-snippet">
+        <div class="thumbnail">
+          <%= image_tag "jack-black-cool-ctrl-natural-deodorant.jpg", :width => "60px", :height => "60px"  %>
+        </div>
+        <div class="headline">
+          <a href="#">Check out this awesome article about all natural deoderant.</a>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+<div class="img-block side-block">
+  <a href="#" ><img src="http://www.shopconsciousbeauty.com/wp-content/uploads/2016/07/ConsciousBeauty_WebBanner_SummerFall_071416_3-1.jpg"></a>
+</div>
+
+<div class="side-block">
+  <div class="well">
+    <h2>Recent Posts</h2>
+    <% blog.articles[0...5].each do |article| %>
+      <h3><%= article.title %></h3>
+    <% end %>
+  </div>
+</div>
