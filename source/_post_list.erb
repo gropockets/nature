@@ -23,9 +23,10 @@
     <!-- Post Meta -->
     <div class="post-meta default">
       <span class="post-category">
-        <a href="#" rel="category tag">#Alcohol-Free</a> 
-        <a href="#" rel="category tag">#Lavender</a> 
-        <a href="#" rel="category tag">#Organic</a>
+        <i class="fa fa-tags"></i>
+        <% article.tags.each do |tag| %>
+          <a href="<%= tag_path tag%>" rel="category tag">#<%= tag %></a> 
+        <% end %>
       </span>
       <span class="post_comment"><i class="fa fa-comments"></i><a href="" class="comments-link">1 comment</a></span>
       <span class="post_author"><i class="fa fa-calendar-o"></i><a href="" title="Posts by chd-admin" rel="author"><time><%= article.date.strftime('%b %e %Y') %></time></a></span>
