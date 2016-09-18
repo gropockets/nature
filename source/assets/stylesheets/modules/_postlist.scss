@@ -47,6 +47,9 @@
     padding: 0;
     font-style: italic;
   }
+  .fa {
+    color: $accent-color;
+  }
 }
 
 .post-meta {
@@ -74,7 +77,7 @@
   height: 35px;
   line-height: 35px;
   padding: 0 35px;
-  background: #ff5b5b;
+  background: $accent-color;
   color: #ffffff;
   font-size: 22px;
   font-family: 'BenchNine', sans-serif;
