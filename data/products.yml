@@ -1,15 +1,16 @@
 deoderant:
         - 
-                name: Lavanilla
+                name: Lavanila
                 description: This fresh new deoderant comes with a wonderful vanilla scent.
                 scent: Vanilla
                 type: Solid Stick
-                manufacturer: Lavanilla
+                manufacturer: Lavanila
                 id: 1001
                 price: 6.99
                 stars: 4.2
-                path: products/deoderant/lavanilla
+                path: products/deoderant/lavanila
                 amazon: http://amzn.to/1W7HpQX
+                article: products/_lavanila
                 image: assets/images/lavanila-healthy-deodorant.jpg
 
         -

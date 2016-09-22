@@ -67,4 +67,7 @@ end
 
 data.products.each do |type, products|
   proxy "/products/#{type}.html", "/products/template.html", :locals => { :product_type => products }, :ignore => true
+  products.each do |p|
+    proxy "/products/#{type}/#{p['name']}.html", "/products/detail_template.html", :locals => { :product => p }, :ignore => true
+  end
 end
