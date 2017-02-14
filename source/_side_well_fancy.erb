@@ -1,0 +1,75 @@
+
+<div class="post-listing">
+  <div class="social-block">
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-google-plus"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-rss"></i></a>
+  </div>
+  <h2 style="text-align: center;"> Follow us on social media</h2>
+</div>
+
+<div class="post-listing">
+  <h2>Our Favorites</h2>
+  <% @products = [data.products.deoderant[0], data.products.mouthwash[2], data.products.sunscreen[0]] %>
+  <% @products.each do |p| %>
+    <div class="post-snippet">
+      <%= image_tag p.image, :class => "img-responsive product-tile"  %>
+      <h3 class="headline">
+        <%= link_to p.name, p.path %>
+      </h3>
+    </div>
+  <% end %> 
+</div>
+
+<% if defined? related_articles %>
+  <h2>Related Posts</h2>
+  <% blog.articles.select do |article| %>
+    <% if related_articles.include? article.data.title %>
+      <div class="post-snippet">
+        <%= image_tag article.data.img, :class => "img-responsive"  %>
+        <div class="headline">
+          <%= link_to article.title, article %>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+<% end %>
+
+<div class="post-listing">
+  <h2>Popular Posts</h2>
+  <div class="post-snippet">
+    <%= image_tag "manliness-organic-deoderant.jpg", :class => "img-responsive" %>
+    <div class="headline">
+      <a href="#">Would you put this creepy deoderant on your pits?</a>
+    </div>
+  </div>
+  <div class="post-snippet">
+    <%= image_tag "jack-black-cool-ctrl-natural-deodorant.jpg", :class => "img-responsive" %>
+    <div class="headline">
+      <a href="#">Check out this awesome article about all natural deoderant.</a>
+    </div>
+  </div>
+  <div class="post-snippet">
+    <%= image_tag "jack-black-cool-ctrl-natural-deodorant.jpg", :class => "img-responsive" %>
+    <div class="headline">
+      <a href="#">Check out this awesome article about all natural deoderant.</a>
+    </div>
+  </div>
+</div>
+
+<div class="post-listing">
+  <div class="side-block">
+    <a href="#" ><img class="img-responsive" src="http://www.shopconsciousbeauty.com/wp-content/uploads/2016/07/ConsciousBeauty_WebBanner_SummerFall_071416_3-1.jpg"></a>
+  </div>
+</div>
+
+<div class="side-block widget-block">
+  <div class="well">
+    <h2>Recent Posts</h2>
+    <% blog.articles[0...5].each do |article| %>
+      <h3><%= article.title %></h3>
+    <% end %>
+  </div>
+</div>

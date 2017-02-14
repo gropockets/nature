@@ -15,12 +15,15 @@ description: This is a page description.
 <div class="container">
   <div class="row">
     <div class="card-box col-md-8">
-      <% data.products.each do |type, products| %>
-        <%= partial(:product_grid_cards, :locals => { :products => products }) %>
+      <% @related_articles = ["Example Article", "Maverick Deoderant"] %>
+      <% blog.articles.select do |article| %>
+        <% if @related_articles.include? article.data.title %>
+          <p>Ready to display <%= article.title %> </p>
+        <% end %>
       <% end %>
     </div>
     <div class="col-md-4">
-      <%= partial(:side_well_fancy) %>
+      <%= partial(:side_well_fancy, :locals => { :related_articles => @related_articles}) %>
     </div>
   </div>
 </div>

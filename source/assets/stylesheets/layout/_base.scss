@@ -1,12 +1,13 @@
 body { 
   padding-top: 70px;
   background-color: #f2f2f2;
-  font-family: Open Sans;
+  /*font-family: Open Sans;*/
+  font-family: Lato;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Open Sans', serif;
 }
 
 nav {
@@ -19,14 +20,7 @@ nav {
   padding-right: 9px;
 }
 
-.side-block {
-  /* #border: 1px solid #e3e3e3; */
-  float: left;
-  max-width: 100%;
-  width: 100%;
-  box-shadow: 1px 0px 9px rgba(0, 0, 0, 0.22);
-  margin-bottom: 20px;
-}
+
 
 .widget-block {
   border-top: 6px solid $accent-color;
@@ -43,31 +37,6 @@ nav {
   }
 }
 
-.well {
-  background-color: #fff;
-  padding: 30px;
-  width: 100%;
-  margin-bottom: 0px;
-  overflow: hidden;
-  float: left;
-  clear: both;
-  h3 {
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom: 25px;
-    margin-top: 0;
-    color: #636467;
-  }
-}
-
-.post-snippet {
-  float: left;
-  clear: both;
-  margin-bottom: 20px;
-  a {
-    color: #2b4480;
-  }
-}
 
 .thumbnail {
   width: 60px;
@@ -96,8 +65,8 @@ nav {
   }
 }
 
-.headline { 
-  margin-left: 80px;
-}
+/*.headline { */
+  /*margin-left: 80px;*/
+/*}*/
 
 .text-footer { font-size: 90%; }

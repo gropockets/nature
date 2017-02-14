@@ -1,11 +1,11 @@
 <% products.each do |p| %>
-  <div class="col-md-4" >
+  <div class="col-md-6" >
     <div class="card">
       <div class="card-image">
         <%= image_tag p.image, :style => "height:200px; width:auto; margin: 0 auto;", :class => "img-responsive"  %>
       </div>
       <div class="card-title">
-          <h4><%= p.name %></h4>
+          <h4 class="text-overflow-ellipsis"><%= p.name %></h4>
       </div>
       <div class="card-copy">
         <p><%= p.description %></p>

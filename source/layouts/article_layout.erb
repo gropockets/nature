@@ -18,7 +18,7 @@
         </article>
       </div>
       <div class="col-md-4">
-        <%= partial(:side_well) %>
+        <%= partial(:side_well_fancy, :locals => { :related_articles => current_article.data.related_articles }) %>
       </div>
     </div>
   </div>

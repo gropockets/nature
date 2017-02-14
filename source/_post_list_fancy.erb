@@ -1,0 +1,43 @@
+<!-- Blog posts inspired by Insight -->
+
+<% articles.each do |article| %>
+  <article class="post-listing">
+    <header class="post-header ">
+      <h3 class="post-tag">Featured</h3>
+      <h3 class="post-title">
+        <%= link_to article.title, article %>
+      </h3>
+    </header>
+    <% link_to article do %>
+      <%= image_tag article.data.img, :class => "img-responsive"  %>
+    <% end %>
+    <!-- Post Content -->
+    <div class="post_content">
+      <div class="excerpt">
+        <p><%= article.summary %></p>
+      </div>
+      <div class="readmore_feat">
+        <div class="readmore_link">
+          <%= link_to 'Read more', article %>
+        </div>
+      </div>
+    </div>
+    <span class="post_type_label "></span>
+    <%#<span class="post_date"><time datetime="2015-04-28T12:14:51">April 28, 2015</time></span>%>
+    <!-- Post Meta -->
+    <footer>
+      <div class="post-meta">
+        <span class="post-category">
+          <i class="fa fa-tags"></i>
+          <% article.tags.each do |tag| %>
+            <a href="<%= tag_path tag%>" rel="category tag">#<%= tag %></a> 
+          <% end %>
+        </span>
+        <span class="post_comment"><i class="fa fa-comments"></i><a href="" class="comments-link">1 comment</a></span>
+        <span class="post_author"><i class="fa fa-calendar-o"></i><a href="" title="Posts by chd-admin" rel="author"><time><%= article.date.strftime('%b %e %Y') %></time></a></span>
+        <div class="clear"></div>
+      </div>
+    </footer>
+    <!--// Post Meta -->
+  </article> 
+<% end %>

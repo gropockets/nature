@@ -1,10 +1,10 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <%= partial(:post_list, :locals => { :articles => blog.articles[0...2].each }) %>
+      <%= partial(:post_list_fancy, :locals => { :articles => blog.articles[0...2].each }) %>
     </div>
-    <div class="col-md-4">
-      <%= partial(:side_well) %>
+    <div class="col-md-4 side-block">
+      <%= partial(:side_well_fancy) %>
     </div>
   </div>
 </div>

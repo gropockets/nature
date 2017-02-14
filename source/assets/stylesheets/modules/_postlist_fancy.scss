@@ -5,22 +5,14 @@
 
 .post-listing {
   /*padding: 6px 0 0 0;*/
+  /*font-family: Lato, sans-serif;*/
   margin: 0 0 30px 0;
   background: #ffffff;
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.22);
   position: relative;
   min-height: 150px;
-  font-family: "Open sans";
   header {
-    /*padding: 0 35px 0 35px; */
-    text-align: center;
-    .post-tag {
-      color: #f27684;
-      text-transform: uppercase;
-      font-size: 12px;
-      font-weight: 400;
-      margin: 0px;
-    }
+    padding: 20px 35px; 
   }  
   .thumbnail {
     display: block;
@@ -32,60 +24,65 @@
     width: 100%;
     max-width: 100%;
   }
-  .post-title {
-    margin: 0;
-    padding: 13px 0;
-    font-size: 26px;
-    overflow: hidden;
-    clear: both;
-    a {
-      color: #434242;
-    }
-  }
   .post_content {
     padding: 15px 35px 20px 35px; /* TODO Adjust for media size */
     min-height: 50px;
   }
   .excerpt {
     padding: 0 0 15px 0;
-    font-size: 16px;
-    line-height: 28px;
-    /*letter-spacing: 0.5px;*/
   }
-  .readmore_feat {
-    text-align: center;
-  }
-  .readmore_link {
+  .more_link {
     font-size: 14px;
-    text-transform: uppercase;
+    text-decoration: underline;
     display: inline-block;
-    padding: 10px 14px;
-    border: 1px solid #e5e5e5;
-    /*text-decoration: underline;*/
-    a {
-      color: #000000;
-    }
+    padding: 0;
+    font-style: italic;
   }
   .fa {
     color: $accent-color;
   }
 }
 
+.post-title {
+  margin: 0;
+  padding: 10px 0 0 0;
+  font-size: 46px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  overflow: hidden;
+  clear: both;
+  a {
+    color: #434242;
+  }
+}
+
+article {
+  footer {
+    a { 
+      color: rgb(100, 100, 100);
+    }
+  }
+}
+
 .post-meta {
   padding: 10px 35px; /* TODO Adjust for media size */
-  margin: 0;
   border-top: 1px solid #ebeae7;
   span {
     display: inline-block;
     margin: 0 10px 0 0;
+  }
+  .fa {
+    padding-right: 7px;
   }
 }
 
 .post-category {
     float: right;
     /*word-spacing: 7px;*/
+    a {
+      padding-right: 4px;
+    }
 }
-
 
 .featured_badge {
   display: block;
