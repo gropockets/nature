@@ -7,12 +7,13 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-9">
-      <%= partial product["article"] %>
-      <p> <%= product %> </p>
+
+    <div class="col-md-8">
+      <%= partial(:product_listing, :locals => { :product => product, :type => type }) %>
     </div>
-    <div class="col-md-3">
-      <%= partial(:side_well) %>
+
+    <div class="col-md-4">
+      <%= partial(:side_well_fancy) %>
     </div>
   </div>
 </div>

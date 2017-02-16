@@ -1,0 +1,39 @@
+<div class="post-listing product-listing">
+
+  <div class="row">
+    <div class="col-md-4">
+      <%= image_tag product["image"], :style => "height:200px; width:auto; margin: 0 auto;", :class => "img-responsive"  %>
+    </div>
+    <div class="col-md-8">
+      <h2> <%= product.name %> </h2>
+      <p> <%= product.description %> </p>
+      <div class="buy-button">
+        <a href="<%= product.amazon %>" class="btn btn-primary btn-sm">Buy from Amazon</a>
+      </div>
+      <% if type.eql?('deoderant') %>
+        <ul>
+          <li> Scent: <%= product.scent %> </li>
+          <li> Type: <%= product.type %> </li>
+        </ul>
+      <% end %>
+      <%# partial product["article"] %>
+    </div>  
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <a data-toggle = "collapse" data-parent = "#accordion" href = "#collapseTwo">
+        Click me to expand. click me again to collapse.section 2
+      </a>
+      <div id="collapseTwo" class="panel-collapse collapse">
+        <div class="panel-body">
+          Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt 
+          sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
