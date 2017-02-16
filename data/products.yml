@@ -23,6 +23,7 @@ deoderant:
                 price: 8.99
                 stars: 2.4
                 amazon: http://amzn.to/1UEzCc8
+                article: products/_schmidts-lavender-and-sage
                 path: products/deoderant/schmidts
                 image: assets/images/300x400-schmidts-natural-deodorant-lavender-sage.jpg
 
