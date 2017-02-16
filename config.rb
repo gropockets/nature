@@ -68,6 +68,8 @@ end
 data.products.each do |type, products|
   proxy "/products/#{type}.html", "/products/template.html", :locals => { :product_type => products }, :ignore => true
   products.each do |p|
-    proxy "/products/#{type}/#{p['name']}.html", "/products/detail_template.html", :locals => { :product => p }, :ignore => true
+    # create url from product name (e.g. tom's soap => toms-soap)
+    product_url = "/products/#{type}/#{p['name'].gsub(/\'/, "").parameterize}.html"
+    proxy product_url, "/products/detail_template.html", :locals => { :product => p, :type => type }, :ignore => true
   end
 end
