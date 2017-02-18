@@ -36,6 +36,7 @@ configure :development do
 end
 
 configure :build do
+  set :http_prefix, '/demo/nature/build/'
   activate :minify_css
   activate :minify_javascript
 end
