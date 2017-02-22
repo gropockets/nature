@@ -66,11 +66,16 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
+helpers do
+  # create url from product name (e.g. tom's soap => toms-soap)
+  def get_product_url(type, product)
+    "/products/#{type}/#{product['name'].gsub(/\'/, "").parameterize}.html"
+  end
+end
+
 data.products.each do |type, products|
   proxy "/products/#{type}.html", "/products/template.html", :locals => { :product_type => products }, :ignore => true
   products.each do |p|
-    # create url from product name (e.g. tom's soap => toms-soap)
-    product_url = "/products/#{type}/#{p['name'].gsub(/\'/, "").parameterize}.html"
-    proxy product_url, "/products/detail_template.html", :locals => { :product => p, :type => type }, :ignore => true
+    proxy get_product_url(type, p), "/products/detail_template.html", :locals => { :product => p, :type => type }, :ignore => true
   end
 end

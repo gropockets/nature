@@ -16,10 +16,10 @@ description: This is a page description.
   <div class="row">
     <div class="card-box col-md-8">
       <% data.products.each do |type, products| %>
-        <%= partial(:product_grid_cards, :locals => { :products => products }) %>
+        <%= partial(:product_grid_cards, :locals => { :products => products, :type => type }) %>
       <% end %>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 side-block">
       <%= partial(:side_well_fancy) %>
     </div>
   </div>

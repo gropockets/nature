@@ -2,10 +2,14 @@
   <div class="col-md-6" >
     <div class="card">
       <div class="card-image">
-        <%= image_tag p.image, :style => "height:200px; width:auto; margin: 0 auto;", :class => "img-responsive"  %>
+        <% link_to get_product_url(type, p) do %>
+          <%= image_tag p.image, :style => "height:200px; width:auto; margin: 0 auto;", :class => "img-responsive"  %>
+        <% end %>
       </div>
       <div class="card-title">
-          <h4 class="text-overflow-ellipsis"><%= p.name %></h4>
+        <h4 class="text-overflow-ellipsis">
+          <%= link_to p.name, get_product_url(type, p) %>
+        </h4>
       </div>
       <div class="card-copy">
         <p><%= p.description %></p>
