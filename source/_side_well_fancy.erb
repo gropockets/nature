@@ -1,5 +1,4 @@
-
-<div class="post-listing">
+<div class="material post-listing">
   <div class="social-block">
     <a href="#"><i class="fa fa-twitter"></i></a>
     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -10,52 +9,52 @@
   <h2 style="text-align: center;"> Follow us on social media</h2>
 </div>
 
-<div class="post-listing">
+<div class="material side-block content">
   <h2>Our Favorites</h2>
   <% @products = [data.products.deoderant[0], data.products.mouthwash[2], data.products.sunscreen[0]] %>
   <% @products.each do |p| %>
     <div class="post-snippet">
       <%= image_tag p.image, :class => "img-responsive product-tile"  %>
-      <h3 class="headline">
-        <%= link_to p.name, p.path %>
-      </h3>
+      <h3> <%= link_to p.name, p.path %> </h3>
     </div>
   <% end %> 
 </div>
 
 <% if defined? related_articles %>
-  <h2>Related Posts</h2>
-  <% blog.articles.select do |article| %>
-    <% if related_articles.include? article.data.title %>
-      <div class="post-snippet">
-        <%= image_tag article.data.img, :class => "img-responsive"  %>
-        <div class="headline">
-          <%= link_to article.title, article %>
+  <div class="material side-block content">
+    <h2>Related Posts</h2>
+    <% blog.articles.select do |article| %>
+      <% if related_articles.include? article.data.title %>
+        <div class="post-snippet">
+          <%= image_tag article.data.img, :class => "img-responsive"  %>
+          <h3>
+            <%= link_to article.title, article %>
+          </h3>
         </div>
-      </div>
+      <% end %>
     <% end %>
-  <% end %>
+  </div>
 <% end %>
 
-<div class="post-listing">
+<div class="material side-block content">
   <h2>Popular Posts</h2>
   <div class="post-snippet">
     <%= image_tag "manliness-organic-deoderant.jpg", :class => "img-responsive" %>
-    <div class="headline">
+    <h3>
       <a href="#">Would you put this creepy deoderant on your pits?</a>
-    </div>
+    </h3>
   </div>
   <div class="post-snippet">
     <%= image_tag "jack-black-cool-ctrl-natural-deodorant.jpg", :class => "img-responsive" %>
-    <div class="headline">
+    <h3>
       <a href="#">Check out this awesome article about all natural deoderant.</a>
-    </div>
+    </h3>
   </div>
   <div class="post-snippet">
     <%= image_tag "jack-black-cool-ctrl-natural-deodorant.jpg", :class => "img-responsive" %>
-    <div class="headline">
+    <h3>
       <a href="#">Check out this awesome article about all natural deoderant.</a>
-    </div>
+    </h3>
   </div>
 </div>
 
