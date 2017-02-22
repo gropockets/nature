@@ -2,7 +2,10 @@
 
   <div class="row">
     <div class="col-md-4">
-      <%= image_tag product["image"], :style => "height:200px; width:auto; margin: 0 auto;", :class => "img-responsive"  %>
+      <div class="product-carousel">
+        <%= partial(:carousel) %>
+        <%# image_tag product["image"], :style => "height:200px; width:auto; margin: 0 auto;", :class => "img-responsive"  %>
+      </div>
     </div>
     <div class="col-md-8">
       <h2> <%= product.name %> </h2>
