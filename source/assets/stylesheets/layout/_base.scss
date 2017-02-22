@@ -3,6 +3,7 @@ body {
   background-color: #f2f2f2;
   /*font-family: Open Sans;*/
   font-family: Lato;
+  color: $body-text-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,12 +15,22 @@ nav {
   text-transform: uppercase;
 }
 
+.material {
+  /*margin: 0 0 30px 0;*/
+  background: #ffffff;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.22);
+  position: relative;
+}  
 
 .nav-social > li > a {
   padding-left: 9px;
   padding-right: 9px;
 }
 
+.jumbotron h1 {
+  font-family: Lora;
+  letter-spacing: -1px;
+}
 
 
 .widget-block {
@@ -37,6 +48,30 @@ nav {
   }
 }
 
+.carousel {
+  /*width: 300px;*/
+  /*padding-top: 10px;*/
+}
+
+.carousel-indicators {
+    bottom: 0px;
+}
+
+.carousel-control.right {
+  background-image: none;
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+
+.carousel-inner > .item {
+  height: 175px;
+  > img {
+    max-height: 100%;
+    margin: 0 auto;
+  }
+}
 
 .thumbnail {
   width: 60px;

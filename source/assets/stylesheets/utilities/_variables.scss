@@ -26,4 +26,6 @@ $md-only: ( min: map-get($md, min), max: map-get($lg, min) - 1 );
 
 // Color Scheme
 $accent-color: #ff5b5b;
+$body-text-color: #333;
+
 
