@@ -1,50 +1,38 @@
 ###
-# Compass
-###
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
-
-###
 # Page options, layouts, aliases and proxies
 ###
-
-# Per-page layout changes:
 #
-# With no layout
-# page "/path/to/file.html", :layout => false
-#
-# With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
-#
-# A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
-
-# Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
-
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
 
-configure :development do
-  activate :livereload          # Reload the browser automatically whenever files change
-end
+# Per-page layout changes:
+#
+# With no layout
+page '/*.xml', layout: false
+page '/*.json', layout: false
+page '/*.txt', layout: false
 
-configure :build do
-  set :http_prefix, '/demo/nature/build/'
-  activate :minify_css
-  activate :minify_javascript
+# With alternative layout
+# page "/path/to/file.html", layout: :otherlayout
+
+# Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
+# proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
+#  which_fake_page: "Rendering a fake page with a local variable" }
+
+# General configuration
+set :slim, { pretty: true }
+
+# Reload the browser automatically whenever files change
+configure :development do
+  activate :livereload
 end
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "blog"
   blog.layout = "article_layout"
+  blog.tag_template = "tag.html"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
@@ -56,8 +44,6 @@ activate :blog do |blog|
   # blog.month_link = "{year}/{month}.html"
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
-
-  blog.tag_template = "tag.html"
   #blog.calendar_template = "calendar.html"
 
   # Enable pagination
@@ -66,16 +52,23 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
-helpers do
-  # create url from product name (e.g. tom's soap => toms-soap)
-  def get_product_url(type, product)
-    "/products/#{type}/#{product['name'].gsub(/\'/, "").parameterize}.html"
-  end
+# Build-specific configuration
+configure :build do
+  set :http_prefix, '/demo/nature/build/'
+  activate :minify_css
+  activate :minify_javascript
 end
 
+# create url from product name (e.g. tom's soap => toms-soap); identical to helper function
+def get_product_url(type, product)
+  "/products/#{type}/#{product['name'].gsub(/\'/, "").parameterize}.html"
+end
+
+# Proxy pages for products and categories
 data.products.each do |type, products|
   proxy "/products/#{type}.html", "/products/template.html", :locals => { :product_type => products }, :ignore => true
   products.each do |p|
     proxy get_product_url(type, p), "/products/detail_template.html", :locals => { :product => p, :type => type }, :ignore => true
   end
 end
+
