@@ -3,3 +3,4 @@
 **/*.swo
 build/
 source/test/
+.sass-cache/
