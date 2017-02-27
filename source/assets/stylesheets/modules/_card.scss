@@ -86,8 +86,8 @@
     top: -1px;
     width: 85px;
     .ribbon {
-      @include box-shadow(0 0 3px rbga(0, 0, 0, 0.3));
-      @include rotate(45deg);
+      /*@include box-shadow(0 0 3px rbga(0, 0, 0, 0.3));*/
+      /*@include rotate(45deg);*/
       background-color: #008cba;
       color: white;
       font-size: .8em;
