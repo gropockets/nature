@@ -1,5 +1,5 @@
 body { 
-  padding-top: 70px;
+  padding-top: 50px;
   background-color: #f2f2f2;
   /*font-family: Open Sans;*/
   font-family: Lato;
@@ -13,6 +13,11 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
   text-transform: uppercase;
+}
+
+.navbar-toggle {
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 article > main {
