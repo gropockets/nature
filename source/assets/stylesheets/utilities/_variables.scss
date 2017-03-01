@@ -26,6 +26,7 @@ $md-only: ( min: map-get($md, min), max: map-get($lg, min) - 1 );
 
 // Color Scheme
 $accent-color: #046938;  /* Nature green */
+$secondary-color: #8CC541;  /* Light green */
 $body-text-color: #333;
 //$accent-color: #ff5b5b;  /* Red from Duena theme */
 

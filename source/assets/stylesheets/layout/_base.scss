@@ -40,6 +40,37 @@ article > main {
   border-top: 6px solid $accent-color;
 }
 
+.form-control { 
+  height: auto;
+  padding: 18px;
+  font-size: 16px;
+}
+
+.btn-xl {
+  padding: 13px 23px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+$btn-color: $accent-color;
+.btn-fill {
+    color: #fff;
+    background-color: $btn-color;
+    border-color: $btn-color;
+}
+.btn-fill:hover {
+    color: #fff;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+}
+
+.form-group { 
+  margin-bottom: 20px;
+}
+
+textarea.form-control {
+  height: 222px;
+}
 
 .img-block {
   float: left;
