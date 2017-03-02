@@ -7,6 +7,23 @@
       <h3 class="post-title">
         <%= link_to article.title, article %>
       </h3>
+      <hr>
+      <div class="share-buttons">
+        <ul>
+          <li>
+            <a class="facebook" href="#" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a class="twitter" href="#" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a class="g-puls" href="#" rel="nofollow" target="_blank"><i class="fa fa-google-plus"></i></a>
+          </li>
+          <li>
+            <a class="pinterest" href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+          </li>
+        </ul>
+      </div>
     </header>
     <% link_to article do %>
       <%= image_tag article.data.img, :class => "img-responsive"  %>

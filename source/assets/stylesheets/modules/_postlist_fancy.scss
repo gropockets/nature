@@ -4,13 +4,13 @@
  */
 
 .post-listing {
-  /*padding: 6px 0 0 0;*/
-  /*font-family: Lato, sans-serif;*/
+  font-family: "Open sans", sans-serif;
   margin: 0 0 30px 0;
   background: #ffffff;
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.22);
-  position: relative;
   min-height: 150px;
+  /*position: relative;*/
+  /*padding: 6px 0 0 0;*/
   header {
     padding: 20px 35px; 
   }  
@@ -41,6 +41,20 @@
   .fa {
     color: $accent-color;
   }
+}
+
+/*Red "X" for lists*/
+.fa.fa-times {
+  color: $red-x;
+}
+
+.checklist { 
+  background-color: #f2f2f2;
+  border: 1px solid #a2a2a2;
+  border-radius: 5px;
+  padding-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .post-title {
@@ -105,5 +119,35 @@ article {
   }
   .fa {
     color: #fff;
+  }
+}
+
+.share-buttons {
+  padding-top: 10px;
+  ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  li { 
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #aaa;
+    /*border: 1px solid $accent-color;*/
+    /*border: 1.5px solid $secondary-color;*/
+    background: #fff;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: all .5s;
+    .fa { 
+      color: #333;
+      /*color: $secondary-color;*/
+      /*color: $accent-color;*/
+      font-size: 15px;
+    }
   }
 }
