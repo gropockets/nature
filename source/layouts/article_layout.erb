@@ -5,15 +5,7 @@
       <!-- Article -->
       <div class="col-md-8">
         <article class="post-listing">
-          <header class="post-header ">
-            <h3 class="post-tag">Featured</h3>
-            <h3 class="post-title">
-              <%= link_to current_article.title, current_article %>
-            </h3>
-          </header>
-          <% link_to current_article do %>
-            <%= image_tag current_article.data.img, :class => "img-responsive"  %>
-          <% end %>
+          <%= partial("layouts/shared/article-header", :locals => { :article => current_article }) %>
           <main><%= yield %></main>
         </article>
       </div>
