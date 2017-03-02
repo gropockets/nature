@@ -91,11 +91,13 @@
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <%= javascript_include_tag 'lib/bcSwipe/jquery.bcSwipe.min.js' %>
 
-  <!-- Bootstrap Form Validation -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.10.2/validator.min.js"></script>
-
-  <!-- Formspree Form Submission -->
-  <%= javascript_include_tag 'lib/formspree/formspreecontact' %>
+  <!-- Contact Form Javascript -->
+  <% if current_page.url.eql? ("/contact/") %>
+    <!-- Bootstrap Form Validation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.10.2/validator.min.js"></script>
+    <!-- Formspree AJAX Form Submission -->
+    <%= javascript_include_tag 'lib/formspree/formspreecontact' %>
+  <% end %>
 
   <!-- Custom Application CSS -->
   <%= javascript_include_tag 'application' %>
