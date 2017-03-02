@@ -7,7 +7,7 @@ deoderant:
                 manufacturer: Lavanila
                 id: 1001
                 price: 6.99
-                stars: 4.2
+                stars: 4
                 path: products/deoderant/lavanila
                 amazon: http://amzn.to/1W7HpQX
                 article: products/_lavanila
@@ -21,7 +21,7 @@ deoderant:
                 manufacturer: Schmidt's
                 id: 1002
                 price: 8.99
-                stars: 2.4
+                stars: 3
                 amazon: http://amzn.to/1UEzCc8
                 article: products/_schmidts-lavender-and-sage
                 path: products/deoderant/schmidts

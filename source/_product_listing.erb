@@ -10,8 +10,14 @@
     <div class="col-lg-8 col-md-7">
       <h2> <%= product.name %> </h2>
       <p> <%= product.description %> </p>
-      <div class="buy-button">
-        <a href="<%= product.amazon %>" class="btn btn-primary btn-sm">Buy from Amazon</a>
+      <div>
+        <a href="<%= product.amazon %>" class="btn btn-fill btn-sm">Buy from Amazon</a>
+      </div>
+      <div style="display: inline-flex;">
+        <strong>Scent:</strong>
+        <span class="stars" style="margin: 2px 0 0 5px">
+          <span style="width: <%= product.stars * 20 %>px;"></span>
+        </span>
       </div>
       <% if type.eql?('deoderant') %>
         <ul>

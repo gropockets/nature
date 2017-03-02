@@ -2,11 +2,14 @@
  * Star Rating
  * http://www.ulmanen.fi/stuff/stars.php
  */
+$icon-width: 27px;
+$icon-height: 30px;
 span.stars, span.stars span {
   display: block;
-  background: url(../images/stars.png) 0 -16px repeat-x;
-  width: 80px;
-  height: 16px;
+  background: url(../images/perfume-icon.png) 0px -19.45px repeat-x;
+  background-size: 20px;
+  width: 100px;
+  height: 19.2px;
 }
 span.stars span {
   background-position: 0 0;
