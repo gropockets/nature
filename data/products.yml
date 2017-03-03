@@ -9,7 +9,10 @@ deoderant:
                 price: 6.99
                 stars: 4
                 path: products/deoderant/lavanila
-                amazon: http://amzn.to/1W7HpQX
+                affiliate-link: http://amzn.to/1W7HpQX
+                amazon-link: https://www.amazon.com/gp/product/B00EOOT8A
+                fakespot-link: http://fakespot.com/product/lavanila-the-healthy-deodorant-pure-vanilla-2-ounce
+                fakespot-rating: A
                 article: products/_lavanila
                 image: lavanila-healthy-deodorant.jpg
 
@@ -22,7 +25,12 @@ deoderant:
                 id: 1002
                 price: 8.99
                 stars: 3
-                amazon: http://amzn.to/1UEzCc8
+                affiliate-link: http://amzn.to/1UEzCc8
+                amazon-link: https://www.amazon.com/gp/product/B00D2KW68Y
+                amazon-rating: 4
+                amazon-reviews: 2248
+                fakespot-link: http://fakespot.com/product/schmidts-natural-deodorant-lavender-and-sage-jar
+                fakespot-rating: A
                 article: products/_schmidts-lavender-and-sage
                 path: products/deoderant/schmidts
                 image: 300x400-schmidts-natural-deodorant-lavender-sage.jpg
@@ -36,7 +44,10 @@ deoderant:
                 id: 1003
                 price: 6.99
                 stars: 5.0
-                amazon: http://amzn.to/1UEznhp
+                affiliate-link: http://amzn.to/1UEznhp
+                amazon-link: https://www.amazon.com/gp/product/B004153MG4/
+                fakespot-link: http://fakespot.com/product/herban-cowboy-forest-deodorant-maximum-protection-28-ounce
+                fakespot-rating: A
                 path: products/deoderant/urben
                 image: herban-cowboy-forest.jpg
 

@@ -20,7 +20,7 @@
 
 <div class="material side-block content">
   <h2>Our Favorites</h2>
-  <% @products = [data.products.deoderant[0], data.products.mouthwash[2], data.products.sunscreen[0]] %>
+  <% @products = [data.products.deoderant[1], data.products.mouthwash[2], data.products.sunscreen[0]] %>
   <% @products.each do |p| %>
     <div class="post-snippet">
       <%= image_tag p.image, :class => "img-responsive product-tile"  %>

@@ -94,6 +94,11 @@ textarea.form-control {
   }
 }
 
+
+/* -------- */
+/* Carousel */ 
+/* -------- */
+
 .carousel {
   /*width: 300px;*/
   /*padding-top: 10px;*/
@@ -112,7 +117,7 @@ textarea.form-control {
 }
 
 .carousel-inner > .item {
-  height: 175px;
+  height: 185px;
   > img {
     max-height: 100%;
     margin: 0 auto;
