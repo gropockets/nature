@@ -7,6 +7,7 @@
         <article class="post-listing">
           <%= partial("layouts/shared/article-header", :locals => { :article => current_article }) %>
           <main><%= yield %></main>
+          <%= partial("layouts/shared/load-disqus", :locals => { :id => current_article.data.disqus_id }) %>
         </article>
       </div>
 

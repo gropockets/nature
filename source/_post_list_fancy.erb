@@ -25,7 +25,9 @@
             <a href="<%= tag_path tag%>" rel="category tag">#<%= tag %></a> 
           <% end %>
         </span>
-        <span class="post_comment"><i class="fa fa-comments"></i><a href="" class="comments-link">1 comment</a></span>
+        <span class="post_comment"><i class="fa fa-comments"></i>
+          <%= link_to "Loading comments", article, :anchor => "disqus_thread", "data-disqus-identifier" => article.data.disqus_id %>
+        </span>
         <span class="post_author"><i class="fa fa-calendar-o"></i><a href="" title="Posts by chd-admin" rel="author"><time><%= article.date.strftime('%b %e %Y') %></time></a></span>
         <div class="clear"></div>
       </div>
