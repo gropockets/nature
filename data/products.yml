@@ -64,6 +64,48 @@ deoderant:
                 path: products/deoderant/eo-organic
                 image: eo-organic-lavender-deoderant.jpg
 
+        -
+                id: 1014
+                name: Primal Pit Paste
+                scent: Lavender
+                price: 9.85
+                type: Jar Solid
+                manufacturer: Primal Pit Paste
+                path: products/deoderant/primal-pit-paste-lavender
+                image: primal-pit-paste-lavender/primal-pit-paste-lavender.jpg
+                images: 
+                        - primal-pit-paste-lavender/primal-pit-paste-lavender.jpg
+                        - primal-pit-paste-lavender/primal-pit-paste-lavender-texture.jpg
+                description: Invented by a CrossFit trainer for the active person who wants natural protection against body odor. 
+                bottom-line: Fantastic for more vigorous activities at the gym or outdoors. Also available in a light formula with less baking soda for those with sensitivities. It includes a small wooden applicator - like a mini popsicle stick.
+                distinctions:  Invented in Tampa, FL by a crossfit trainer. Handcrafted and produced in Austin, TX. 
+                affiliate-link: http://amzn.to/2m4OsfD 
+                amazon-link: https://www.amazon.com/gp/product/B00O59LG0A/
+                amazon-rating: 4.1
+                stars: 4.1
+                amazon-reviews: 2742
+                fakespot-link: http://fakespot.com/product/primal-pit-paste-natural-deodorant-aluminum-free-paraben-free-no-added-fragrances-lavender-2-ounces
+                fakespot-rating: A 
+                organic-rank: Mostly organic
+                ingredients:
+                        - Organic Shea Butter
+                        - Organic Arrowroot Powder
+                        - Non-Aluminum Baking Soda
+                        - Organic Coconut Oil
+                        - Lavender Essential Oil
+                        - Non-GMO Vitamin E derived 100% from Sunflowers
+                other-scents: 
+                        - Jacked up Jasmine
+                        - Orange Creamscicle
+                        - Patchouli
+                        - Thyme & Lemongrass
+                        - “Royal & Rogue” 
+                        - Unscented
+                        - Light Baking Soda - Unscented
+                        - Light Baking Soda - Lavender & Vanilla
+                          
+
+
 mouthwash:
         -
                 name: Squeaky Clean Mouthwash
