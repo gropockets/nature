@@ -8,7 +8,7 @@
   .row
     .col-lg-4.col-md-5
       .product-carousel
-        = partial(:carousel, :locals => { :images => product.images }) 
+        = partial(:carousel, :locals => { :product => product }) 
       /.buy-button
         /a href="#{product.amazon}" class="btn btn-fill btn-sm" Buy from Amazon
     .col-lg-8.col-md-7
@@ -16,10 +16,10 @@
       div style="display: inline-flex;"
         strong Scent:
         span class="stars" style="margin: 2px 0 0 5px"
-          span style="width: #{ product.stars * 20 }px;"
+          span style="width: #{ product.scent_strength * 20 }px;"
       p
         strong Fakespot Rating: 
-        | #{product["fakespot-rating"]}
+        | #{product["fakespot_rating"]}
 
       .card-stats
         ul
@@ -27,35 +27,30 @@
             = product.price
             span Avg Price
           li
-            = product["amazon-reviews"]
+            = product["amazon_reviews"]
             | +
             span Amazon Reviews
           li
-            = product["amazon-rating"]
+            = product["amazon_rating"]
             | /5
             span Amazon Rating
 
 
   .row: .col-xs-12
       p 
-        strong Interesting distinctions: 
-        = product.distinctions
-
-  .row: .col-xs-12
-      p 
         strong Bottom line: 
-        = product["bottom-line"]
+        = product["bottom_line"]
 
   .row: .col-xs-12
       p 
         strong Ingredients: 
         = product.ingredients.join(", ")
 
-  - if product.has_key?("distinctions")
+  - if product.has_key?("other_scents")
     .row: .col-xs-12
         p 
           strong Other scents: 
-          = product["other-scents"].join(", ")
+          = product["other_scents"].join(", ")
 
 
 

@@ -9,32 +9,39 @@ Lavanila:
         price: 6.99
         stars: 4
         path: products/deoderant/lavanila
-        affiliate-link: http://amzn.to/1W7HpQX
-        amazon-link: https://www.amazon.com/gp/product/B00EOOT8A
-        fakespot-link: http://fakespot.com/product/lavanila-the-healthy-deodorant-pure-vanilla-2-ounce
-        fakespot-rating: A
+        affiliate_link: http://amzn.to/1W7HpQX
+        amazon_link: https://www.amazon.com/gp/product/B00EOOT8A
+        fakespot_link: http://fakespot.com/product/lavanila-the-healthy-deodorant-pure-vanilla-2-ounce
+        fakespot_rating: A
         article: products/_lavanila
         image: lavanila-healthy-deodorant.jpg
 
 Schmidt's Lavender and Sage:
+        id: 1002
         name: Schmidt's Lavender and Sage
         category: deoderant
-        description: This delightful deoderant comes from Portland, Oregon. It comes with a plastic spatula for no-mess application.
-        scent: Lavender & Sage
         type: Jar Solid
+        scent: Lavender & Sage
+        scent_description: The well matched combination of lavender and sage makes the fragrance more unisex by adding a slightly woodsy note.
+        scent_strength: 3
+        description: Handcrafted in Portland, OR, this award-winning deodorant is non-greasy and comes with an applicator.
+        bottom_line: The soothing shea butter base is surprisingly non-greasy and provides extra nourishment for those who shave. In 2010 Jaime Schmidt was pregnant and really wanted an all natural deodorant that actually worked. So, she made some. The Portland company has since been named “Best Natural Deodorant” by InStyle magazine...not to mention the oodles of other magazines and news outlets that love this product. Even celebrities like Alicia Silverstone have endorsed schmidts, because let’s face it - harmful deodorants are like so five years ago.
+        applicator: Includes a plastic applicator like a mini shovel. 
         manufacturer: Schmidt's
-        id: 1002
+        images: [schmidts-lavender-and-sage/schmidts-lavender-and-sage.jpg, schmidts-lavender-and-sage/schmidts-lavender-and-sage-texture.jpg]
         price: 8.99
         stars: 3
-        affiliate-link: http://amzn.to/1UEzCc8
-        amazon-link: https://www.amazon.com/gp/product/B00D2KW68Y
-        amazon-rating: 4
-        amazon-reviews: 2248
-        fakespot-link: http://fakespot.com/product/schmidts-natural-deodorant-lavender-and-sage-jar
-        fakespot-rating: A
+        affiliate_link: http://amzn.to/1UEzCc8
+        amazon_link: https://www.amazon.com/gp/product/B00D2KW68Y
+        amazon_rating: 4.0
+        amazon_reviews: 2248
+        fakespot_link: http://fakespot.com/product/schmidts-natural-deodorant-lavender-and-sage-jar
+        fakespot_rating: A
         article: products/_schmidts-lavender-and-sage
         path: products/deoderant/schmidts
         image: 300x400-schmidts-natural-deodorant-lavender-sage.jpg
+        other_scents: [Rose & Vanilla, Bergamot & Lime, Cedarwood & Juniper, Ylang-Ylang & Calendula, Fragrance Free] 
+        ingredients: [Butyrospermum parkii (shea butter), Sodium bicarbonate (baking soda), Maranta arundinacea (arrowroot) powder, Theobroma cacao (cocoa) seed butter, Essential oils, Tocopherol (vitamin E)]
 
 Herban Cowboy:
         name: Herban Cowboy
@@ -46,10 +53,10 @@ Herban Cowboy:
         id: 1003
         price: 6.99
         stars: 5.0
-        affiliate-link: http://amzn.to/1UEznhp
-        amazon-link: https://www.amazon.com/gp/product/B004153MG4/
-        fakespot-link: http://fakespot.com/product/herban-cowboy-forest-deodorant-maximum-protection-28-ounce
-        fakespot-rating: A
+        affiliate_link: http://amzn.to/1UEznhp
+        amazon_link: https://www.amazon.com/gp/product/B004153MG4/
+        fakespot_link: http://fakespot.com/product/herban-cowboy-forest-deodorant-maximum-protection-28-ounce
+        fakespot_rating: A
         path: products/deoderant/urben
         image: herban-cowboy-forest.jpg
 
@@ -67,30 +74,46 @@ EO Organic Deoderant Spray:
         path: products/deoderant/eo-organic
         image: eo-organic-lavender-deoderant.jpg
 
-Primal Pit Paste Lavender:
-        name: Primal Pit Paste Lavender
-        id: 1014
+Naturally Sourced Lavender:
+        id: 1015
+        name: Naturally Sourced Lavender
         category: deoderant
-        scent: Lavender
-        price: 9.85
         type: Jar Solid
+        scent: Lavender
+        scent_description: The light, well-balanced fragrance is like spending a day at the spa.
+        scent_strength: 2
+        description: Unique ingredients like activated charcoal, colloidal silver and vodka create a dynamic formula that works wonders.
+        bottom_line: The activated charcoal not only absorbs moisture (1000x its own weight!), but also draws toxins from the body. This makes it a great fit for someone wanting to transition to a natural deodorant. Naturally Sourced also includes unique ingredients like colloidal silver - known for its astonishing antibacterial properties and vodka - a natural preservative and another agent to kill and prevent odor causing bacteria. The greyish hue is due to the natural charcoal, but it disappears when rubbed into the skin and doesn’t stain. This formula uses a minimal amount of baking soda to prevent a sensitive skin reaction.
+        applicator: None included.
+        manufacturer: Naturally Sourced
+        images: [naturally-sourced-lavender/naturally-sourced-lavender-deoderant.jpg, naturally-sourced-lavender/naturally-sourced-lavender-deoderant-texture.jpg]
+        other_scents: [Tea Tree]
+        ingredients: [Organic Coconut Oil (Cocos Nucefera), Organic Arrowroot Powder (Maranta Arundinacea), Natural Baking Soda (Sodium Bicarbonate), Colloidal Silver, Vodka, 100% Pure Magnesium Oil (Magnesium Chloride Brine), Organic Charcoal Powder (Activated), Organic Lavender Essential Oil]
+        price: 12.97
+        amazon_reviews: 263
+        amazon_rating: 4.4
+        affiliate_link: http://amzn.to/2nbj9ix
+        amazon_link: https://www.amazon.com/gp/product/B01E3D2CCI/
+        fakespot_rating: A
+        fakespot_link: http://fakespot.com/product/naturally-sourced-best-natural-deodorant-lavender-with-activated-charcoal-powder-all-natural-and-organic-ingredients-aluminum-free-parabens-free-phthalates-free
+
+Primal Pit Paste Lavender:
+        id: 1014
+        name: Primal Pit Paste Lavender
+        category: deoderant
+        type: Jar Solid
+        scent: Lavender
+        scent_description: The lavender fragrance is strong and long lasting.
+        scent_strength: 4
+        description: Invented by a CrossFit trainer for the active person who wants natural protection against body odor.
+        bottom_line: Primal Pit Paste is fantastic for more vigorous activities at the gym or outdoors. The all natural and mostly organic ingredients eliminate smelly bacteria while still allowing your body to sweat (but not too much). The Florida Mom/CrossFit trainer, Amy Cazin, was determined to create a formula for the whole family...even kids! Her company now handcrafts an extensive line in Austin, Texas. If you’re sensitive to baking soda, they also have “light” less baking soda options. The consistency may seem pretty thick, but it goes on clear and absorbs into the skin quickly.
+        applicator: Includes a small wooden applicator - like a mini popsicle stick.
         manufacturer: Primal Pit Paste
         path: products/deoderant/primal-pit-paste-lavender
         image: primal-pit-paste-lavender/primal-pit-paste-lavender.jpg
         images: 
                 - primal-pit-paste-lavender/primal-pit-paste-lavender.jpg
                 - primal-pit-paste-lavender/primal-pit-paste-lavender-texture.jpg
-        description: Invented by a CrossFit trainer for the active person who wants natural protection against body odor. 
-        bottom-line: Fantastic for more vigorous activities at the gym or outdoors. Also available in a light formula with less baking soda for those with sensitivities. It includes a small wooden applicator - like a mini popsicle stick.
-        distinctions:  Invented in Tampa, FL by a crossfit trainer. Handcrafted and produced in Austin, TX. 
-        affiliate-link: http://amzn.to/2m4OsfD 
-        amazon-link: https://www.amazon.com/gp/product/B00O59LG0A/
-        amazon-rating: 4.1
-        stars: 4.1
-        amazon-reviews: 2742
-        fakespot-link: http://fakespot.com/product/primal-pit-paste-natural-deodorant-aluminum-free-paraben-free-no-added-fragrances-lavender-2-ounces
-        fakespot-rating: A 
-        organic-rank: Mostly organic
         ingredients:
                 - Organic Shea Butter
                 - Organic Arrowroot Powder
@@ -98,7 +121,7 @@ Primal Pit Paste Lavender:
                 - Organic Coconut Oil
                 - Lavender Essential Oil
                 - Non-GMO Vitamin E derived 100% from Sunflowers
-        other-scents: 
+        other_scents: 
                 - Jacked up Jasmine
                 - Orange Creamscicle
                 - Patchouli
@@ -107,7 +130,16 @@ Primal Pit Paste Lavender:
                 - Unscented
                 - Light Baking Soda - Unscented
                 - Light Baking Soda - Lavender & Vanilla
-                  
+        price: 9.85
+        amazon_reviews: 2742
+        amazon_rating: 4.1
+        stars: 4.1
+        affiliate_link: http://amzn.to/2m4OsfD 
+        amazon_link: https://www.amazon.com/gp/product/B00O59LG0A/
+        fakespot_rating: A 
+        fakespot_link: http://fakespot.com/product/primal-pit-paste-natural-deodorant-aluminum-free-paraben-free-no-added-fragrances-lavender-2-ounces
+        organic_rank: Mostly organic
+
 Squeaky Clean Mouthwash:
         name: Squeaky Clean Mouthwash
         description: Super-sleek bottle complements any bathroom decor.  Cool mint flavor leaves you feeling crisp and clean.
