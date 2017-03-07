@@ -1,226 +1,235 @@
-deoderant:
-        - 
-                name: Lavanila
-                description: This fresh new deoderant comes with a wonderful vanilla scent.
-                scent: Vanilla
-                type: Solid Stick
-                manufacturer: Lavanila
-                id: 1001
-                price: 6.99
-                stars: 4
-                path: products/deoderant/lavanila
-                affiliate-link: http://amzn.to/1W7HpQX
-                amazon-link: https://www.amazon.com/gp/product/B00EOOT8A
-                fakespot-link: http://fakespot.com/product/lavanila-the-healthy-deodorant-pure-vanilla-2-ounce
-                fakespot-rating: A
-                article: products/_lavanila
-                image: lavanila-healthy-deodorant.jpg
+Lavanila:
+        name: Lavanila
+        category: deoderant
+        description: This fresh new deoderant comes with a wonderful vanilla scent.
+        scent: Vanilla
+        type: Solid Stick
+        manufacturer: Lavanila
+        id: 1001
+        price: 6.99
+        stars: 4
+        path: products/deoderant/lavanila
+        affiliate-link: http://amzn.to/1W7HpQX
+        amazon-link: https://www.amazon.com/gp/product/B00EOOT8A
+        fakespot-link: http://fakespot.com/product/lavanila-the-healthy-deodorant-pure-vanilla-2-ounce
+        fakespot-rating: A
+        article: products/_lavanila
+        image: lavanila-healthy-deodorant.jpg
 
-        -
-                name: Schmidt's Lavender and Sage
-                description: This delightful deoderant comes from Portland, Oregon. It comes with a plastic spatula for no-mess application.
-                scent: Lavender & Sage
-                type: Jar Solid
-                manufacturer: Schmidt's
-                id: 1002
-                price: 8.99
-                stars: 3
-                affiliate-link: http://amzn.to/1UEzCc8
-                amazon-link: https://www.amazon.com/gp/product/B00D2KW68Y
-                amazon-rating: 4
-                amazon-reviews: 2248
-                fakespot-link: http://fakespot.com/product/schmidts-natural-deodorant-lavender-and-sage-jar
-                fakespot-rating: A
-                article: products/_schmidts-lavender-and-sage
-                path: products/deoderant/schmidts
-                image: 300x400-schmidts-natural-deodorant-lavender-sage.jpg
+Schmidt's Lavender and Sage:
+        name: Schmidt's Lavender and Sage
+        category: deoderant
+        description: This delightful deoderant comes from Portland, Oregon. It comes with a plastic spatula for no-mess application.
+        scent: Lavender & Sage
+        type: Jar Solid
+        manufacturer: Schmidt's
+        id: 1002
+        price: 8.99
+        stars: 3
+        affiliate-link: http://amzn.to/1UEzCc8
+        amazon-link: https://www.amazon.com/gp/product/B00D2KW68Y
+        amazon-rating: 4
+        amazon-reviews: 2248
+        fakespot-link: http://fakespot.com/product/schmidts-natural-deodorant-lavender-and-sage-jar
+        fakespot-rating: A
+        article: products/_schmidts-lavender-and-sage
+        path: products/deoderant/schmidts
+        image: 300x400-schmidts-natural-deodorant-lavender-sage.jpg
 
-        -
-                name: Herban Cowboy
-                description: With it's masculine, woodsy fragrance, Urben Cowboy offers a new take on natural deoderant for men.
-                scent: Forest
-                type: Solid Stick
-                manufacturer: Herban Cowboy
-                id: 1003
-                price: 6.99
-                stars: 5.0
-                affiliate-link: http://amzn.to/1UEznhp
-                amazon-link: https://www.amazon.com/gp/product/B004153MG4/
-                fakespot-link: http://fakespot.com/product/herban-cowboy-forest-deodorant-maximum-protection-28-ounce
-                fakespot-rating: A
-                path: products/deoderant/urben
-                image: herban-cowboy-forest.jpg
+Herban Cowboy:
+        name: Herban Cowboy
+        category: deoderant
+        description: With it's masculine, woodsy fragrance, Urben Cowboy offers a new take on natural deoderant for men.
+        scent: Forest
+        type: Solid Stick
+        manufacturer: Herban Cowboy
+        id: 1003
+        price: 6.99
+        stars: 5.0
+        affiliate-link: http://amzn.to/1UEznhp
+        amazon-link: https://www.amazon.com/gp/product/B004153MG4/
+        fakespot-link: http://fakespot.com/product/herban-cowboy-forest-deodorant-maximum-protection-28-ounce
+        fakespot-rating: A
+        path: products/deoderant/urben
+        image: herban-cowboy-forest.jpg
 
-        -
-                name: EO Organic Deoderant Spray
-                description: A perfume for your armpits!  With one of smallest ingredient lists to be found, EO Organic Deoderant Spray boasts only essential oils and organic alchol on the label.
-                scent: Lavender
-                type: Spray (Pump) 
-                manufacturer: EO Organic
-                id: 1004
-                price: 8.99
-                stars: 2.4
-                amazon: http://amzn.to/1PB0XGG
-                path: products/deoderant/eo-organic
-                image: eo-organic-lavender-deoderant.jpg
+EO Organic Deoderant Spray:
+        name: EO Organic Deoderant Spray
+        category: deoderant
+        description: A perfume for your armpits!  With one of smallest ingredient lists to be found, EO Organic Deoderant Spray boasts only essential oils and organic alchol on the label.
+        scent: Lavender
+        type: Spray (Pump) 
+        manufacturer: EO Organic
+        id: 1004
+        price: 8.99
+        stars: 2.4
+        amazon: http://amzn.to/1PB0XGG
+        path: products/deoderant/eo-organic
+        image: eo-organic-lavender-deoderant.jpg
 
-        -
-                id: 1014
-                name: Primal Pit Paste
-                scent: Lavender
-                price: 9.85
-                type: Jar Solid
-                manufacturer: Primal Pit Paste
-                path: products/deoderant/primal-pit-paste-lavender
-                image: primal-pit-paste-lavender/primal-pit-paste-lavender.jpg
-                images: 
-                        - primal-pit-paste-lavender/primal-pit-paste-lavender.jpg
-                        - primal-pit-paste-lavender/primal-pit-paste-lavender-texture.jpg
-                description: Invented by a CrossFit trainer for the active person who wants natural protection against body odor. 
-                bottom-line: Fantastic for more vigorous activities at the gym or outdoors. Also available in a light formula with less baking soda for those with sensitivities. It includes a small wooden applicator - like a mini popsicle stick.
-                distinctions:  Invented in Tampa, FL by a crossfit trainer. Handcrafted and produced in Austin, TX. 
-                affiliate-link: http://amzn.to/2m4OsfD 
-                amazon-link: https://www.amazon.com/gp/product/B00O59LG0A/
-                amazon-rating: 4.1
-                stars: 4.1
-                amazon-reviews: 2742
-                fakespot-link: http://fakespot.com/product/primal-pit-paste-natural-deodorant-aluminum-free-paraben-free-no-added-fragrances-lavender-2-ounces
-                fakespot-rating: A 
-                organic-rank: Mostly organic
-                ingredients:
-                        - Organic Shea Butter
-                        - Organic Arrowroot Powder
-                        - Non-Aluminum Baking Soda
-                        - Organic Coconut Oil
-                        - Lavender Essential Oil
-                        - Non-GMO Vitamin E derived 100% from Sunflowers
-                other-scents: 
-                        - Jacked up Jasmine
-                        - Orange Creamscicle
-                        - Patchouli
-                        - Thyme & Lemongrass
-                        - “Royal & Rogue” 
-                        - Unscented
-                        - Light Baking Soda - Unscented
-                        - Light Baking Soda - Lavender & Vanilla
-                          
+Primal Pit Paste Lavender:
+        name: Primal Pit Paste Lavender
+        id: 1014
+        category: deoderant
+        scent: Lavender
+        price: 9.85
+        type: Jar Solid
+        manufacturer: Primal Pit Paste
+        path: products/deoderant/primal-pit-paste-lavender
+        image: primal-pit-paste-lavender/primal-pit-paste-lavender.jpg
+        images: 
+                - primal-pit-paste-lavender/primal-pit-paste-lavender.jpg
+                - primal-pit-paste-lavender/primal-pit-paste-lavender-texture.jpg
+        description: Invented by a CrossFit trainer for the active person who wants natural protection against body odor. 
+        bottom-line: Fantastic for more vigorous activities at the gym or outdoors. Also available in a light formula with less baking soda for those with sensitivities. It includes a small wooden applicator - like a mini popsicle stick.
+        distinctions:  Invented in Tampa, FL by a crossfit trainer. Handcrafted and produced in Austin, TX. 
+        affiliate-link: http://amzn.to/2m4OsfD 
+        amazon-link: https://www.amazon.com/gp/product/B00O59LG0A/
+        amazon-rating: 4.1
+        stars: 4.1
+        amazon-reviews: 2742
+        fakespot-link: http://fakespot.com/product/primal-pit-paste-natural-deodorant-aluminum-free-paraben-free-no-added-fragrances-lavender-2-ounces
+        fakespot-rating: A 
+        organic-rank: Mostly organic
+        ingredients:
+                - Organic Shea Butter
+                - Organic Arrowroot Powder
+                - Non-Aluminum Baking Soda
+                - Organic Coconut Oil
+                - Lavender Essential Oil
+                - Non-GMO Vitamin E derived 100% from Sunflowers
+        other-scents: 
+                - Jacked up Jasmine
+                - Orange Creamscicle
+                - Patchouli
+                - Thyme & Lemongrass
+                - “Royal & Rogue” 
+                - Unscented
+                - Light Baking Soda - Unscented
+                - Light Baking Soda - Lavender & Vanilla
+                  
+Squeaky Clean Mouthwash:
+        name: Squeaky Clean Mouthwash
+        description: Super-sleek bottle complements any bathroom decor.  Cool mint flavor leaves you feeling crisp and clean.
+        category: mouthwash
+        flavor: Mint
+        manufacturer: Squeaky Clean
+        id: 1005
+        price: 15.48
+        stars: 4.7
+        asin: B00WVT2DDK
+        amazon: http://amzn.to/29TpuIq
+        path: products/mouthwash/squeaky-clean
+        image: eo-organic-lavender-deoderant.jpg
 
+CloSYS Pre-flavored Mouthwash Mild Mint:
+        name: CloSYS Pre-flavored Mouthwash Mild Mint
+        category: mouthwash
+        description: This is the stuff the dentist uses at his own home.  No frills, just pure oral health.
+        flavor: Mint
+        manufacturer: CloSYS
+        id: 1006
+        price: 11.39 
+        stars: 4.6
+        asin: B00NENWQF2
+        amazon: http://amzn.to/29XrFyU
+        path: products/mouthwash/closys
+        image: closys-mouthwash-mild-mint.jpg
 
-mouthwash:
-        -
-                name: Squeaky Clean Mouthwash
-                description: Super-sleek bottle complements any bathroom decor.  Cool mint flavor leaves you feeling crisp and clean.
-                flavor: Mint
-                manufacturer: Squeaky Clean
-                id: 1005
-                price: 15.48
-                stars: 4.7
-                asin: B00WVT2DDK
-                amazon: http://amzn.to/29TpuIq
-                path: products/mouthwash/squeaky-clean
-                image: eo-organic-lavender-deoderant.jpg
+Jason Healthy Mouth Mouthwash:
+        name: Jason Healthy Mouth Mouthwash
+        category: mouthwash
+        description: All natural ingredients from an established name in the natural hygeine industry.
+        flavor: Cinnamon Clove
+        manufacturer: Jason
+        id: 1007
+        price: 8.54
+        stars: 4.3
+        asin: B000FG8T0C
+        amazon: http://amzn.to/29Ue6Pz
+        path: products/mouthwash/jason-healthy-mouth-cinnamon-clove
+        image: jason-healthy-mouth-cinnamon-clove.jpg
 
-        -
-                name: CloSYS Pre-flavored Mouthwash Mild Mint
-                description: This is the stuff the dentist uses at his own home.  No frills, just pure oral health.
-                flavor: Mint
-                manufacturer: CloSYS
-                id: 1006
-                price: 11.39 
-                stars: 4.6
-                asin: B00NENWQF2
-                amazon: http://amzn.to/29XrFyU
-                path: products/mouthwash/closys
-                image: closys-mouthwash-mild-mint.jpg
+Natural Dentist Antigingivitis Rinse:
+        name: Natural Dentist Antigingivitis Rinse
+        category: mouthwash
+        description: Specially formulated with a blend of herbs and essential oils.
+        flavor: Pepperment Twist
+        manufacturer: Natural Dentist
+        id: 1008
+        price: 9.99
+        stars: 4.4
+        asin: B0011TWVWE
+        amazon: http://amzn.to/29TpEQ8
+        path: products/mouthwash/natural-dentist-antigingavitis-peppermint
+        image: natural-dentist-antigingavitis-rinse.jpg
 
-        -
-                name: Jason Healthy Mouth Mouthwash
-                description: All natural ingredients from an established name in the natural hygeine industry.
-                flavor: Cinnamon Clove
-                manufacturer: Jason
-                id: 1007
-                price: 8.54
-                stars: 4.3
-                asin: B000FG8T0C
-                amazon: http://amzn.to/29Ue6Pz
-                path: products/mouthwash/jason-healthy-mouth-cinnamon-clove
-                image: jason-healthy-mouth-cinnamon-clove.jpg
+Oral Essentials Mouthwash Original Formula:
+        name: Oral Essentials Mouthwash Original Formula
+        category: mouthwash
+        description: Leading the oral hygeine revolution out of Beverly Hills, this is the mouthwash that started it all for Oral Essentials.
+        flavor: Mint
+        manufacturer: Oral Essentials
+        id: 1009
+        price: 11.99
+        stars: 4.5
+        asin: B00OBRKM24
+        amazon: http://amzn.to/29TpOqp
+        path: products/mouthwash/jason-healthy-mouth-cinnamon-clove
+        image: jason-healthy-mouth-cinnamon-clove.jpg
 
-        -
-                name: Natural Dentist Antigingivitis Rinse
-                description: Specially formulated with a blend of herbs and essential oils.
-                flavor: Pepperment Twist
-                manufacturer: Natural Dentist
-                id: 1008
-                price: 9.99
-                stars: 4.4
-                asin: B0011TWVWE
-                amazon: http://amzn.to/29TpEQ8
-                path: products/mouthwash/natural-dentist-antigingavitis-peppermint
-                image: natural-dentist-antigingavitis-rinse.jpg
+Coola Mineral Sunscreen Citrus Mimosa:
+        name: Coola Mineral Sunscreen Citrus Mimosa
+        category: sunscreen
+        description: Mineral organic suncare with a pleasant hint of citrus.
+        manufacturer: Coola
+        spf: 30
+        id: 1010
+        price: 36.00
+        stars: 4.6
+        asin: B003R0Q7N4
+        amazon: http://amzn.to/2a7qe0z
+        path: products/suncare/coola-citrus-mimosa
+        image: coola-mineral-sunscreen.jpg
 
-        -
-                name: Oral Essentials Mouthwash Original Formula
-                description: Leading the oral hygeine revolution out of Beverly Hills, this is the mouthwash that started it all for Oral Essentials.
-                flavor: Mint
-                manufacturer: Oral Essentials
-                id: 1009
-                price: 11.99
-                stars: 4.5
-                asin: B00OBRKM24
-                amazon: http://amzn.to/29TpOqp
-                path: products/mouthwash/jason-healthy-mouth-cinnamon-clove
-                image: jason-healthy-mouth-cinnamon-clove.jpg
+La Roche Posay Facial Sunscreen:
+        name: La Roche Posay Facial Sunscreen
+        category: sunscreen
+        description: Designer french sunscreen direct from the Riviera to you.
+        manufacturer: La Roche Posay
+        spf: 50
+        id: 1011
+        price: 33.50
+        stars: 4.2
+        asin: B004W55086
+        amazon: http://amzn.to/29ToCmU
+        path: products/suncare/la-roche-posay-facial-sunscreen
+        image: la-roche-posay-facial-sunscreen.jpg
 
-sunscreen:
-        -
-                name: Coola Mineral Sunscreen Citrus Mimosa
-                description: Mineral organic suncare with a pleasant hint of citrus.
-                manufacturer: Coola
-                spf: 30
-                id: 1010
-                price: 36.00
-                stars: 4.6
-                asin: B003R0Q7N4
-                amazon: http://amzn.to/2a7qe0z
-                path: products/suncare/coola-citrus-mimosa
-                image: coola-mineral-sunscreen.jpg
+ThinkSport Sunscreen:
+        name: ThinkSport Sunscreen
+        category: sunscreen
+        description: The standard for suncare for athletes and outdoors enthusiasts.
+        manufacturer: ThinkSport
+        spf: 50
+        id: 1012
+        price: 19.95
+        stars: 4.3
+        asin: B00K3JQO9Y
+        amazon: http://amzn.to/29SCGPF
+        path: products/suncare/thinksport-sunscreen
+        image: thinksport-sunscreen.jpg
 
-        -
-                name: La Roche Posay Facial Sunscreen
-                description: Designer french sunscreen direct from the Riviera to you.
-                manufacturer: La Roche Posay
-                spf: 50
-                id: 1011
-                price: 33.50
-                stars: 4.2
-                asin: B004W55086
-                amazon: http://amzn.to/29ToCmU
-                path: products/suncare/la-roche-posay-facial-sunscreen
-                image: la-roche-posay-facial-sunscreen.jpg
-
-        -
-                name: ThinkSport Sunscreen
-                description: The standard for suncare for athletes and outdoors enthusiasts.
-                manufacturer: ThinkSport
-                spf: 50
-                id: 1012
-                price: 19.95
-                stars: 4.3
-                asin: B00K3JQO9Y
-                amazon: http://amzn.to/29SCGPF
-                path: products/suncare/thinksport-sunscreen
-                image: thinksport-sunscreen.jpg
-
-        -
-                name: Vichy Facial Sunscreen
-                description: Vichy Laboratories offers their best in an ultra-light facial sunscreen.
-                manufacturer: Vichy Laboratories
-                spf: 50
-                id: 1013
-                price: 25.50
-                stars: 4.4
-                asin: B005JJ4FEE
-                amazon: http://amzn.to/29Tpvfj
-                path: products/suncare/vichy-facial-sunscreen
-                image: vichy-facial-sunscreen.jpg
+Vichy Facial Sunscreen:
+        name: Vichy Facial Sunscreen
+        category: sunscreen
+        description: Vichy Laboratories offers their best in an ultra-light facial sunscreen.
+        manufacturer: Vichy Laboratories
+        spf: 50
+        id: 1013
+        price: 25.50
+        stars: 4.4
+        asin: B005JJ4FEE
+        amazon: http://amzn.to/29Tpvfj
+        path: products/suncare/vichy-facial-sunscreen
+        image: vichy-facial-sunscreen.jpg

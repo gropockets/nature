@@ -59,16 +59,17 @@ configure :build do
   activate :minify_javascript
 end
 
-# create url from product name (e.g. tom's soap => toms-soap); identical to helper function
-def get_product_url(type, product)
-  "/products/#{type}/#{product['name'].gsub(/\'/, "").parameterize}.html"
+# create url from product name (e.g. tom's soap => toms-soap); identical to helper function in sitehelpers
+def get_product_url(product)
+  "/products/#{product.category}/#{product.name.gsub(/\'/, "").parameterize}.html"
 end
 
+# ** Commented out after restructuring data file; Need helper function to get all items in each category ** 
 # Proxy pages for products and categories
-data.products.each do |type, products|
-  proxy "/products/#{type}.html", "/products/template.html", :locals => { :product_type => products }, :ignore => true
-  products.each do |p|
-    proxy get_product_url(type, p), "/products/detail_template.html", :locals => { :product => p, :type => type }, :ignore => true
-  end
-end
+#data.products.each do |p|
+  #proxy "/products/#{type}.html", "/products/template.html", :locals => { :product_type => products }, :ignore => true
+  #products.each do |p|
+    #proxy get_product_url(type, p), "/products/detail_template.html", :locals => { :product => p, :type => type }, :ignore => true
+  #end
+#end
 

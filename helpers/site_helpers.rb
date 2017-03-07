@@ -39,8 +39,8 @@ module SiteHelpers
   end
 
   # create url from product name (e.g. tom's soap => toms-soap)
-  def get_product_url(type, product)
-    "/products/#{type}/#{product['name'].gsub(/\'/, "").parameterize}.html"
+  def get_product_url(product)
+    "/products/#{product.category}/#{product.name.gsub(/\'/, "").parameterize}.html"
   end
 
   #require 'net/smtp'
