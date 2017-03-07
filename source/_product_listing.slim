@@ -1,4 +1,4 @@
-.post-listing.product-listing
+.product-listing
   .row
     .col-xs-12
       h2 
@@ -36,7 +36,30 @@
             span Amazon Rating
 
 
-      /- if type.eql?('deoderant') 
-        /ul
-          /li Scent: #{ product.scent }
-          /li Type: #{ product.type }
+  .row: .col-xs-12
+      p 
+        strong Interesting distinctions: 
+        = product.distinctions
+
+  .row: .col-xs-12
+      p 
+        strong Bottom line: 
+        = product["bottom-line"]
+
+  .row: .col-xs-12
+      p 
+        strong Ingredients: 
+        = product.ingredients.join(", ")
+
+  - if product.has_key?("distinctions")
+    .row: .col-xs-12
+        p 
+          strong Other scents: 
+          = product["other-scents"].join(", ")
+
+
+
+/- if type.eql?('deoderant') 
+  /ul
+    /li Scent: #{ product.scent }
+    /li Type: #{ product.type }
