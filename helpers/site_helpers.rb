@@ -43,6 +43,21 @@ module SiteHelpers
     "/products/#{product.category}/#{product.name.gsub(/\'/, "").parameterize}.html"
   end
 
+  # return array of affiliate links for other scents/flavors 
+  def get_other_varieties(product)
+    variety = []
+    data.products.each do |key, this|
+      if product.manufacturer.eql?(this.manufacturer) && 
+          product.category.eql?(this.category) && 
+          product.type.eql?(this.type) &&
+	  !product.id.equal?(this.id)
+        variety.push(link_to(this.scent, this.affiliate_link))
+      end
+    end
+    return variety
+  end
+
+
   #require 'net/smtp'
   
   # Send prototyped transactional emails.

@@ -16,21 +16,21 @@ Lavanila:
         article: products/_lavanila
         image: lavanila-healthy-deodorant.jpg
 
-Schmidt's Rose and Vanilla:
+Schmidt's Rose & Vanilla:
         id: 1025
-        name: Schmidt's Rose and Vanilla
+        name: Schmidt's Rose & Vanilla
         manufacturer: Schmidt's
-        scent: Rose and Vanilla
+        scent: Rose & Vanilla
         category: deoderant
         type: Jar Solid
         asin: B01KNA7284
         affiliate_link: http://amzn.to/2nePxko
 
-Schmidt's Bergamot and Lime:
+Schmidt's Bergamot & Lime:
         id: 1024
-        name: Schmidt's Bergamot and Lime
+        name: Schmidt's Bergamot & Lime
         manufacturer: Schmidt's
-        scent: Bergamot and Lime
+        scent: Bergamot & Lime
         category: deoderant
         type: Jar Solid
         asin: B00D6OWWQC
@@ -46,19 +46,19 @@ Schmidt's Fragrance-Free:
         asin: B00B7UMEQU
         affiliate_link: http://amzn.to/2neMjNU
 
-Schmidt's Ylang-Ylang and Calendula:
+Schmidt's Ylang-Ylang & Calendula:
         id: 1018
-        name: Schmidt's Ylang-Ylang and Calendula
+        name: Schmidt's Ylang-Ylang & Calendula
         manufacturer: Schmidt's
-        scent: Ylang-Ylang and Calendula
+        scent: Ylang-Ylang & Calendula
         category: deoderant
         type: Jar Solid
         asin: B00B7ULV78
         affiliate_link: http://amzn.to/2lEaby4 
 
-Schmidt's Cedarwood and Juniper:
+Schmidt's Cedarwood & Juniper:
         id: 1017
-        name: Schmidt's Cedarwood and Juniper
+        name: Schmidt's Cedarwood & Juniper
         manufacturer: Schmidt's
         scent: Cedarwood & Juniper
         category: deoderant
@@ -66,9 +66,9 @@ Schmidt's Cedarwood and Juniper:
         asin: B00B7UL2XQ
         affiliate_link: http://amzn.to/2neIg3Y
 
-Schmidt's Lavender and Sage:
+Schmidt's Lavender & Sage:
         id: 1002
-        name: Schmidt's Lavender and Sage
+        name: Schmidt's Lavender & Sage
         category: deoderant
         type: Jar Solid
         scent: Lavender & Sage
@@ -128,6 +128,7 @@ Naturally Sourced Tea Tree:
         id: 1016
         name: Naturally Sourced Tea Tree
         scent: Tea Tree
+        manufacturer: Naturally Sourced
         asin: B01E3D2CEG
         category: deoderant
         type: Jar Solid
@@ -186,21 +187,21 @@ Primal Pit Paste Patchouli:
         asin: B00V913AXS
         affiliate_link: http://amzn.to/2mYQotj
 
-Primal Pit Paste Thyme and Lemongrass:
+Primal Pit Paste Thyme & Lemongrass:
         id: 1022
-        name: Primal Pit Paste Thyme and Lemongrass
+        name: Primal Pit Paste Thyme & Lemongrass
         manufacturer: Primal Pit Paste
-        scent: Thyme and Lemongrass
+        scent: Thyme & Lemongrass
         category: deoderant
         type: Jar Solid
         asin: B00FNJW87G
         affiliate_link: http://amzn.to/2mZ9Lmf
 
-Primal Pit Paste Royal and Rogue:
+Primal Pit Paste Royal & Rogue:
         id: 1026
-        name: Primal Pit Paste Royal and Rogue
+        name: Primal Pit Paste Royal & Rogue
         manufacturer: Primal Pit Paste
-        scent: Royal and Rogue
+        scent: Royal & Rogue
         category: deoderant
         type: Jar Solid
         asin: B00V8ZCT1Y

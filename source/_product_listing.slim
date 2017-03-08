@@ -29,12 +29,11 @@
         strong Ingredients: 
         = product.ingredients.join(", ")
 
-  - if product.has_key?("other_scents")
+  - if !get_other_varieties(product).empty?
     .row: .col-xs-12
         p 
           strong Other scents: 
-          = product["other_scents"].join(", ")
-
+          = get_other_varieties(product).join(", ")
 
 
 /- if type.eql?('deoderant') 
