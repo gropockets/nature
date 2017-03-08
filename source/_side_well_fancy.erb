@@ -20,10 +20,10 @@
 
 <div class="material side-block content">
   <h2>Our Favorites</h2>
-  <% @products = [data.products["Schmidt's Lavender and Sage"], data.products["Lavanila"], data.products["Primal Pit Paste Lavender"]] %>
+  <% @products = [data.products["Schmidt's Lavender and Sage"], data.products["Naturally Sourced Lavender"], data.products["Primal Pit Paste Lavender"]] %>
   <% @products.each do |p| %>
     <div class="post-snippet">
-      <%= image_tag p.image, :class => "img-responsive product-tile"  %>
+      <%= image_tag p.images[0], :class => "img-responsive product-tile"  %>
       <h3> <%= link_to p.name, p.path %> </h3>
     </div>
   <% end %> 
@@ -46,38 +46,8 @@
 <% end %>
 
 <div class="material side-block content">
-  <h2>Popular Posts</h2>
-  <div class="post-snippet">
-    <%= image_tag "manliness-organic-deoderant.jpg", :class => "img-responsive" %>
-    <h3>
-      <a href="#">Would you put this creepy deoderant on your pits?</a>
-    </h3>
-  </div>
-  <div class="post-snippet">
-    <%= image_tag "jack-black-cool-ctrl-natural-deodorant.jpg", :class => "img-responsive" %>
-    <h3>
-      <a href="#">Check out this awesome article about all natural deoderant.</a>
-    </h3>
-  </div>
-  <div class="post-snippet">
-    <%= image_tag "jack-black-cool-ctrl-natural-deodorant.jpg", :class => "img-responsive" %>
-    <h3>
-      <a href="#">Check out this awesome article about all natural deoderant.</a>
-    </h3>
-  </div>
-</div>
-
-<div class="post-listing">
-  <div class="side-block">
-    <a href="#" ><img class="img-responsive" src="http://www.shopconsciousbeauty.com/wp-content/uploads/2016/07/ConsciousBeauty_WebBanner_SummerFall_071416_3-1.jpg"></a>
-  </div>
-</div>
-
-<div class="side-block widget-block">
-  <div class="well">
-    <h2>Recent Posts</h2>
-    <% blog.articles[0...5].each do |article| %>
-      <h3><%= article.title %></h3>
-    <% end %>
-  </div>
+  <h2>Recent Posts</h2>
+  <% blog.articles[0...5].each do |article| %>
+    <h3><%= article.title %></h3>
+  <% end %>
 </div>
