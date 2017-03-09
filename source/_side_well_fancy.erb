@@ -29,7 +29,7 @@
   <% end %> 
 </div>
 
-<% if related_articles %>
+<% if (defined? related_articles) && (!related_articles.nil?) %>
   <div class="material side-block content">
     <h2>Related Posts</h2>
     <% blog.articles.select do |article| %>

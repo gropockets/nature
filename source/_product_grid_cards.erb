@@ -1,43 +1,47 @@
-<% products.each do |p| %>
-  <div class="col-md-6" >
-    <div class="card">
-      <div class="card-image">
-        <% link_to get_product_url(type, p) do %>
-          <%= image_tag p.image, :style => "height:200px; width:auto; margin: 0 auto;", :class => "img-responsive"  %>
+<% products.each do |p, info| %>
+  <% if info.images %>
+    <div class="col-md-6" >
+      <div class="card">
+        <div class="card-image">
+          <% link_to get_product_url(info) do %>
+            <%= image_tag info.images.first, :style => "height:200px; width:auto; margin: 0 auto;", :class => "img-responsive"  %>
+          <% end %>
+        </div>
+        <div class="card-title">
+          <h4 class="text-overflow-ellipsis">
+            <%= link_to info.name, get_product_url(info) %>
+          </h4>
+        </div>
+        <div class="card-copy">
+          <p><%= info.description %></p>
+        </div>
+        <div class="buy-button">
+          <a href="<%= info.amazon%>" class="btn btn-primary btn-sm">Buy from Amazon</a>
+        </div>
+        <div class="card-stats">
+          <ul>
+            <li>
+              <%= info.scent %>
+              <span>Scent</span>
+            </li>
+            <li>
+              <%= info.type %>
+              <span>Type</span>
+            </li>
+            <li>
+              <%= info.price %>
+              <span>Avg Price</span>
+            </li>
+          </ul>
+        </div>
+        <% if info.scent_strength %>
+          <div style="margin: 2px;">
+            <span class="stars">
+              <span style="width: <%= info.scent_strength * 20 %>px;"></span>
+            </span>
+          </div>
         <% end %>
       </div>
-      <div class="card-title">
-        <h4 class="text-overflow-ellipsis">
-          <%= link_to p.name, get_product_url(type, p) %>
-        </h4>
-      </div>
-      <div class="card-copy">
-        <p><%= p.description %></p>
-      </div>
-      <div class="buy-button">
-        <a href="<%= p.amazon%>" class="btn btn-primary btn-sm">Buy from Amazon</a>
-      </div>
-      <div class="card-stats">
-        <ul>
-          <li>
-            <%= p.scent %>
-            <span>Scent</span>
-          </li>
-          <li>
-            <%= p.type %>
-            <span>Type</span>
-          </li>
-          <li>
-            <%= p.price %>
-            <span>Avg Price</span>
-          </li>
-        </ul>
-      </div>
-      <div style="margin: 2px;">
-        <span class="stars">
-          <span style="width: <%= p.stars * 20 %>px;"></span>
-        </span>
-      </div>
     </div>
-  </div>
+  <% end %>
 <% end %>
