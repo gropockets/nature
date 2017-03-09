@@ -73,12 +73,12 @@ article > main {
 $btn-color: $accent-color;
 .btn-fill {
     color: #fff;
-    background-color: $btn-color;
-    border-color: $btn-color;
-  &:hover, &:focus {
-    color: #fff;
     background-color: $secondary-color;
     border-color: $secondary-color;
+    &:hover, &:focus {
+      color: #fff;
+      background-color: $btn-color;
+      border-color: $btn-color;
   }
 }
 
