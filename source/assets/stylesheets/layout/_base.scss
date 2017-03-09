@@ -32,6 +32,9 @@ hr {
 
 article > main {
   padding: 30px;
+  p, ul > li {
+    font-weight: 300;
+  }
 }
 
 .material {
@@ -72,11 +75,11 @@ $btn-color: $accent-color;
     color: #fff;
     background-color: $btn-color;
     border-color: $btn-color;
-}
-.btn-fill:hover {
+  &:hover, &:focus {
     color: #fff;
     background-color: $secondary-color;
     border-color: $secondary-color;
+  }
 }
 
 .form-group { 

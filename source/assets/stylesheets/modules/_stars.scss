@@ -14,3 +14,12 @@ span.stars, span.stars span {
 span.stars span {
   background-position: 0 0;
 }
+
+.dollar-icon {
+  margin-top: 5px;
+  > img {
+    height: 20px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+}

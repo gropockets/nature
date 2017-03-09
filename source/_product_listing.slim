@@ -17,6 +17,14 @@
         strong Scent strength:
         span class="stars" style="margin: 2px 0 0 5px"
           span style="width: #{ product.scent_strength * 20 }px;"
+      .dollar-icon
+        strong Price: 
+        - for i in 0..(product.price_rating - 1)
+          = image_tag "dollar-icon-fill.svg"
+        - for i in 1..(5 - product.price_rating)
+          = image_tag "dollar-icon-outline.svg"
+      .buy-button
+        = link_to "Check price on Amazon", product.affiliate_link, :class => "btn btn-fill" 
 
 
   .row: .col-xs-12
@@ -30,7 +38,7 @@
         = product.ingredients.join(", ")
 
   - if !get_other_varieties(product).empty?
-    .row: .col-xs-12
+    .row: .col-xs-12.varieties
         p 
           strong Other scents: 
           = get_other_varieties(product).join(", ")

@@ -24,6 +24,15 @@
   }
 }
 
+.varieties {
+  a {
+    color: #333;
+    text-decoration: #9E9E9E;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+  }
+}
+
 .product-carousel {
   /*padding: 10px 0;*/
   margin-bottom: 10px;
@@ -31,7 +40,15 @@
 
 .buy-button {
   text-align: center;
+  margin-top: 10px;
+  @media (min-width: 992px) and (max-width: 1199px) {
+    margin-top: 18px;
+  }
+  @media (min-width: 1200px) {
+    margin-top: 25px;
+  }
   a {
     width: 80%;
+    font-size: 16px;
   }
 }

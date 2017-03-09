@@ -80,6 +80,7 @@ Schmidt's Lavender & Sage:
         manufacturer: Schmidt's
         images: [schmidts-lavender-and-sage/schmidts-lavender-and-sage.jpg, schmidts-lavender-and-sage/schmidts-lavender-and-sage-texture.jpg]
         price: 8.99
+        price_rating: 3
         stars: 3
         affiliate_link: http://amzn.to/1UEzCc8
         amazon_link: https://www.amazon.com/gp/product/B00D2KW68Y
@@ -139,6 +140,7 @@ Naturally Sourced Lavender:
         name: Naturally Sourced Lavender
         category: deoderant
         type: Jar Solid
+        price_rating: 4
         scent: Lavender
         scent_description: The light, well-balanced fragrance is like spending a day at the spa.
         scent_strength: 2
@@ -243,6 +245,7 @@ Primal Pit Paste Lavender:
         category: deoderant
         type: Jar Solid
         scent: Lavender
+        price_rating: 3
         scent_description: The lavender fragrance is strong and long lasting.
         scent_strength: 4
         description: Invented by a CrossFit trainer for the active person who wants natural protection against body odor.
