@@ -15,8 +15,9 @@ span.stars span {
   background-position: 0 0;
 }
 
-.dollar-icon {
-  margin-top: 5px;
+.icon {
+  display: inline-flex;
+  margin-left: 3px;
   > img {
     height: 20px;
     margin-right: 3px;

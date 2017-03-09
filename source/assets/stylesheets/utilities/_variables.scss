@@ -27,6 +27,7 @@ $md-only: ( min: map-get($md, min), max: map-get($lg, min) - 1 );
 // Color Scheme
 $accent-color: #046938;  /* Nature green */
 $secondary-color: #8CC541;  /* Light green */
+$medium-green: #74A533;
 $body-text-color: #333;
 
 $red-x: #c80000; /* Used with checkmarks */

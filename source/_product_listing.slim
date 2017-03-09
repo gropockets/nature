@@ -13,18 +13,24 @@
         /a href="#{product.amazon}" class="btn btn-fill btn-sm" Buy from Amazon
     .col-lg-8.col-md-7
       p = product.description 
-      div style="display: inline-flex;"
-        strong Scent strength:
-        span class="stars" style="margin: 2px 0 0 5px"
-          span style="width: #{ product.scent_strength * 20 }px;"
-      .dollar-icon
-        strong Price: 
-        - for i in 0..(product.price_rating - 1)
-          = image_tag "dollar-icon-fill.svg"
-        - for i in 1..(5 - product.price_rating)
-          = image_tag "dollar-icon-outline.svg"
+      .card-stats
+        ul
+          li
+            span Price range
+            .icon
+              - for i in 0..(product.price_rating - 1)
+                = image_tag "dollar-icon-fill.svg"
+              - for i in 1..(5 - product.price_rating)
+                = image_tag "dollar-icon-outline.svg"
+          li
+            span Scent strength
+            .icon
+              - for i in 0..(product.scent_strength - 1)
+                = image_tag "perfume-icon-fill.svg"
+              - for i in 1..(5 - product.scent_strength)
+                = image_tag "perfume-icon-outline.svg"
       .buy-button
-        = link_to "Check price on Amazon", product.affiliate_link, :class => "btn btn-fill" 
+        = link_to "Check Amazon Price", product.affiliate_link, :class => "btn btn-fill" 
 
 
   .row: .col-xs-12
