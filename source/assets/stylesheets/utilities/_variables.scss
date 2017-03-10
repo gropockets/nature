@@ -17,6 +17,8 @@ $pesticide-debug: false;
 $show-fold: false;
 
 // Default Breakpoints
+$phone: ( max:  415px );
+$not-phone: ( min:  map-get($phone, max) + 1 );
 $xs: ( max:  767px );
 $sm: ( min:  768px );
 $md: ( min:  992px );

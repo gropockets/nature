@@ -7,12 +7,19 @@
   font-family: "Open sans", sans-serif;
   margin: 0 0 30px 0;
   background: #ffffff;
-  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.22);
+  /*box-shadow: 0 5px 7px rgba(0, 0, 0, 0.22);*/
   min-height: 150px;
+  @include breakpoint($phone) { 
+    box-shadow: none;
+  }
   /*position: relative;*/
   /*padding: 6px 0 0 0;*/
   header {
     padding: 20px 35px; 
+    @include breakpoint($phone) { 
+      padding-left: 5px;
+      padding-right: 5px;
+    }
   }  
   .thumbnail {
     display: block;
@@ -76,6 +83,17 @@ article {
     a { 
       color: rgb(100, 100, 100);
     }
+  }
+}
+
+article > main {
+  padding: 30px;
+  @include breakpoint($phone) {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  p, ul > li {
+    font-weight: 300;
   }
 }
 
