@@ -409,4 +409,9 @@ Vichy Facial Sunscreen:
         path: products/suncare/vichy-facial-sunscreen
         image: vichy-facial-sunscreen.jpg
 
+Pana Cosmetic Spatulas:
+        name: Pana Cosmetic Spatulas
+        id: 1029
+        asin: B01CTYUFJA
+        affiliate_link: http://amzn.to/2mJW4X7
 
