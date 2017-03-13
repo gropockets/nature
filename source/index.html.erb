@@ -5,19 +5,12 @@ subnav:
 description: Home page for natural hygiene reviews
 ---
 
-<div class="jumbotron text-center">
-  <div class="container">
-    <h1>Nature of the Product</h1>
-    <p>We review the best natural hygiene products to provide you with honest, balanced information.</p>
-  </div>
-</div>
-
 <div class="container">
   <div class="row">
-    <div class="card-box col-md-8">
-      <%= partial(:product_grid_cards, :locals => { :products => data.products }) %>
+    <div class="col-md-8">
+      <%= partial(:post_list_fancy, :locals => { :articles => blog.articles[0...5].each }) %>
     </div>
-    <div class="col-md-4 side-block">
+    <div class="col-md-4">
       <%= partial(:side_well_fancy) %>
     </div>
   </div>

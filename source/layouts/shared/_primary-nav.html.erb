@@ -15,7 +15,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse nav-primary">
       <ul class="nav navbar-nav">
-        <li><%= link_to 'Home', '/blog/index.html', :class => "#{"active" if current_page.url =~ /\/blog/}" %></li>
+        <li><%= link_to 'Home', '/index.html', :class => "#{"active" if current_page.url =~ /\/blog/}" %></li>
         <li><%= link_to 'About', '/about/index.html', :class => "#{"active" if current? ("about")}" %></li>
         <li><%= link_to 'Contact', '/contact/index.html', :class => "#{"active" if current?("contact")}" %></li>
       </ul>

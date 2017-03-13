@@ -69,7 +69,7 @@
 
 
   <!-- Disqus comment counts -->
-  <% if current_page.url =~ /\/blog/ %>
+  <% if current? ("home") %>
     <script id="dsq-count-scr" src="//natureoftheproduct.disqus.com/count.js" async></script>
   <% end %>
 
