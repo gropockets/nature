@@ -36,8 +36,13 @@
 
   .row: .col-xs-12
       p 
-        strong Bottom line: 
-        = product["bottom_line"]
+        strong Why we like it: 
+        = eval_str(product["bottom_line"])
+
+  .row: .col-xs-12
+      p 
+        strong Scent description: 
+        = product["scent_description"]
 
   .row: .col-xs-12
       p 

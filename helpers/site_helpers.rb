@@ -57,6 +57,9 @@ module SiteHelpers
     return variety
   end
 
+  def eval_str(str)
+    eval "%Q[#{str}]"
+  end
 
   #require 'net/smtp'
   
