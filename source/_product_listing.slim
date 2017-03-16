@@ -1,4 +1,4 @@
-.product-listing
+.post-content
   .row
     .col-xs-12
       h2.brand = product.manufacturer  
@@ -56,7 +56,3 @@
           = get_other_varieties(product).join(", ")
 
 
-/- if type.eql?('deoderant') 
-  /ul
-    /li Scent: #{ product.scent }
-    /li Type: #{ product.type }

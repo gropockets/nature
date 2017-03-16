@@ -66,10 +66,9 @@ end
 
 # ** Commented out after restructuring data file; Need helper function to get all items in each category ** 
 # Proxy pages for products and categories
-#data.products.each do |p|
-  #proxy "/products/#{type}.html", "/products/template.html", :locals => { :product_type => products }, :ignore => true
-  #products.each do |p|
-    #proxy get_product_url(type, p), "/products/detail_template.html", :locals => { :product => p, :type => type }, :ignore => true
-  #end
-#end
+
+# pages for products 
+data.products.each do |p, info|
+  proxy get_product_url(info), "/products/detail_template.html", :locals => { :product => info }, :ignore => true
+end
 
