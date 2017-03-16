@@ -64,11 +64,12 @@ def get_product_url(product)
   "/products/#{product.category}/#{product.name.gsub(/\'/, "").parameterize}.html"
 end
 
-# ** Commented out after restructuring data file; Need helper function to get all items in each category ** 
-# Proxy pages for products and categories
-
-# pages for products 
+# Proxy pages for individual products 
 data.products.each do |p, info|
   proxy get_product_url(info), "/products/detail_template.html", :locals => { :product => info }, :ignore => true
 end
+
+# ** Commented out after restructuring data file; Need helper function to get all items in each category ** 
+# Proxy pages for products and categories
+
 
