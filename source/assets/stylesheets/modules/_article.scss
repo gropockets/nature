@@ -49,9 +49,12 @@
     width: 100%;
     max-width: 100%;
   }
-  .post_content {
+  .post-content {
     padding: 15px 35px 20px 35px; /* TODO Adjust for media size */
     min-height: 50px;
+    h1 {
+      margin-bottom: 20px;
+    }
   }
   .excerpt {
     font-size: 16px;
