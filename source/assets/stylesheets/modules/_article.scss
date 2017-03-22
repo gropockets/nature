@@ -4,11 +4,11 @@
  */
 
 .post-listing {
-  font-family: "Open sans", sans-serif;
-  margin: 0 0 30px 0;
   background: #ffffff;
-  /*box-shadow: 0 5px 7px rgba(0, 0, 0, 0.22);*/
+  margin: 0 0 30px 0;
   min-height: 150px;
+  /*box-shadow: 0 5px 7px rgba(0, 0, 0, 0.22);*/
+  /*font-family: "Open sans", sans-serif;*/
   @include breakpoint($phone) { 
     box-shadow: none;
   }
@@ -120,9 +120,6 @@ article > main {
   @include breakpoint($phone) {
     padding-left: 0px;
     padding-right: 0px;
-  }
-  p, ul > li {
-    font-weight: 300;
   }
   /*Links inside article body*/
   a {
