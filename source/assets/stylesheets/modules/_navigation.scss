@@ -23,3 +23,9 @@
   padding-top: 3px;
   padding-bottom: 3px;
 }
+
+.nav-social {
+  @include breakpoint($xs) { 
+    display: none;
+  }
+}
