@@ -32,15 +32,11 @@
   <div class="footer--colophon">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <p class="footer--colophon__copyright">&copy;<%= Date.today.year %> All rights reserved.</p>
+        
+        <div class="col-md-12 text-center">
+          <%= project_setting(:title)%> &copy; <%= Date.today.year %>
         </div>
-        <div class="col-md-4 text-center">
-          <%= project_setting(:title) %>
-        </div>
-        <div class="col-md-4">
-          <p class="footer--colophon__poweredby">Powered by <a href="https://github.com/timknight/middleman-ethos" target="_blank">Ethos</a></p>
-        </div>
+        
       </div>
     </div>
   </div>
