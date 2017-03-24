@@ -66,7 +66,9 @@ end
 
 # Proxy pages for individual products 
 data.products.each do |p, info|
-  proxy get_product_url(info), "/products/detail_template.html", :locals => { :product => info }, :ignore => true
+  if !defined? info.published || info.published
+    proxy get_product_url(info), "/products/detail_template.html", :locals => { :product => info }, :ignore => true
+  end
 end
 
 # ** Commented out after restructuring data file; Need helper function to get all items in each category ** 
