@@ -1,27 +1,28 @@
 Lavanila:
         name: Lavanila
-        category: deoderant
-        description: This fresh new deoderant comes with a wonderful vanilla scent.
+        category: deodorant
+        description: This fresh new deodorant comes with a wonderful vanilla scent.
         scent: Vanilla
         type: Solid Stick
         manufacturer: Lavanila
         id: 1001
         price: 6.99
         stars: 4
-        path: products/deoderant/lavanila
+        path: products/deodorant/lavanila
         affiliate_link: http://amzn.to/1W7HpQX
         amazon_link: https://www.amazon.com/gp/product/B00EOOT8A
         fakespot_link: http://fakespot.com/product/lavanila-the-healthy-deodorant-pure-vanilla-2-ounce
         fakespot_rating: A
         article: products/_lavanila
         image: lavanila-healthy-deodorant.jpg
+        published: false
 
 Schmidt's Rose & Vanilla:
         id: 1025
         name: Schmidt's Rose & Vanilla
         manufacturer: Schmidt's
         scent: Rose & Vanilla
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         asin: B01KNA7284
         affiliate_link: http://amzn.to/2nePxko
@@ -32,7 +33,7 @@ Schmidt's Bergamot & Lime:
         name: Schmidt's Bergamot & Lime
         manufacturer: Schmidt's
         scent: Bergamot & Lime
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         asin: B00D6OWWQC
         affiliate_link: http://amzn.to/2mjkt3G
@@ -43,7 +44,7 @@ Schmidt's Fragrance-Free:
         name: Schmidt's Fragrance-Free
         manufacturer: Schmidt's
         scent: Fragrance-Free
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         asin: B00B7UMEQU
         affiliate_link: http://amzn.to/2neMjNU
@@ -54,7 +55,7 @@ Schmidt's Ylang-Ylang & Calendula:
         name: Schmidt's Ylang-Ylang & Calendula
         manufacturer: Schmidt's
         scent: Ylang-Ylang & Calendula
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         asin: B00B7ULV78
         affiliate_link: http://amzn.to/2lEaby4
@@ -65,7 +66,7 @@ Schmidt's Cedarwood & Juniper:
         name: Schmidt's Cedarwood & Juniper
         manufacturer: Schmidt's
         scent: Cedarwood & Juniper
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         asin: B00B7UL2XQ
         affiliate_link: http://amzn.to/2neIg3Y
@@ -74,7 +75,7 @@ Schmidt's Cedarwood & Juniper:
 Schmidt's Lavender & Sage:
         id: 1002
         name: Schmidt's Lavender & Sage
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         scent: Lavender & Sage
         scent_description: The well matched combination of lavender and sage makes the fragrance more unisex by adding a slightly woodsy note.
@@ -94,15 +95,15 @@ Schmidt's Lavender & Sage:
         fakespot_link: http://fakespot.com/product/schmidts-natural-deodorant-lavender-and-sage-jar
         fakespot_rating: A
         article: products/_schmidts-lavender-and-sage
-        path: products/deoderant/schmidts
+        path: products/deodorant/schmidts
         image: 300x400-schmidts-natural-deodorant-lavender-sage.jpg
         other_scents: [Rose & Vanilla, Bergamot & Lime, Cedarwood & Juniper, Ylang-Ylang & Calendula, Fragrance Free]
         ingredients: [Butyrospermum parkii (shea butter), Sodium bicarbonate (baking soda), Maranta arundinacea (arrowroot) powder, Theobroma cacao (cocoa) seed butter, Essential oils, Tocopherol (vitamin E)]
 
 Herban Cowboy:
         name: Herban Cowboy
-        category: deoderant
-        description: With it's masculine, woodsy fragrance, Urben Cowboy offers a new take on natural deoderant for men.
+        category: deodorant
+        description: With it's masculine, woodsy fragrance, Urben Cowboy offers a new take on natural deodorant for men.
         scent: Forest
         type: Solid Stick
         manufacturer: Herban Cowboy
@@ -113,14 +114,14 @@ Herban Cowboy:
         amazon_link: https://www.amazon.com/gp/product/B004153MG4/
         fakespot_link: http://fakespot.com/product/herban-cowboy-forest-deodorant-maximum-protection-28-ounce
         fakespot_rating: A
-        path: products/deoderant/urben
+        path: products/deodorant/urben
         image: herban-cowboy-forest.jpg
         published: false
 
-EO Organic Deoderant Spray:
-        name: EO Organic Deoderant Spray
-        category: deoderant
-        description: A perfume for your armpits!  With one of smallest ingredient lists to be found, EO Organic Deoderant Spray boasts only essential oils and organic alchol on the label.
+EO Organic Deodorant Spray:
+        name: EO Organic Deodorant Spray
+        category: deodorant
+        description: A perfume for your armpits!  With one of smallest ingredient lists to be found, EO Organic Deodorant Spray boasts only essential oils and organic alchol on the label.
         scent: Lavender
         type: Spray (Pump)
         manufacturer: EO Organic
@@ -128,8 +129,8 @@ EO Organic Deoderant Spray:
         price: 8.99
         stars: 2.4
         amazon: http://amzn.to/1PB0XGG
-        path: products/deoderant/eo-organic
-        image: eo-organic-lavender-deoderant.jpg
+        path: products/deodorant/eo-organic
+        image: eo-organic-lavender-deodorant.jpg
         published: false
 
 Naturally Sourced Tea Tree:
@@ -138,7 +139,7 @@ Naturally Sourced Tea Tree:
         scent: Tea Tree
         manufacturer: Naturally Sourced
         asin: B01E3D2CEG
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         affiliate_link: http://amzn.to/2mFZkU4
         published: false
@@ -146,7 +147,7 @@ Naturally Sourced Tea Tree:
 Naturally Sourced Lavender:
         id: 1015
         name: Naturally Sourced Lavender
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         price_rating: 4
         scent: Lavender
@@ -156,7 +157,7 @@ Naturally Sourced Lavender:
         bottom_line: The activated charcoal not only absorbs moisture (1000x its own weight!), but also draws toxins from the body. This makes it a great fit for someone wanting to transition to a natural deodorant. Naturally Sourced also includes unique ingredients like colloidal silver - known for its astonishing antibacterial properties and vodka - a natural preservative and another agent to kill and prevent odor causing bacteria. The greyish hue is due to the natural charcoal, but it disappears when rubbed into the skin and doesn’t stain. This formula uses a minimal amount of baking soda to prevent a sensitive skin reaction.
         applicator: None included.
         manufacturer: Naturally Sourced
-        images: [naturally-sourced-lavender/naturally-sourced-lavender-deoderant.jpg, naturally-sourced-lavender/naturally-sourced-lavender-deoderant-texture.jpg]
+        images: [naturally-sourced-lavender/naturally-sourced-lavender-deodorant.jpg, naturally-sourced-lavender/naturally-sourced-lavender-deodorant-texture.jpg]
         ingredients: [Organic Coconut Oil (Cocos Nucefera), Organic Arrowroot Powder (Maranta Arundinacea), Natural Baking Soda (Sodium Bicarbonate), Colloidal Silver, Vodka, 100% Pure Magnesium Oil (Magnesium Chloride Brine), Organic Charcoal Powder (Activated), Organic Lavender Essential Oil]
         price: 12.97
         amazon_reviews: 263
@@ -171,7 +172,7 @@ Primal Pit Paste Jacked Up Jasmine:
         name: Primal Pit Paste Jacked up Jasmine
         manufacturer: Primal Pit Paste
         scent: Jacked Up Jasmine
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         asin: B00V9134T8
         affiliate_link: http://amzn.to/2neTjKs
@@ -182,7 +183,7 @@ Primal Pit Paste Orange Creamscicle:
         name: Primal Pit Paste Orange Creamscicle
         manufacturer: Primal Pit Paste
         scent: Orange Creamscicle
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         asin: B00A1ERF9E
         affiliate_link: http://amzn.to/2mBGgFQ
@@ -193,7 +194,7 @@ Primal Pit Paste Patchouli:
         name: Primal Pit Paste Patchouli
         manufacturer: Primal Pit Paste
         scent: Patchouli
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         asin: B00V913AXS
         affiliate_link: http://amzn.to/2mYQotj
@@ -204,7 +205,7 @@ Primal Pit Paste Thyme & Lemongrass:
         name: Primal Pit Paste Thyme & Lemongrass
         manufacturer: Primal Pit Paste
         scent: Thyme & Lemongrass
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         asin: B00FNJW87G
         affiliate_link: http://amzn.to/2mZ9Lmf
@@ -215,7 +216,7 @@ Primal Pit Paste Royal & Rogue:
         name: Primal Pit Paste Royal & Rogue
         manufacturer: Primal Pit Paste
         scent: Royal & Rogue
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         asin: B00V8ZCT1Y
         affiliate_link: http://amzn.to/2lZ5l9P
@@ -226,7 +227,7 @@ Primal Pit Paste Vanilla Lavender Light:
         name: Primal Pit Paste Vanilla Lavender Light
         manufacturer: Primal Pit Paste
         scent: Vanilla Lavender Light
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         asin: B00VKEPCBC
         affiliate_link: http://amzn.to/2lYSSDe
@@ -237,7 +238,7 @@ Primal Pit Paste Unscented Light:
         name: Primal Pit Paste Unscented Light
         manufacturer: Primal Pit Paste
         scent: Unscented Light
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         asin: B01MXWKQ67
         affiliate_link: http://amzn.to/2neRxsG
@@ -248,7 +249,7 @@ Primal Pit Paste Unscented:
         name: Primal Pit Paste Unscented
         manufacturer: Primal Pit Paste
         scent: Unscented
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         asin: B00VMCYOZC
         affiliate_link: http://amzn.to/2mjlzMX
@@ -257,7 +258,7 @@ Primal Pit Paste Unscented:
 Primal Pit Paste Lavender:
         id: 1014
         name: Primal Pit Paste Lavender
-        category: deoderant
+        category: deodorant
         type: Jar Solid
         scent: Lavender
         price_rating: 3
@@ -268,7 +269,7 @@ Primal Pit Paste Lavender:
                 Primal Pit Paste is fantastic for more vigorous activities at the gym or outdoors. The all natural and mostly organic ingredients eliminate smelly bacteria while still allowing your body to sweat (but not too much). The Florida Mom/CrossFit trainer, Amy Cazin, was determined to create a formula for the whole family...even kids! Her company now handcrafts an extensive line in Austin, Texas. If you’re sensitive to baking soda, they also have “light” less baking soda #{ link_to "options", data.products["Primal Pit Paste Vanilla Lavender Light"].affiliate_link }. The consistency may seem pretty thick, but it goes on clear and absorbs into the skin quickly.
         applicator: Includes a small wooden applicator - like a mini popsicle stick.
         manufacturer: Primal Pit Paste
-        path: products/deoderant/primal-pit-paste-lavender
+        path: products/deodorant/primal-pit-paste-lavender
         image: primal-pit-paste-lavender/primal-pit-paste-lavender.jpg
         images:
                 - primal-pit-paste-lavender/primal-pit-paste-lavender.jpg
