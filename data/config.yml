@@ -8,6 +8,6 @@ development:
   mail_to: "user@example.com"
   mail_from: "system@domain.com"
 
-build:
+production:
   title:   "Nature of the Product"
   address: "http://localhost:4567/"
