@@ -54,7 +54,8 @@ end
 
 # Build-specific configuration
 configure :build do
-  set :http_prefix, '/demo/nature/build/'
+  #set :http_prefix, '/demo/nature/build/'
+  set :build_dir, 'docs'
 
   # deprecated grid of products by category/tag
   ignore "/products/template.html.erb"
