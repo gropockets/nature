@@ -3,21 +3,15 @@
  * Layouts a basic card pattern design
  */
 
+
 .post-listing {
-  background: #ffffff;
+  /*background: #ffffff;*/
   margin: 0 0 30px 0;
   min-height: 150px;
-  /*box-shadow: 0 5px 7px rgba(0, 0, 0, 0.22);*/
-  /*font-family: "Open sans", sans-serif;*/
-  @include breakpoint($phone) { 
-    box-shadow: none;
-  }
-  /*position: relative;*/
-  /*padding: 6px 0 0 0;*/
   header {
-    padding: 20px 35px; 
+    padding: 20px 35px;
     text-align: center;
-    @include breakpoint($phone) { 
+    @include breakpoint($phone) {
       padding-left: 5px;
       padding-right: 5px;
     }
@@ -28,7 +22,7 @@
       font-weight: 400;
       margin: 0px;
     }
-  }  
+  }
   .post-title {
     margin: 0;
     padding: 13px 0;
@@ -45,7 +39,7 @@
     height: auto;
     padding: 0px;
   }
-  .featured-thumbnail { 
+  .featured-thumbnail {
     width: 100%;
     max-width: 100%;
   }
@@ -56,8 +50,8 @@
       margin-bottom: 20px;
     }
     @include breakpoint($phone) {
-      padding-left: 0px;
-      padding-right: 0px;
+      padding-left: 12px;
+      padding-right: 12px;
       h1 {
         margin-top: 0;
         text-align: center;
@@ -72,7 +66,22 @@
   .fa {
     color: $accent-color;
   }
-} 
+}
+
+//TODO: Finish styling of post listings
+.post.post-listing {
+/*.post-listing {*/
+  @include breakpoint($phone) {
+    box-shadow: none;
+  }
+  .post-content {
+    @include breakpoint($phone) {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+}
+
 
 .readmore_feat {
   text-align: center;
@@ -94,7 +103,7 @@
   color: $red-x;
 }
 
-.checklist { 
+.checklist {
   background-color: #f2f2f2;
   border: 1px solid #a2a2a2;
   border-radius: 5px;
@@ -120,7 +129,7 @@
 
 article {
   footer {
-    a { 
+    a {
       color: rgb(100, 100, 100);
     }
   }
@@ -143,9 +152,13 @@ article > main {
 }
 
 .post-meta {
-  padding: 10px 35px; /* TODO Adjust for media size */
-  margin: 0;
   border-top: 1px solid #ebeae7;
+  margin: 0;
+  padding: 10px 35px; 
+  @include breakpoint($phone) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   span {
     display: inline-block;
     margin: 0 10px 0 0;
@@ -172,7 +185,7 @@ article > main {
     margin: 0;
     list-style: none;
   }
-  li { 
+  li {
     font-size: 12px;
     text-align: center;
     border: 1px solid #aaa;
@@ -185,7 +198,7 @@ article > main {
     display: inline-block;
     border-radius: 50%;
     transition: all .5s;
-    .fa { 
+    .fa {
       color: #333;
       /*color: $secondary-color;*/
       /*color: $accent-color;*/
