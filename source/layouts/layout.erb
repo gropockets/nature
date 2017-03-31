@@ -53,10 +53,9 @@
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <%= javascript_include_tag 'lib/bcSwipe/jquery.bcSwipe.min.js' %>
 
-  <!-- Contact Form Javascript -->
   <% if current_page.url.eql? ("/contact/") %>
+    <!-- Contact Form javascript plugins -->
     <!-- Bootstrap Form Validation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.10.2/validator.min.js"></script>
     <!-- Formspree AJAX Form Submission -->
@@ -64,9 +63,14 @@
   <% end %>
 
 
-  <!-- Disqus comment counts -->
-  <% if current?("home") || current?("tags") %>
+  <% if current?("home") || current?("tags") || current?("blog") %>
+    <!-- Disqus comment counts -->
     <script id="dsq-count-scr" src="//natureoftheproduct.disqus.com/count.js" async></script>
+  <% end %>
+
+  <% if is_blog_article? || current?("product") %>
+    <!-- Swipe functionality for image carousel -->
+    <%= javascript_include_tag 'lib/bcSwipe/jquery.bcSwipe.min' %>
   <% end %>
 
   <!-- Custom Application CSS -->
