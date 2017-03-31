@@ -38,6 +38,19 @@ hr {
   /*position: relative;*/
 }  
 
+.content {
+  padding: 20px 25px;
+  border-top: 6px solid $accent-color;
+}
+
+/*Don't add padding etc. to main article on phones; Would make text area to narrow*/
+article.content {
+  @include breakpoint($phone) { 
+    padding: 0;
+    border-top: none;
+  }
+}
+
 #contactForm button { 
   margin-bottom: 20px;
 }

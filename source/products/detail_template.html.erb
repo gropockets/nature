@@ -4,20 +4,14 @@ nav: product
 subnav:
 description:
 ---
-<div class="jumbotron text-center">
-  <div class="container">
-    <h1>Nature of the Product</h1>
-    <p>We review the best natural products to provide you with honest, balanced information.</p>
-  </div>
-</div>
 
 <div class="container">
   <div class="row">
 
     <div class="col-md-8">
-      <div class="post-listing content material">
+      <article class="post-listing content material">
         <%= partial(:product_listing, :locals => { :product => product }) %>
-      </div>
+      </article>
     </div>
 
     <div class="col-md-4">
