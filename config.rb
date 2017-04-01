@@ -13,6 +13,9 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+# Vim swap files; parenthesis only to satify lint checker
+ignore (/\.(swp|swo)$/)
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
@@ -60,7 +63,7 @@ configure :build do
   # deprecated grid of products by category/tag
   ignore "/products/template.html.erb"
   ignore "/products/index.html.erb"
-  ignore "**/*.swp"
+
 
   # testing directory
   ignore "/test/*"
