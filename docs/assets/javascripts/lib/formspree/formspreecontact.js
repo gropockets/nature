@@ -15,7 +15,7 @@ $(function() {
 			//mydata = mydata + '&ml-submit=1&ajax=1';
 			$.ajax({
 				type: 'POST',
-				url: 'https://formspree.io/admin@yogijunior.com',
+				url: 'https://formspree.io/admin@natureoftheproduct.com',
 				data: mydata,
 				//data: {message: "hello!"},
 				//data: 'fields%5Bname%5D=Eric&fields%5Bemail%5D=erichpowell%40gmail.com&fields%5Bphone%5D=0305+444+4444&fields%5Blikes%5D=&ml-submit=1&ajax=1',
