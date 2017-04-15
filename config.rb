@@ -25,6 +25,7 @@ ignore (/\.(swp|swo)$/)
 
 # General configuration
 set :slim, { pretty: true }
+activate :sitemap, :hostname => "https://natureoftheproduct.com"
 
 # Reload the browser automatically whenever files change
 configure :development do

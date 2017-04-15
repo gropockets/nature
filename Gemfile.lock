@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/matsu911/middleman-sitemap
+  revision: b52c2256d4188761122804cbb79ceb6cd1afdf6b
+  specs:
+    middleman-sitemap (0.0.13)
+      middleman-core (>= 3.2.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -119,6 +126,7 @@ DEPENDENCIES
   middleman (~> 4.2)
   middleman-blog
   middleman-livereload (~> 3.4)
+  middleman-sitemap!
   nokogiri
   slim
 

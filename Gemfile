@@ -15,4 +15,6 @@ gem "slim"
 gem 'middleman', '~> 4.2'
 gem 'middleman-livereload', '~> 3.4'
 gem "middleman-blog"
+# creates sitemap.xml; must use this repo for middleman-v4
+gem "middleman-sitemap", :git => "https://github.com/matsu911/middleman-sitemap" 
 gem "nokogiri"
