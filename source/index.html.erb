@@ -9,6 +9,7 @@ description: Home page for natural hygiene reviews
   <div class="row">
     <div class="col-md-8">
       <%= partial(:post_list_fancy, :locals => { :articles => blog.articles[0...5].each }) %>
+      <%= partial("layouts/shared/amazon_native_ads") %>
     </div>
     <div class="col-md-4">
       <%= partial(:side_well_fancy) %>

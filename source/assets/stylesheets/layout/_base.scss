@@ -43,6 +43,15 @@ hr {
   border-top: 6px solid $accent-color;
 }
 
+.block {
+  padding: 15px 12px 20px;
+  margin-bottom: 30px;
+}
+
+.amazon-ad {
+  padding-bottom: 0;
+}
+
 /*Don't add padding etc. to main article on phones; Would make text area to narrow*/
 article.content {
   @include breakpoint($phone) { 

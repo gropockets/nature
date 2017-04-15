@@ -32,6 +32,22 @@ configure :development do
   activate :livereload
 end
 
+# Build-specific configuration
+configure :build do
+  #set :http_prefix, '/demo/nature/build/'
+  set :build_dir, 'docs'
+
+  # deprecated grid of products by category/tag
+  ignore "/products/template.html.erb"
+  ignore "/products/index.html.erb"
+
+  # testing directory
+  ignore "/test/*"
+  
+  #activate :minify_css
+  #activate :minify_javascript
+end
+
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "blog"
@@ -54,23 +70,6 @@ activate :blog do |blog|
   # blog.paginate = true
   # blog.per_page = 10
   # blog.page_link = "page/{num}"
-end
-
-# Build-specific configuration
-configure :build do
-  #set :http_prefix, '/demo/nature/build/'
-  set :build_dir, 'docs'
-
-  # deprecated grid of products by category/tag
-  ignore "/products/template.html.erb"
-  ignore "/products/index.html.erb"
-
-
-  # testing directory
-  ignore "/test/*"
-  
-  #activate :minify_css
-  #activate :minify_javascript
 end
 
 # create url from product name (e.g. tom's soap => toms-soap); identical to helper function in sitehelpers

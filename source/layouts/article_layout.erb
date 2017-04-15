@@ -9,6 +9,7 @@
           <main><%= yield %></main>
           <%= partial("layouts/shared/load-disqus", :locals => { :id => current_article.data.disqus_id }) %>
         </article>
+        <%= partial("layouts/shared/amazon_native_ads") %>
       </div>
 
       <div class="col-md-4">
