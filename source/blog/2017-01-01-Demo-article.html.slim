@@ -1,0 +1,48 @@
+---
+title: Demo Article
+tags: Deodorant
+disqus_id: demo-article
+img: diy-deoderant-long.jpg
+published: false
+---
+
+p This is a demo article. It shows the syntax to insert images, create links, make bold words and more.
+
+p Let's start with a simple image.  The first parameter is the function name: "blog_img".  Next, you put the name of the image file (which must be in the "images" folder).  Finally, you put a description for the image.  This will appear as the "alt" attribute of the image in the final HTML.  It's important for SEO.  
+
+= blog_img "compare-3-jar-deoderants-primal-pit-paste-naturally-sourced-schmidt's.jpg", "my alt attribute text"
+
+h2 Links
+
+p Another helpful feature is creating links.  You can do this by wrapping the information in a special syntax with braces and a pound character.  Here's an example of a link to an article about the #{ link_to "alt attribute's relevance to SEO", "https://econsultancy.com/blog/63845-the-basics-of-using-alt-text-for-seo" }.
+
+p That was a link to a random page on the internet.  If you wanted to link to somewhere within this site, you have a couple options.
+
+p Here is a link to #{ link_to "Schmidt's Lavender and Sage product page", get_product_url(data.products["Schmidt's Lavender & Sage"]) }
+
+p Here is a link to #{ link_to "Schmidt's Lavender and Sage affiliate link", data.products["Schmidt's Lavender & Sage"].affiliate_link }
+
+p Here is a link to #{ link_to "an article on this site", get_post_url("Our review of the best tub deoderants") }
+
+h2 Site Map
+
+p To see every page that is on the website, you can browse the #{ link_to "sitemap", "/__middleman/sitemap/" }
+
+h2 Font styles
+
+p Here is how you can make words bold or italic:  More text with some <strong> words in bold</strong>.  And other <em> words in italic </em>
+
+h2 Markdown
+
+p Up until now we have been using "slim" syntax.  It has a "p" or other tag at the beginning of each line.  Another option is markdown.  It makes some things easier but it also gives you less control of appearance.  I just put it here for the sake of completeness.  Slim is probably a better option.
+
+markdown:
+  Here is a simple markdown example: Use **bold** text or *italics*.
+
+  Here is a list using markdown:
+
+    * First item
+    * second item
+
+
+
