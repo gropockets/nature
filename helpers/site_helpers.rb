@@ -57,8 +57,18 @@ module SiteHelpers
     return variety
   end
 
+  def get_post_url(article_title)
+    blog.articles.find { |article| article.title.downcase == article_title.downcase }.url
+    #rescue
+    #""
+  end
+
   def eval_str(str)
     eval "%Q[#{str}]"
+  end
+
+  def blog_img(img, alt)
+    image_tag img, { alt: alt, class: "img-responsive" }
   end
 
   #require 'net/smtp'
