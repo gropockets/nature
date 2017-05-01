@@ -301,3 +301,18 @@ Pana Cosmetic Spatulas:
         asin: B01CTYUFJA
         affiliate_link: http://amzn.to/2mJW4X7
         published: false
+
+Molivera Organics Bentonite Clay:
+
+        name: Bentonite Clay
+        category: Detox
+        type: Tub
+        price_rating: 3
+        manufacturer_desc: Detoxifying and beautifying mask helps clear up acne and blackheads. Tightens skin, shrinks pores and helps regenerate skin tissue, combating wrinkles and encouraging youthful, glowing skin. Clarifies hair for softness and manageability.
+        bottom_line: Bentonite Clay a.k.a. “Indian Healing Clay” produces a negative electrical charge when mixed with water that binds to positively charged toxins and heavy metals. Molivera Organics is sodium based - as opposed to  calcium based - and can absorb several times its dry mass while also carrying a higher negative ionic charge.  They produce their clay incredibly fine which makes for a super creamy mask that tightens up and tingles just right. The convenient tub is opaque to avoid sun damage.
+        manufacturer: Molivera Organics
+        images: [molivera-bentonite_profile_IMG_6831.jpg]
+        ingredients: ["100% Pure, Premium Sodium Bentonite Clay"]
+        affiliate_link: http://amzn.to/2pu0qTG
+        amazon_link: https://www.amazon.com/gp/product/B00UFDHT06/ref=s9_acsd_hps_bw_c_x_1_w
+        published: true
