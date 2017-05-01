@@ -23,13 +23,15 @@
                 = image_tag "dollar-icon-fill.svg"
               - for i in 1..(5 - product.price_rating)
                 = image_tag "dollar-icon-outline.svg"
-          li
-            span Scent strength
-            .icon
-              - for i in 0..(product.scent_strength - 1)
-                = image_tag "perfume-icon-fill.svg"
-              - for i in 1..(5 - product.scent_strength)
-                = image_tag "perfume-icon-outline.svg"
+
+          - if (product.scent_strength)
+            li
+              span Scent strength
+              .icon
+                - for i in 0..(product.scent_strength - 1)
+                  = image_tag "perfume-icon-fill.svg"
+                - for i in 1..(5 - product.scent_strength)
+                  = image_tag "perfume-icon-outline.svg"
       .buy-button
         = link_to "Check Amazon Price", product.affiliate_link, :class => "btn btn-fill" 
 
@@ -39,10 +41,17 @@
         strong Why we like it: 
         = eval_str(product["bottom_line"])
 
-  .row: .col-xs-12
-      p 
-        strong Scent description: 
-        = product["scent_description"]
+  - if (product.scent_strength)
+    .row: .col-xs-12
+        p 
+          strong Scent description: 
+          = product["scent_description"]
+
+  - if (product.manufacturer_desc)
+    .row: .col-xs-12
+        p 
+          strong From the manufacturer: 
+          = product.manufacturer_desc
 
   .row: .col-xs-12
       p 
