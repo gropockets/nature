@@ -1,11 +1,11 @@
 .product-listing
   .row
     .col-xs-12
-      h2.brand = product.manufacturer  
+      h2.brand = product.heading[0]  
       h2 
-        span = product.manufacturer 
+        span = product.heading[0] 
         |  
-        = product.scent
+        = product.heading[1]
   .row
     .col-lg-4.col-md-5
       .product-carousel
