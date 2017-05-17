@@ -12,7 +12,7 @@
   <div class="carousel-inner" role="listbox">
     <% for i in 0..(product.images.count-1) %>
       <div class="item <%= "active" if i.equal?(0) %>">
-        <%= image_tag product.images[i] %>
+        <%= slider_img product.images[i] %>
       </div>
     <% end %>
   </div>

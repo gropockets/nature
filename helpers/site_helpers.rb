@@ -71,6 +71,10 @@ module SiteHelpers
     image_tag img, { alt: alt, class: "img-responsive" }
   end
 
+  def slider_img(img_set)
+    image_tag img_set[0], { alt: img_set[1] }
+  end
+
   #require 'net/smtp'
   
   # Send prototyped transactional emails.

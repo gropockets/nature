@@ -86,7 +86,9 @@ Schmidt's Lavender & Sage:
         applicator: Includes a plastic applicator like a mini shovel.
         manufacturer: Schmidt's
         heading: [Schmidt's, Lavender + Sage]
-        images: [schmidts-lavender-and-sage/schmidts-lavender-and-sage.jpg, schmidts-lavender-and-sage/schmidts-lavender-and-sage-texture.jpg]
+        images: 
+                - [schmidts-lavender-and-sage/schmidts-lavender-and-sage.jpg, "sample text"]
+                - [schmidts-lavender-and-sage/schmidts-lavender-and-sage-texture.jpg, "sample text"]
         price: 8.99
         price_rating: 3
         stars: 3
@@ -160,7 +162,9 @@ Naturally Sourced Lavender:
         applicator: None included.
         manufacturer: Naturally Sourced
         heading: [Naturally Sourced, Lavender]
-        images: [naturally-sourced-lavender/naturally-sourced-lavender-deodorant.jpg, naturally-sourced-lavender/naturally-sourced-lavender-deodorant-texture.jpg]
+        images: 
+                - [naturally-sourced-lavender/naturally-sourced-lavender-deodorant.jpg, "sample text"]
+                - [naturally-sourced-lavender/naturally-sourced-lavender-deodorant-texture.jpg, "sample text"]
         ingredients: [Organic Coconut Oil (Cocos Nucefera), Organic Arrowroot Powder (Maranta Arundinacea), Natural Baking Soda (Sodium Bicarbonate), Colloidal Silver, Vodka, 100% Pure Magnesium Oil (Magnesium Chloride Brine), Organic Charcoal Powder (Activated), Organic Lavender Essential Oil]
         price: 12.97
         amazon_reviews: 263
@@ -276,8 +280,8 @@ Primal Pit Paste Lavender:
         path: products/deodorant/primal-pit-paste-lavender
         image: primal-pit-paste-lavender/primal-pit-paste-lavender.jpg
         images:
-                - primal-pit-paste-lavender/primal-pit-paste-lavender.jpg
-                - primal-pit-paste-lavender/primal-pit-paste-lavender-texture.jpg
+                - [primal-pit-paste-lavender/primal-pit-paste-lavender.jpg, "sample text"]
+                - [primal-pit-paste-lavender/primal-pit-paste-lavender-texture.jpg, "sample text"]
         ingredients:
                 - Organic Shea Butter
                 - Organic Arrowroot Powder
@@ -313,7 +317,9 @@ Molivera Organics Bentonite Clay:
         bottom_line: Bentonite Clay a.k.a. “Indian Healing Clay” produces a negative electrical charge when mixed with water that binds to positively charged toxins and heavy metals. Molivera Organics is sodium based - as opposed to  calcium based - and can absorb several times its dry mass while also carrying a higher negative ionic charge.  They produce their clay incredibly fine which makes for a super creamy mask that tightens up and tingles just right. The convenient tub is opaque to avoid sun damage.
         manufacturer: Molivera Organics
         heading: [Molivera Organics, Bentonite Clay]
-        images: [molivera-bentonite_profile_IMG_6831.jpg, molivera-bentonite_open.jpg]
+        images: 
+                - [molivera-bentonite_profile_IMG_6831.jpg, "sample text"]
+                - [molivera-bentonite_open.jpg, "sample text"]
         ingredients: ["100% Pure, Premium Sodium Bentonite Clay"]
         asin: B00UFDHT06
         affiliate_link: http://amzn.to/2pu0qTG
@@ -331,7 +337,10 @@ Zen Charcoal Hardwood Activated Charcoal:
         bottom_line: The powdered form of activated charcoal is a better value and more versatile than capsules or premixed masks. Zen Charcoal ensures the highest quality by sourcing their product from USA-grown renewable Eastern Hardwood. Eastern Hardwood has better absorption abilities (drawing toxins out) compared to other woods like bamboo. The mylar bag is easy to store or transfer to another container.
         manufacturer: Zen Charcoal
         heading: [Zen Charcoal, Hardwood Activated Charcoal]
-        images: [zen-charcoal-profile.jpg, zen-charcoal-dish.jpg, zen-charcoal-scoop.jpg]
+        images: 
+                - [zen-charcoal-profile.jpg, "sample text"]
+                - [zen-charcoal-dish.jpg, "sample text"]
+                - [zen-charcoal-scoop.jpg, "sample text"]
         asin: B01AMBLL5Y
         ingredients: ["Pure Food Grade Hardwood Activated Charcoal Powder"]
         affiliate_link: http://amzn.to/2oYpIFq
@@ -347,7 +356,9 @@ Viva Naturals Apple Cider Vinegar:
         bottom_line: The apple flavor really comes through with less “vinegar-burn” compared to other brands. Easy to drink with just hot water and honey. The plastic bottle is lightweight and nicer to store than glass.
         manufacturer: Viva Naturals
         heading: [Viva Naturals, Apple Cider Vinegar]
-        images: [viva-APV_profile.jpg, viva-APV_bowl.jpg]
+        images: 
+                - [viva-APV_profile.jpg, "sample text"]
+                - [viva-APV_bowl.jpg, "sample text"]
         asin: B011QIAIW4
         ingredients: ["Organic Apple Cider Vinegar 5% Acetic Acid"]
         affiliate_link: http://amzn.to/2pBSU9n
@@ -363,7 +374,8 @@ Thayers Lavender Witch Hazel:
         bottom_line: The apple flavor really comes through with less “vinegar-burn” compared to other brands. Easy to drink with just hot water and honey. The plastic bottle is lightweight and nicer to store than glass.
         manufacturer: Thayers
         heading: [Thayers, Lavender Witch Hazel]
-        images: [thayers-witch-hazel-profile.jpg]
+        images: 
+                - [thayers-witch-hazel-profile.jpg, "sample text"]
         asin: B000PP15L8
         ingredients: ["Purified Water Aloe Barbadensis Leaf Juice Glycerin Fragrance Hamamelis Virginiana Extract Lavandula Angustifolia Flower Water Citric Acid Citrus Grandis Seed Extract"]
         affiliate_link: http://amzn.to/2qAIxjl
