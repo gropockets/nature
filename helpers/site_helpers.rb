@@ -11,7 +11,13 @@ module SiteHelpers
   end
 
   def page_title
-    (current_page.data.title.blank? ? '' : "#{current_page.data.title} - ") + project_setting(:title)
+    if content_for?(:proxytitle)
+      yield_content(:proxytitle) + " | " + project_setting(:title)
+    elsif current_page.data.title
+      current_page.data.title + " | " + project_setting(:title)
+    else
+      project_setting(:title)
+    end
   end
 
   # Creates a description meta tag based on the presence of a description value within the page frontmatter.
