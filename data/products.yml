@@ -86,7 +86,7 @@ Schmidt's Lavender & Sage:
         applicator: Includes a plastic applicator like a mini shovel.
         manufacturer: Schmidt's
         heading: [Schmidt's, Lavender + Sage]
-        images: 
+        images:
                 - [schmidts-lavender-and-sage/schmidts-lavender-and-sage.jpg, "sample text"]
                 - [schmidts-lavender-and-sage/schmidts-lavender-and-sage-texture.jpg, "sample text"]
         price: 8.99
@@ -162,7 +162,7 @@ Naturally Sourced Lavender:
         applicator: None included.
         manufacturer: Naturally Sourced
         heading: [Naturally Sourced, Lavender]
-        images: 
+        images:
                 - [naturally-sourced-lavender/naturally-sourced-lavender-deodorant.jpg, "sample text"]
                 - [naturally-sourced-lavender/naturally-sourced-lavender-deodorant-texture.jpg, "sample text"]
         ingredients: [Organic Coconut Oil (Cocos Nucefera), Organic Arrowroot Powder (Maranta Arundinacea), Natural Baking Soda (Sodium Bicarbonate), Colloidal Silver, Vodka, 100% Pure Magnesium Oil (Magnesium Chloride Brine), Organic Charcoal Powder (Activated), Organic Lavender Essential Oil]
@@ -309,17 +309,18 @@ Pana Cosmetic Spatulas:
 
 Molivera Organics Bentonite Clay:
 
-        name: Bentonite Clay
+        name: Molivera Organics Bentonite Clay
         category: Detox
         type: Tub
+        description: Mineral rich treatment for skin and hair. Sourced from the volcanic ash in Fort Benton, Wyoming.
         price_rating: 3
         manufacturer_desc: Detoxifying and beautifying mask helps clear up acne and blackheads. Tightens skin, shrinks pores and helps regenerate skin tissue, combating wrinkles and encouraging youthful, glowing skin. Clarifies hair for softness and manageability.
         bottom_line: Bentonite Clay a.k.a. “Indian Healing Clay” produces a negative electrical charge when mixed with water that binds to positively charged toxins and heavy metals. Molivera Organics is sodium based - as opposed to  calcium based - and can absorb several times its dry mass while also carrying a higher negative ionic charge.  They produce their clay incredibly fine which makes for a super creamy mask that tightens up and tingles just right. The convenient tub is opaque to avoid sun damage.
         manufacturer: Molivera Organics
         heading: [Molivera Organics, Bentonite Clay]
-        images: 
-                - [molivera-bentonite_profile_IMG_6831.jpg, "sample text"]
-                - [molivera-bentonite_open.jpg, "sample text"]
+        images:
+                - [molivera-bentonite_profile_IMG_6831.jpg, "molivera organics bentonite clay"]
+                - [molivera-bentonite_open.jpg, "molivera organics bentonite clay close up"]
         ingredients: ["100% Pure, Premium Sodium Bentonite Clay"]
         asin: B00UFDHT06
         affiliate_link: http://amzn.to/2pu0qTG
@@ -329,18 +330,19 @@ Molivera Organics Bentonite Clay:
 
 Zen Charcoal Hardwood Activated Charcoal:
 
-        name: Hardwood Activated Charcoal
+        name: Zen Charcoal Hardwood Activated Charcoal
         category: Detox
         type: Bag
+        description: Expertly crafted so it blends beautifully into liquids and pastes. Comes with a handy scoop.
         price_rating: 2
         manufacturer_desc: Used for thousands of years by diverse cultures all around the world, activated charcoal powder is a magical material which has dozens of uses. This is due to the incredible number of tiny pores in the powder, which attract and eliminate dirt, impurities, toxins and other nasty things from your teeth, skin, hair and ever your digestive tract.
         bottom_line: The powdered form of activated charcoal is a better value and more versatile than capsules or premixed masks. Zen Charcoal ensures the highest quality by sourcing their product from USA-grown renewable Eastern Hardwood. Eastern Hardwood has better absorption abilities (drawing toxins out) compared to other woods like bamboo. The mylar bag is easy to store or transfer to another container.
         manufacturer: Zen Charcoal
         heading: [Zen Charcoal, Hardwood Activated Charcoal]
-        images: 
-                - [zen-charcoal-profile.jpg, "sample text"]
-                - [zen-charcoal-dish.jpg, "sample text"]
-                - [zen-charcoal-scoop.jpg, "sample text"]
+        images:
+                - [zen-charcoal-profile.jpg, "zen hardwood activated charcoal"]
+                - [zen-charcoal-dish.jpg, "zen hardwood activated charcoal close up"]
+                - [zen-charcoal-scoop.jpg, "zen hardwood activated charcoal scoop"]
         asin: B01AMBLL5Y
         ingredients: ["Pure Food Grade Hardwood Activated Charcoal Powder"]
         affiliate_link: http://amzn.to/2oYpIFq
@@ -351,14 +353,15 @@ Viva Naturals Apple Cider Vinegar:
         name: Viva Naturals Apple Cider Vinegar
         category: Detox
         type: Bottle
+        description: Don’t let the pleasant apple taste fool you. Viva’s ACV is not only delicious but an effective alkalizer too, making daily use easy as pie.
         price_rating: 2
         manufacturer_desc: Naturally fermented from certified organic apples, a traditional method used for tangy, wholesome flavor. Not your average vinegar, our ACV is unfiltered, raw and unpasteurized, preserving live cultures known as the “Mother” to keep enzymes and nutrients intact….free from preservatives and is enjoyed by many as a nourishing tonic, culinary wonder and household must-have for its unique alkalizing properties.
         bottom_line: The apple flavor really comes through with less “vinegar-burn” compared to other brands. Easy to drink with just hot water and honey. The plastic bottle is lightweight and nicer to store than glass.
         manufacturer: Viva Naturals
         heading: [Viva Naturals, Apple Cider Vinegar]
-        images: 
-                - [viva-APV_profile.jpg, "sample text"]
-                - [viva-APV_bowl.jpg, "sample text"]
+        images:
+                - [viva-APV_profile.jpg, "Viva Naturals Apple Cider Vinegar"]
+                - [viva-APV_bowl.jpg, "Viva Naturals Apple Cider Vinegar"]
         asin: B011QIAIW4
         ingredients: ["Organic Apple Cider Vinegar 5% Acetic Acid"]
         affiliate_link: http://amzn.to/2pBSU9n
@@ -369,14 +372,128 @@ Thayers Lavender Witch Hazel:
         name: Thayers Lavender Witch Hazel
         category: Detox
         type: Bottle
+        description: Our go to alcohol-free toner for glowing, clean skin.
         price_rating: 2
+        scent_strength: 1
         manufacturer_desc: A natural gentle skin toner derived from a time honored Native-American formula. Now people with sensitive skin have an alcohol-free lavender witch hazel toner, with delicate, soothing, calming natural lavender water. This all-natural toner for healthy looking skin adds moisture while helping to protect the skin from airborne impurities. Witch hazel helps tighten pores and to smooth and beautify the skin. Thayers proprietary witch hazel extract (derived from the bark) is not distilled, thereby maintaining all the beneficial natural tannins.
-        bottom_line: The apple flavor really comes through with less “vinegar-burn” compared to other brands. Easy to drink with just hot water and honey. The plastic bottle is lightweight and nicer to store than glass.
+        bottom_line: Not only does this work wonderfully as a toner, it's also an effective aftershave, calms down bug bites and soothes postnatal healing.
+        scent_description: The lavender is hardly noticeable and wears off quickly.
         manufacturer: Thayers
         heading: [Thayers, Lavender Witch Hazel]
-        images: 
-                - [thayers-witch-hazel-profile.jpg, "sample text"]
+        images:
+                - [thayers-witch-hazel-profile.jpg, "thayers witch hazel lavender"]
         asin: B000PP15L8
-        ingredients: ["Purified Water Aloe Barbadensis Leaf Juice Glycerin Fragrance Hamamelis Virginiana Extract Lavandula Angustifolia Flower Water Citric Acid Citrus Grandis Seed Extract"]
+        ingredients: ["Purified Water, Aloe Barbadensis Leaf Juice (Certified Organic Filet of Aloe Vera), Glycerin (Certified Organic Vegetable), Hamamelis Virginiana Extract (made from Certified Organic Witch Hazel), Lavandula Angustifolia (Lavender) Flower Extract, Citric Acid, Citrus Grandis (Grapefruit) Seed Extract"]
         affiliate_link: http://amzn.to/2qAIxjl
         published: true
+
+SheaMoisture African Black Soap:
+
+        name: SheaMoisture African Black Soap
+        category: soap
+        type: bar
+        description: Silky smooth bar with its own twist on ingredients.
+        price_rating: 1
+        scent_strength: 4
+        manufacturer_desc: African Black Soap, made from palm ash, tamarind extract and plantain peel has been used in Africa for centuries to treat eczema, acne, oily skin, psoriasis and other skin ailments. Combined with the healing and hydrating properties of Shea Butter, this healing soap should be used daily to balance and resolve problem skin.
+        bottom_line: This is a great introduction to ABS if you’re unsure about the raw stuff. It's deep black color is smooth to touch and it includes clever ingredients like oatmeal (<em>anti-inflammatory, moisturizer</em>) and rosemary extract (<em>natural preservative, antioxidant</em>).
+        scent_description: Sweet banana and cocoa aromas linger softly on your skin.
+        manufacturer: SheaMoisture
+        heading: [SheaMoisture, African Black Soap]
+        images:
+                - [AfricanBlackSoap/sheamoisture-blacksoap-profile.jpg, "SheaMoisture African Black Soap Bar shea butter"]
+                - [AfricanBlackSoap/sheamoisture-blacksoap-opened.jpg, "SheaMoisture African Black Soap Bar shea butter"]
+                - [AfricanBlackSoap/sheamoisture-blacksoap-side1.jpg, "SheaMoisture African Black Soap Bar shea butter" ]
+                - [AfricanBlackSoap/sheamoisture-blacksoap-side2.jpg, "SheaMoisture African Black Soap Bar shea butter"]
+                - [AfricanBlackSoap/sheamoisture-blacksoap-back.jpg, "SheaMoisture African Black Soap Bar shea butter"]
+        asin: B00SVS9A6S
+        ingredients: [African Black Soap Base, Organic African Shea Butter, Oats, Aloe, Plantain Extract, Vitamin E, Essential Blend Oil Blend, Vegetable Glycerin, Palm Ash, Rosemary Extract, Iron Oxides]
+        affiliate_link: http://amzn.to/2raNhAB
+        published: true
+
+Dr. Woods Raw Black Soap:
+
+        name: Dr. Woods Raw Black Soap
+        category: soap
+        type: liquid
+        description: Huge bottle full of quality ingredients that’s great for sharing and will last you ages.
+        price_rating: 1
+        scent_strength: 3
+        manufacturer_desc: Dr. Woods Raw Black Soap is a natural wonder that lifts away tired skin cells to leave your skin smooth, hydrated and exceptionally healthy. Our Raw Black Soap formula is a gentle exfoliant and a powerful, acne-fighting deep cleanser that rejuvenates the skin without any need for harsh detergents or toxic additives.
+        bottom_line: A little goes a long way and it even works great as a therapeutic bubble bath. In addition to the traditional palm kernel oil, Dr. Woods uses olive and hemp oils, rich in fatty acids to reduce inflammation.
+        scent_description: Warm and spicy amber-like fragrance makes it inviting without overpowering.
+        manufacturer: Dr. Woods
+        heading: [Dr. Woods, Raw Black Soap]
+        images:
+                - [AfricanBlackSoap/drwoods-blacksoap-profile.jpg, "dr woods african black soap liquid"]
+                - [AfricanBlackSoap/drwoods-blacksoap-pouring.jpg, "dr woods african black soap liquid"]
+                - [AfricanBlackSoap/drwoods-blacksoap-side.jpg, "dr woods african black soap liquid"]
+                - [AfricanBlackSoap/drwoods-blacksoap-back.jpg, "dr woods african black soap liquid ingredients"]
+        asin: B000ZFI2PA
+        ingredients: [Purified Water (Aqua), Saponified Coconut, Hemp and Olive Oils (with retained Glycerin), Pure Black Soap, Fragrance, Tocopherol (Vitamin E), Sea Salt, Citric Acid, Panthenol (Pro Vitamin B5), Rosemary (Rosemarinus Officinalis) Extract, Natural Caramel.]
+        affiliate_link: http://amzn.to/2qOzC14
+        published: true
+
+Sky Organics African Black Bar Soap:
+
+        name: Sky Organics African Black Bar Soap
+        category: soap
+        type: bar
+        description: This one pound block of raw goodness is a powerful degreaser that won't disappoint.
+        price_rating: 4
+        scent_strength: 1
+        manufacturer_desc: "Sky Organics Black Soap is sourced directly from organic artisanal farmers in Ghana. African Black Soap is revered for having skin nourishing benefits due to an abundance of antioxidants which protect the skin from free radical damage, which is a cause of premature skin aging, wrinkles and facial lines."
+        bottom_line: Prime example of a traditional raw recipe. Don't be intimidated by the size, it cuts down easily with a kitchen knife. We even put a small chunk in a soap dispenser with water and essential oils to make our own personalized liquid soap.
+        scent_description: Mild and earthy.
+        manufacturer: Sky Organics
+        heading: [Sky Organics, African Black Bar Soap]
+        images:
+                - [AfricanBlackSoap/skyorganics-blacksoap-profile.jpg, "Sky Organics Raw African Black Soap"]
+                - [AfricanBlackSoap/skyorganics-blacksoap-opened.jpg, "Sky Organics Raw African Black Soap"]
+                - [AfricanBlackSoap/skyorganics-blacksoap-side.jpg, "Sky Organics Raw African Black Soap"]
+        asin: B01FENIOWS
+        ingredients: [Organic Palm Oil, Organic Cocoa Butter, Organic Palm Kernel Oil, Organic Virgin Coconut Oil, Organic Unrefined Shea Butter, Plantain Skin Ash, Purified Water, Natural Vitamin E, Aloe, Natural Sodium]
+        affiliate_link: http://amzn.to/2raTeNW
+        published: true
+
+Thayers Cucumber Witch Hazel:
+        name: Thayers Cucumber Witch Hazel
+        manufacturer: Thayers
+        category: toner
+        scent: cucumber
+        asin: B001BR97A0
+        affiliate_link: http://amzn.to/2qhpgCT
+        published: false
+
+Thayers Original Witch Hazel:
+        name: Thayers Original Witch Hazel
+        manufacturer: Thayers
+        category: toner
+        scent: original
+        asin: B000S823S6
+        affiliate_link: http://amzn.to/2rO1CjI
+        published: false
+
+Thayers Rose Petal Witch Hazel:
+        name: Thayers Rose Petal Witch Hazel
+        manufacturer: Thayers
+        category: toner
+        scent: rose petal
+        asin: B007HD570Q
+        affiliate_link: http://amzn.to/2rNGWrY
+        published: false
+
+Thayers Unscented Witch Hazel:
+        name: Thayers Unscented Witch Hazel
+        manufacturer: Thayers
+        category: toner
+        scent: unscented
+        asin: B001DJDP7C
+        affiliate_link: http://amzn.to/2qMApiB
+        published: false
+
+Brooklyn Botany Camellia Wonder Oil:
+        name: Brooklyn Botany Camellia Wonder Oil
+        asin:  B06ZYCPDWB
+        affiliate_link: http://amzn.to/2qhBATO
+        published: false
