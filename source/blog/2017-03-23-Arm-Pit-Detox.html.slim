@@ -26,12 +26,12 @@ h2 What you'll need
 
 ul
   li #{ link_to "<strong>Bentonite Clay:</strong>", data.products["Molivera Organics Bentonite Clay"].affiliate_link, :target => "_blank"} a.k.a. “Indian Healing Clay” is a volcanic ash that draws out the nastiness. When mixed with water, the clay produces a negative electrical charge that binds to the positively charged toxins and heavy metals. We chose Molivera Organics because its sodium based (not calcium) and can absorb several times its dry mass. They also harvest their product in Fort Benton, Wyoming, where Bentonite gets its name.
-  li #{ link_to "<strong>Activated Charcoal:</strong>", "https://www.amazon.com/Activated-Charcoal-Rejuvenates-Detoxifies-Digestion/dp/B01AMBLL5Y/ref=lp_15269465011_1_1_a_it?srs=15269465011&ie=UTF8&qid=1493315871&sr=8-1&th=1", :target => "_blank"} Ancient civilizations spanning Egypt and Rome used charcoal to treat diseases and injuries. Even today, it’s used in hospitals to treat many types of poison, including alcohol. Activated charcoal detoxifies through a process called absorption, by binding substances (toxins, bacteria, etc.) to its extremely porous surface.  Additionally, it can absorb moisture up to 1000X’s its weight, which helps keep you dry in place of your previous antiperspirants. 
-  li #{ link_to "<strong>Apple Cider Vinegar (ACV):</strong>","https://www.amazon.com/Viva-Naturals-Unfiltered-Undiluted-Non-GMO/dp/B011QIAIW4/ref=pd_yo_rr_bia_t_2?_encoding=UTF8&psc=1&refRID=D557PWJZK888EJ9WE0EM",:target => "_blank" } This acidic wonder liquid helps alkalize, meaning to restore your pH balance so blood can more effectively deliver nutrients.  We suggest dabbing it on with a cotton ball prior, as opposed to mixing it in with with the mask. The smell can be pretty strong and sting when left on too long. 
-  li #{ link_to "<strong>Witch Hazel:</strong>", "https://www.amazon.com/Thayers-Witch-Hazel-Lavender-Toner/dp/B000PP15L8/ref=sr_1_4_s_it?s=hpc&ie=UTF8&qid=1493322204&sr=1-4&keywords=lavender%2Bwitch%2Bhazel&th=1",:target => "_blank"} This gentle plant-based astringent will neutralize the bacteria you’ve just brought to the surface. It’s anti-inflammatory properties soothe redness and potential swelling. We like Thayers because it’s alcohol-free (no burning!) and contains Aloe Vera to leave the skin even softer. The refreshing lavender scent is also a nice way to end your underarm spa sesh.  
-  li <strong>Non-Metal Bowls and Spoons</strong>: Metal can affect the ions in the clay and charcoal, throwing off their healing potential. Try these #{link_to "plastic applicators", "https://www.amazon.com/gp/product/B06VWHM711/ref=s9_acsd_hps_bw_c_x_2_w?th=1", :target => "blank"} if you’d rather not use kitchenware.
+  li #{ link_to "<strong>Activated Charcoal:</strong>", data.products["Zen Charcoal Hardwood Activated Charcoal"].affiliate_link, :target => "_blank"}  Ancient civilizations spanning Egypt and Rome used charcoal to treat diseases and injuries. Even today, it’s used in hospitals to treat many types of poison, including alcohol. Activated charcoal detoxifies through a process called absorption, by binding substances (toxins, bacteria, etc.) to its extremely porous surface.  Additionally, it can absorb moisture up to 1000X’s its weight, which helps keep you dry in place of your previous antiperspirants. 
+  li #{ link_to "<strong>Apple Cider Vinegar:</strong>", data.products["Viva Naturals Apple Cider Vinegar"].affiliate_link, :target => "_blank"} This acidic wonder liquid helps alkalize, meaning to restore your pH balance so blood can more effectively deliver nutrients.  We suggest dabbing it on with a cotton ball prior, as opposed to mixing it in with with the mask. The smell can be pretty strong and sting when left on too long. 
+  li #{ link_to "<strong>Witch Hazel:</strong>", data.products["Thayers Lavender Witch Hazel"].affiliate_link, :target => "_blank"} This gentle plant-based astringent will neutralize the bacteria you’ve just brought to the surface. It’s anti-inflammatory properties soothe redness and potential swelling. We like Thayers because it’s alcohol-free (no burning!) and contains Aloe Vera to leave the skin even softer. The refreshing lavender scent is also a nice way to end your underarm spa sesh.  
+  li <strong>Non-Metal Bowls and Spoons</strong>: Metal can affect the ions in the clay and charcoal, throwing off their healing potential. Try these #{link_to "plastic applicators", data.products["Pana Cosmetic Spatulas"].affiliate_link, :target => "_blank"} if you’d rather not use kitchenware.
   li Cotton balls or cosmetic rounds
-
+ 
 h2 Making the mask
 p Stir the below ingredients until a spreadable paste forms. This should be enough for about 2-3 applications. Cover the remaining mixutre for the next time and add a little more water if it dries out. 
 ul
@@ -46,21 +46,21 @@ p <strong>Day 1</strong>-  <em>Do not apply any deodorant</em>
 ul
   li Dab on the ACV on with a cotton ball.
   li When dry, apply a thin layer of the mask with your finger or plastic spoon/spatula. 
-  li Leave on for 5 minutes. 
+  li Leave on for 5 minutes. ⏰
   li Wipe off with warm washcloth - water only. 
   li Apply witch hazel with a cotton ball. 
 p <strong>Day 2</strong>-  <em>Do not apply any deodorant</em>
 ul
   li Dab on the ACV on with a cotton ball.
   li When dry, apply a thin layer of the mask with your finger or plastic spoon/spatula. 
-  li Leave on for 7 minutes. 
+  li Leave on for 7 minutes. ⏰ 
   li Wipe off with warm washcloth - water only. 
   li Apply witch hazel with a cotton ball. 
 p <strong>Day 3</strong>-  <em>Apply natural deodorant after detox</em>
 ul
   li Dab on the ACV on with a cotton ball.
   li When dry, apply a thin layer of the mask with your finger or plastic spoon/spatula. 
-  li Leave on for 10 minutes. 
+  li Leave on for 10 minutes. ⏰
   li Wipe off with warm washcloth - water only. 
   li Apply witch hazel with a cotton ball. 
 = blog_img "IMG_6922-Armpit-.jpg", "Armpit Mask application"
@@ -70,5 +70,8 @@ ul
   li Wear clothes you don’t care about. We haven’t found that the ingredients stain, but better be safe than sorry.
   li Adjust to your needs. You could always add/decrease days and time to this schedule. Everyone's needs are different. Have fun experimenting! 
 
-
-  
+h2 <em>Learn more about the ingredients</em> 
+= partial(:product_listing, :locals => { :product => data.products["Molivera Organics Bentonite Clay"] })
+= partial(:product_listing, :locals => { :product => data.products["Zen Charcoal Hardwood Activated Charcoal"] })
+= partial(:product_listing, :locals => { :product => data.products["Viva Naturals Apple Cider Vinegar"] })
+= partial(:product_listing, :locals => { :product => data.products["Thayers Lavender Witch Hazel"] })
