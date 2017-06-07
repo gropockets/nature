@@ -81,6 +81,12 @@ module SiteHelpers
     image_tag img_set[0], { alt: img_set[1] }
   end
 
+  def pic(img_src)
+    x = '<picture> 
+      <source media="(min-width: 64em)" src="/assets/images/AfricanBlackSoap/sets/african-blacksoap-groupshot-large.jpg"> </picture>'
+    x
+  end
+  
   #require 'net/smtp'
   
   # Send prototyped transactional emails.
