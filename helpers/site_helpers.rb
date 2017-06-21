@@ -81,9 +81,27 @@ module SiteHelpers
     image_tag img_set[0], { alt: img_set[1] }
   end
 
+  def pic2(src)
+    img_dir = "assets/images"
+    src_ext = File.extname(src)
+    src_dir = File.dirname(src)
+    src_filebase = File.basename(src, src_ext)
+    img_path = img_dir + "/" + src_dir + "/sets/" + src_filebase + "-large" + src_ext
+    if sitemap.find_resource_by_path(img_path)
+      x = 'file or directory exists' + img_path
+    else
+      x = 'could not find' + img_path
+    end
+    x
+  end
+  
   def pic(img_src)
-    x = '<picture> 
-      <source media="(min-width: 64em)" src="/assets/images/AfricanBlackSoap/sets/african-blacksoap-groupshot-large.jpg"> </picture>'
+    x = "
+<picture> 
+  <source srcset=\"/assets/images/AfricanBlackSoap/sets/#{img_src}-3x.jpg\" media=\"(min-width: 1200px)\" > 
+  <source srcset=\"/assets/images/AfricanBlackSoap/sets/#{img_src}-2x.jpg\" media=\"(min-width: 600px)\" > 
+  <img src=\"/assets/images/AfricanBlackSoap/sets/#{img_src}-1x.jpg\" alt=\"This picture loads on non-supporting browsers.\">
+</picture>"
     x
   end
   
