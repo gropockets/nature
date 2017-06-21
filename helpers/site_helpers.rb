@@ -74,11 +74,11 @@ module SiteHelpers
     end
 
     def blog_img(img, alt)
-        image_tag img, { alt: alt, class: "img-responsive" }
+        pic_tag img, { alt: alt, class: "img-responsive" }
     end
 
     def slider_img(img_set)
-        image_tag img_set[0], { alt: img_set[1] }
+        pic_tag img_set[0], { alt: img_set[1] }
     end
 
     def setname(src, size)
