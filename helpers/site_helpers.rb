@@ -92,78 +92,16 @@ module SiteHelpers
         sitemap.find_resource_by_path(setname(src, "1x"))
     end
 
-    def pic_tag(src)
-        tag = "<picture>"
-        tag << %Q^\n\t<source srcset="#{setname(src, "3x")}" media="(min-width: 1200px)">^ 
-        tag << %Q^\n\t<source srcset="#{setname(src, "2x")}" media="(min-width: 600px)">^
-        tag << %Q^\n\t<img src="#{setname(src, "1x")}" alt="This picture loads on non-supporting browsers.">^
-        tag << "\n</picture>"
+    def pic_tag(src, options)
+        if setexists?(src)
+            tag = "<picture>"
+            tag << %Q^\n\t^ + tag(:source, :srcset => setname(src, "3x"), :media => "(min-width: 1200px)") 
+            tag << %Q^\n\t^ + tag(:source, :srcset => setname(src, "2x"), :media => "(min-width: 600px)") 
+            tag << %Q^\n\t^ + image_tag(setname(src, "1x"), options)
+            tag << "\n</picture>"
+        else
+            image_tag src, options
+        end
     end
     
-    def pic_tag2(src)
-        tag = "<picture>"
-        tag << %Q^\n\t<source srcset="#{setname(src, "3x")}" media="(min-width: 1200px)">^ 
-        tag << %Q^\n\t<source srcset="#{setname(src, "2x")}" media="(min-width: 600px)">^
-        tag << %Q^\n\t<img src="#{setname(src, "1x")}" alt="This picture loads on non-supporting browsers.">^
-        tag << "\n</picture>"
-    end
-
-    def pic2(src)
-        img_dir = "assets/images"
-        src_ext = File.extname(src)
-        src_dir = File.dirname(src)
-        src_filebase = File.basename(src, src_ext)
-        img_path = img_dir + "/" + src_dir + "/sets/" + src_filebase + "-large" + src_ext
-        if sitemap.find_resource_by_path(img_path)
-            x = 'file or directory exists' + img_path
-        else
-            x = 'could not find' + img_path
-        end
-        x
-    end
-
-    def pic(img_src)
-        x = "
-<picture> 
-  <source srcset=\"/assets/images/AfricanBlackSoap/sets/#{img_src}-3x.jpg\" media=\"(min-width: 1200px)\" > 
-  <source srcset=\"/assets/images/AfricanBlackSoap/sets/#{img_src}-2x.jpg\" media=\"(min-width: 600px)\" > 
-  <img src=\"/assets/images/AfricanBlackSoap/sets/#{img_src}-1x.jpg\" alt=\"This picture loads on non-supporting browsers.\">
-</picture>"
-        x
-    end
-
-    #require 'net/smtp'
-
-    # Send prototyped transactional emails.
-    #def send_mail(template, opts={})
-    #if development?
-    #begin
-    #to      = opts[:to] || project_setting(:mail_to)
-    #from    = project_setting(:mail_from)
-    #subject = opts[:subject] || "(No Subject)"
-    #content = File.read(File.join(root, "mailers", "#{template}.html"))
-    #host    = project_setting(:mail_host)
-    #port    = project_setting(:mail_port)
-    #message = build_message(to, from, subject, content)
-
-    ## If you need to customize this further you can use the following into the start method
-    ## (host, port, domain, username, password :plain)
-    #Net::SMTP.start(host, port) do |smtp|
-    #smtp.sendmail(message, from, [to])
-    #end
-    #rescue
-    #false
-    #end
-    #else
-    #true
-    #end
-    #end
-
-    #private
-
-    ## Returns a string to send as the mail message
-    #def build_message(to, from, subject, body)
-    #"From: #{from}\nTo: #{to}\nContent-type: text/html\nSubject: #{subject}\n\n#{body}"
-    #end
-
 end
