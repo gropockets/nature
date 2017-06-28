@@ -1,0 +1,24 @@
+---
+title: Developer Notes
+tags: Deodorant
+disqus_id: demo-article
+img: diy-deoderant-long.jpg
+published: false
+---
+
+h1 Developer Notes
+
+h2 Building the site
+
+p To build the site, use:
+
+<pre>middleman build</pre>  
+
+p It will build to the <code>docs/</code> directory.  The <code>docs/</code> directory on the master branch of the repository is automatically set to publish by Github.
+
+h2 Viewing the build
+
+p Because the site expects to be hoster at the root of the webserver, it isn't possible to view the build in the <code>docs/</code> directory just by using the address relative to localhost (e.g. http://localhost/demo/nature/docs/).
+
+p Instead there is a virtual server mapped on apache for that directory.  You can access it by going to #{ link_to "http://notp", "http://notp" }. 
+
