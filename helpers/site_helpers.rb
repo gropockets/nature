@@ -103,5 +103,5 @@ module SiteHelpers
             image_tag src, options
         end
     end
-    
+
 end
