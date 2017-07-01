@@ -89,7 +89,7 @@ module SiteHelpers
     end
 
     def setexists?(src)
-        sitemap.find_resource_by_path(setname(src, "1x"))
+        sitemap.find_resource_by_path(setname(src, "2x"))
     end
 
     def pic_tag(src, options)
@@ -97,7 +97,7 @@ module SiteHelpers
             tag = "<picture>"
             tag << %Q^\n\t^ + tag(:source, :srcset => setname(src, "3x"), :media => "(min-width: 1200px)") 
             tag << %Q^\n\t^ + tag(:source, :srcset => setname(src, "2x"), :media => "(min-width: 600px)") 
-            tag << %Q^\n\t^ + image_tag(setname(src, "1x"), options)
+            tag << %Q^\n\t^ + image_tag(src, options)
             tag << "\n</picture>"
         else
             image_tag src, options
