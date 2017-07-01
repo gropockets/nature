@@ -95,8 +95,8 @@ module SiteHelpers
     def pic_tag(src, options)
         if setexists?(src)
             tag = "<picture>"
-            tag << %Q^\n\t^ + tag(:source, :srcset => setname(src, "3x"), :media => "(min-width: 1200px)") 
-            tag << %Q^\n\t^ + tag(:source, :srcset => setname(src, "2x"), :media => "(min-width: 600px)") 
+            tag << %Q^\n\t^ + tag(:source, :srcset => setname(src, "3x"), :media => "(min-width: 801px)") 
+            tag << %Q^\n\t^ + tag(:source, :srcset => setname(src, "2x"), :media => "(min-width: 401px)") 
             tag << %Q^\n\t^ + image_tag(src, options)
             tag << "\n</picture>"
         else
