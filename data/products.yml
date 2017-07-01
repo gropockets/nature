@@ -340,9 +340,9 @@ Zen Charcoal Hardwood Activated Charcoal:
         manufacturer: Zen Charcoal
         heading: [Zen Charcoal, Hardwood Activated Charcoal]
         images:
-                - [zen-charcoal-profile.jpg, "zen hardwood activated charcoal"]
-                - [zen-charcoal-dish.jpg, "zen hardwood activated charcoal close up"]
-                - [zen-charcoal-scoop.jpg, "zen hardwood activated charcoal scoop"]
+                - [zen-charcoal/zen-charcoal-profile.jpg, "zen hardwood activated charcoal"]
+                - [zen-charcoal/zen-charcoal-dish.jpg, "zen hardwood activated charcoal close up"]
+                - [zen-charcoal/zen-charcoal-scoop.jpg, "zen hardwood activated charcoal scoop"]
         asin: B01AMBLL5Y
         ingredients: ["Pure Food Grade Hardwood Activated Charcoal Powder"]
         affiliate_link: http://amzn.to/2oYpIFq
@@ -401,11 +401,11 @@ SheaMoisture African Black Soap:
         manufacturer: SheaMoisture
         heading: [SheaMoisture, African Black Soap]
         images:
-                - [AfricanBlackSoap/sheamoisture-blacksoap-profile.jpg, "SheaMoisture African Black Soap Bar shea butter"]
-                - [AfricanBlackSoap/sheamoisture-blacksoap-opened.jpg, "SheaMoisture African Black Soap Bar shea butter"]
-                - [AfricanBlackSoap/sheamoisture-blacksoap-side1.jpg, "SheaMoisture African Black Soap Bar shea butter" ]
-                - [AfricanBlackSoap/sheamoisture-blacksoap-side2.jpg, "SheaMoisture African Black Soap Bar shea butter"]
-                - [AfricanBlackSoap/sheamoisture-blacksoap-back.jpg, "SheaMoisture African Black Soap Bar shea butter"]
+                - [sheamoisture-blacksoap/sheamoisture-blacksoap-profile.jpg, "SheaMoisture African Black Soap Bar shea butter"]
+                - [sheamoisture-blacksoap/sheamoisture-blacksoap-opened.jpg, "SheaMoisture African Black Soap Bar shea butter"]
+                - [sheamoisture-blacksoap/sheamoisture-blacksoap-side1.jpg, "SheaMoisture African Black Soap Bar shea butter" ]
+                - [sheamoisture-blacksoap/sheamoisture-blacksoap-side2.jpg, "SheaMoisture African Black Soap Bar shea butter"]
+                - [sheamoisture-blacksoap/sheamoisture-blacksoap-back.jpg, "SheaMoisture African Black Soap Bar shea butter"]
         asin: B00SVS9A6S
         ingredients: [African Black Soap Base, Organic African Shea Butter, Oats, Aloe, Plantain Extract, Vitamin E, Essential Blend Oil Blend, Vegetable Glycerin, Palm Ash, Rosemary Extract, Iron Oxides]
         affiliate_link: http://amzn.to/2raNhAB
@@ -425,10 +425,10 @@ Dr. Woods Raw Black Soap:
         manufacturer: Dr. Woods
         heading: [Dr. Woods, Raw Black Soap]
         images:
-                - [AfricanBlackSoap/drwoods-blacksoap-profile.jpg, "dr woods african black soap liquid"]
-                - [AfricanBlackSoap/drwoods-blacksoap-pouring.jpg, "dr woods african black soap liquid"]
-                - [AfricanBlackSoap/drwoods-blacksoap-side.jpg, "dr woods african black soap liquid"]
-                - [AfricanBlackSoap/drwoods-blacksoap-back.jpg, "dr woods african black soap liquid ingredients"]
+                - [drwoods-blacksoap/drwoods-blacksoap-profile.jpg, "dr woods african black soap liquid"]
+                - [drwoods-blacksoap/drwoods-blacksoap-pouring.jpg, "dr woods african black soap liquid"]
+                - [drwoods-blacksoap/drwoods-blacksoap-side.jpg, "dr woods african black soap liquid"]
+                - [drwoods-blacksoap/drwoods-blacksoap-back.jpg, "dr woods african black soap liquid ingredients"]
         asin: B000ZFI2PA
         ingredients: [Purified Water (Aqua), Saponified Coconut, Hemp and Olive Oils (with retained Glycerin), Pure Black Soap, Fragrance, Tocopherol (Vitamin E), Sea Salt, Citric Acid, Panthenol (Pro Vitamin B5), Rosemary (Rosemarinus Officinalis) Extract, Natural Caramel.]
         affiliate_link: http://amzn.to/2qOzC14
@@ -448,9 +448,9 @@ Sky Organics African Black Bar Soap:
         manufacturer: Sky Organics
         heading: [Sky Organics, African Black Bar Soap]
         images:
-                - [AfricanBlackSoap/skyorganics-blacksoap-profile.jpg, "Sky Organics Raw African Black Soap"]
-                - [AfricanBlackSoap/skyorganics-blacksoap-opened.jpg, "Sky Organics Raw African Black Soap"]
-                - [AfricanBlackSoap/skyorganics-blacksoap-side.jpg, "Sky Organics Raw African Black Soap"]
+                - [skyorganics-blacksoap/skyorganics-blacksoap-profile.jpg, "Sky Organics Raw African Black Soap"]
+                - [skyorganics-blacksoap/skyorganics-blacksoap-opened.jpg, "Sky Organics Raw African Black Soap"]
+                - [skyorganics-blacksoap/skyorganics-blacksoap-side.jpg, "Sky Organics Raw African Black Soap"]
         asin: B01FENIOWS
         ingredients: [Organic Palm Oil, Organic Cocoa Butter, Organic Palm Kernel Oil, Organic Virgin Coconut Oil, Organic Unrefined Shea Butter, Plantain Skin Ash, Purified Water, Natural Vitamin E, Aloe, Natural Sodium]
         affiliate_link: http://amzn.to/2raTeNW
