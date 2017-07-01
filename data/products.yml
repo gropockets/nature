@@ -310,7 +310,7 @@ Pana Cosmetic Spatulas:
 Molivera Organics Bentonite Clay:
 
         name: Molivera Organics Bentonite Clay
-        category: Detox
+        category: detox
         type: Tub
         description: Mineral rich treatment for skin and hair. Sourced from the volcanic ash in Fort Benton, Wyoming.
         price_rating: 3
@@ -319,8 +319,8 @@ Molivera Organics Bentonite Clay:
         manufacturer: Molivera Organics
         heading: [Molivera Organics, Bentonite Clay]
         images:
-                - [molivera-bentonite_profile_IMG_6831.jpg, "molivera organics bentonite clay"]
-                - [molivera-bentonite_open.jpg, "molivera organics bentonite clay close up"]
+                - [molivera-bentonite/molivera-bentonite_profile_IMG_6831.jpg, "molivera organics bentonite clay"]
+                - [molivera-bentonite/molivera-bentonite_open.jpg, "molivera organics bentonite clay close up"]
         ingredients: ["100% Pure, Premium Sodium Bentonite Clay"]
         asin: B00UFDHT06
         affiliate_link: http://amzn.to/2pu0qTG
@@ -331,7 +331,7 @@ Molivera Organics Bentonite Clay:
 Zen Charcoal Hardwood Activated Charcoal:
 
         name: Zen Charcoal Hardwood Activated Charcoal
-        category: Detox
+        category: detox
         type: Bag
         description: Expertly crafted so it blends beautifully into liquids and pastes. Comes with a handy scoop.
         price_rating: 2
@@ -351,7 +351,7 @@ Zen Charcoal Hardwood Activated Charcoal:
 Viva Naturals Apple Cider Vinegar:
 
         name: Viva Naturals Apple Cider Vinegar
-        category: Detox
+        category: detox
         type: Bottle
         description: Don’t let the pleasant apple taste fool you. Viva’s ACV is not only delicious but an effective alkalizer too, making daily use easy as pie.
         price_rating: 2
@@ -360,8 +360,8 @@ Viva Naturals Apple Cider Vinegar:
         manufacturer: Viva Naturals
         heading: [Viva Naturals, Apple Cider Vinegar]
         images:
-                - [viva-APV_profile.jpg, "Viva Naturals Apple Cider Vinegar"]
-                - [viva-APV_bowl.jpg, "Viva Naturals Apple Cider Vinegar"]
+                - [viva-naturals-apple-cider-vinegar/viva-APV_profile.jpg, "Viva Naturals Apple Cider Vinegar"]
+                - [viva-naturals-apple-cider-vinegar/viva-APV_bowl.jpg, "Viva Naturals Apple Cider Vinegar"]
         asin: B011QIAIW4
         ingredients: ["Organic Apple Cider Vinegar 5% Acetic Acid"]
         affiliate_link: http://amzn.to/2pBSU9n
@@ -370,7 +370,7 @@ Viva Naturals Apple Cider Vinegar:
 Thayers Lavender Witch Hazel:
 
         name: Thayers Lavender Witch Hazel
-        category: Detox
+        category: detox
         type: Bottle
         description: Our go to alcohol-free toner for glowing, clean skin.
         price_rating: 2
