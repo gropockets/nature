@@ -137,19 +137,21 @@ textarea.form-control {
     bottom: 0px;
 }
 
-.carousel-control.right {
-  background-image: none;
-}
-
-.carousel-control.left {
-  background-image: none;
+a.carousel-control {
+  border-bottom: none !important;
+  &.right {
+    background-image: none;
+  }
+  &.left {
+    background-image: none;
+  }
 }
 
 .carousel-inner > .item {
   @include breakpoint($md) { 
     height: 210px;
   }
-  > img {
+  > picture > img {
     max-height: 100%;
     margin: 0 auto;
   }
