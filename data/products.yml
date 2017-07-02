@@ -73,9 +73,9 @@ Schmidt's Cedarwood & Juniper:
         affiliate_link: http://amzn.to/2neIg3Y
         published: false
 
-Schmidt's Lavender & Sage:
+Schmidt's -- Lavender & Sage:
         id: 1002
-        name: Schmidt's Lavender & Sage
+        name: Schmidt's -- Lavender & Sage
         category: deodorant
         type: Jar Solid
         scent: Lavender & Sage
@@ -148,7 +148,7 @@ Naturally Sourced Tea Tree:
         affiliate_link: http://amzn.to/2mFZkU4
         published: false
 
-Naturally Sourced Lavender:
+Naturally Sourced -- Lavender:
         id: 1015
         name: Naturally Sourced Lavender
         category: deodorant
@@ -262,7 +262,7 @@ Primal Pit Paste Unscented:
         affiliate_link: http://amzn.to/2mjlzMX
         published: false
 
-Primal Pit Paste Lavender:
+Primal Pit Paste -- Lavender:
         id: 1014
         name: Primal Pit Paste Lavender
         category: deodorant
@@ -307,7 +307,7 @@ Pana Cosmetic Spatulas:
         affiliate_link: http://amzn.to/2mJW4X7
         published: false
 
-Molivera Organics Bentonite Clay:
+Molivera Organics -- Bentonite Clay:
 
         name: Molivera Organics Bentonite Clay
         category: detox
@@ -328,7 +328,7 @@ Molivera Organics Bentonite Clay:
         published: true
 
 
-Zen Charcoal Hardwood Activated Charcoal:
+Zen Charcoal -- Hardwood Activated Charcoal:
 
         name: Zen Charcoal Hardwood Activated Charcoal
         category: detox
@@ -348,7 +348,7 @@ Zen Charcoal Hardwood Activated Charcoal:
         affiliate_link: http://amzn.to/2oYpIFq
         published: true
 
-Viva Naturals Apple Cider Vinegar:
+Viva Naturals -- Apple Cider Vinegar:
 
         name: Viva Naturals Apple Cider Vinegar
         category: detox
@@ -367,7 +367,7 @@ Viva Naturals Apple Cider Vinegar:
         affiliate_link: http://amzn.to/2pBSU9n
         published: true
 
-Thayers Lavender Witch Hazel:
+Thayers -- Lavender Witch Hazel:
 
         name: Thayers Lavender Witch Hazel
         category: detox
@@ -387,7 +387,7 @@ Thayers Lavender Witch Hazel:
         affiliate_link: http://amzn.to/2qAIxjl
         published: true
 
-SheaMoisture African Black Soap:
+SheaMoisture -- African Black Soap:
 
         name: SheaMoisture African Black Soap
         category: soap
@@ -411,7 +411,7 @@ SheaMoisture African Black Soap:
         affiliate_link: http://amzn.to/2raNhAB
         published: true
 
-Dr. Woods Raw Black Soap:
+Dr. Woods -- Raw Black Soap:
 
         name: Dr. Woods Raw Black Soap
         category: soap
@@ -434,7 +434,7 @@ Dr. Woods Raw Black Soap:
         affiliate_link: http://amzn.to/2qOzC14
         published: true
 
-Sky Organics African Black Bar Soap:
+Sky Organics -- African Black Bar Soap:
 
         name: Sky Organics African Black Bar Soap
         category: soap

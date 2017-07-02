@@ -73,14 +73,16 @@ activate :blog do |blog|
 end
 
 # create url from product name (e.g. tom's soap => toms-soap); identical to helper function in sitehelpers
-def get_product_url(product)
-    "/products/#{product.category}/#{product.name.gsub(/\'/, "").parameterize}.html"
+def get_product_url(name, category)
+    "/products/#{category}/#{name.gsub(/\'/, "").parameterize}.html"
 end
 
 # Proxy pages for individual products (without "published" attribute set to false)
-data.products.each do |p, info|
+data.products.each do |name, info|
     if (!defined? info.published) || (info.published)
-        proxy get_product_url(info), "/products/detail_template.html", :locals => { :product => info }, :ignore => true
+        proxy get_product_url(name, info.category), "/products/detail_template.html", 
+            :locals => { :product => name, :product_details => info },
+            :ignore => true
     end
 end
 
