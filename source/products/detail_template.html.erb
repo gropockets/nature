@@ -4,7 +4,7 @@ nav: product
 subnav:
 description:
 ---
-<% content_for(:proxytitle, product.heading[0] + " " + product.heading[1]) %>
+<% content_for(:proxytitle, get_brand_name(product) + " " + get_product_name(product)) %>
 
 <div class="container">
   <div class="row">

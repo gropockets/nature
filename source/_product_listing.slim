@@ -1,62 +1,64 @@
+- product_details = data.products[product]
 .product-listing
   .row
     .col-xs-12
-      h2.brand = product.heading[0]  
+      h2.brand = get_brand_name(product)
       h2 
-        span = product.heading[0] 
+        span = get_brand_name(product)
         |  
-        = product.heading[1]
+        = get_product_name(product)
   .row
     .col-lg-4.col-md-5
       .product-carousel
-        = partial(:carousel, :locals => { :product => product }) 
+        = partial(:carousel, :locals => { :product => product, 
+                                          :product_details => product_details }) 
       /.buy-button
-        /a href="#{product.amazon}" class="btn btn-fill btn-sm" Buy from Amazon
+        /a href="#{product_details.amazon}" class="btn btn-fill btn-sm" Buy from Amazon
     .col-lg-8.col-md-7
-      h3 = product.description 
+      h3 = product_details.description 
       .card-stats
         ul
           li
             span Price per oz.
             .icon
-              - for i in 0..(product.price_rating - 1)
+              - for i in 0..(product_details.price_rating - 1)
                 = image_tag "dollar-icon-fill.svg"
-              - for i in 1..(5 - product.price_rating)
+              - for i in 1..(5 - product_details.price_rating)
                 = image_tag "dollar-icon-outline.svg"
 
-          - if (product.scent_strength)
+          - if (product_details.scent_strength)
             li
               span Scent strength
               .icon
-                - for i in 0..(product.scent_strength - 1)
+                - for i in 0..(product_details.scent_strength - 1)
                   = image_tag "perfume-icon-fill.svg"
-                - for i in 1..(5 - product.scent_strength)
+                - for i in 1..(5 - product_details.scent_strength)
                   = image_tag "perfume-icon-outline.svg"
       .buy-button
-        = link_to "Check Amazon Price", product.affiliate_link, :class => "btn btn-fill" 
+        = link_to "Check Amazon Price", product_details.affiliate_link, :class => "btn btn-fill" 
 
 
   .row: .col-xs-12
       p 
         strong Why we like it: 
-        = eval_str(product["bottom_line"])
+        = eval_str(product_details["bottom_line"])
 
-  - if (product.scent_strength)
+  - if (product_details.scent_strength)
     .row: .col-xs-12
         p 
           strong Scent description: 
-          = product["scent_description"]
+          = product_details["scent_description"]
 
-  - if (product.manufacturer_desc)
+  - if (product_details.manufacturer_desc)
     .row: .col-xs-12
         p 
           strong From the manufacturer: 
-          i "#{product.manufacturer_desc}"
+          i "#{product_details.manufacturer_desc}"
 
   .row: .col-xs-12
       p 
         strong Ingredients: 
-        = product.ingredients.join(", ")
+        = product_details.ingredients.join(", ")
 
   - if !get_other_varieties(product).empty?
     .row: .col-xs-12.varieties

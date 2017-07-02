@@ -1,18 +1,18 @@
-<% id = product.name.parameterize %>
+<% id = safestring(product) %>
 <div id="<%= id %>" class="carousel slide" data-interval="false" data-ride="carousel">
 
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <% for i in 0..(product.images.count-1) %>
+    <% for i in 0..(product_details.images.count-1) %>
       <li data-target="#<%= id %>" data-slide-to="<%= i %>" class="<%= "active" if i.equal?(0) %>"></li>
     <% end %>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <% for i in 0..(product.images.count-1) %>
+    <% for i in 0..(product_details.images.count-1) %>
       <div class="item <%= "active" if i.equal?(0) %>">
-        <%= slider_img product.images[i] %>
+        <%= slider_img product_details.images[i] %>
       </div>
     <% end %>
   </div>

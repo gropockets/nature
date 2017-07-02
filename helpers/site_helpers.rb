@@ -45,18 +45,39 @@ module SiteHelpers
     end
 
     # create url from product name (e.g. tom's soap => toms-soap)
-    def get_product_url(product)
-        "/products/#{product.category}/#{product.name.gsub(/\'/, "").parameterize}.html"
+    def get_product_url(productname)
+        category = data.products[productname].category
+        "/products/#{category}/#{productname.gsub(/\'/, "").parameterize}.html"
+    end
+    #def get_product_url(product)
+        #"/products/#{product.category}/#{product.name.gsub(/\'/, "").parameterize}.html"
+    #end
+
+    def safestring(s)
+        s.gsub(/\'/, "").parameterize
     end
 
+    def get_brand_name(productkey)
+        productkey.split(/--/).first.strip
+    end
+
+    def get_product_name(productkey)
+        productkey.split(/--/).last.strip
+    end
+
+    def get_full_name(productkey)
+        productkey.sub(/-- /, '')  # remove trailing space leaving one between words
+    end
+    
     # return array of affiliate links for other scents/flavors 
     def get_other_varieties(product)
         variety = []
+        product_details = data.products[product]
         data.products.each do |key, this|
-            if product.manufacturer.eql?(this.manufacturer) && 
-                    product.category.eql?(this.category) && 
-                    product.type.eql?(this.type) &&
-                    !product.id.equal?(this.id)
+            if get_brand_name(product).eql?(get_brand_name(key)) && 
+                    product_details.category.eql?(this.category) && 
+                    product_details.type.eql?(this.type) &&
+                    !product.eql?(key)
                 variety.push(link_to(this.scent, this.affiliate_link))
             end
         end
