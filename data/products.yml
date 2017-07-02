@@ -4,8 +4,6 @@ Lavanila:
         description: This fresh new deodorant comes with a wonderful vanilla scent.
         scent: Vanilla
         type: Solid Stick
-        manufacturer: Lavanila
-        heading: [Lavanila, Vanilla]
         id: 1001
         price: 6.99
         stars: 4
@@ -18,10 +16,8 @@ Lavanila:
         image: lavanila-healthy-deodorant.jpg
         published: false
 
-Schmidt's Rose & Vanilla:
+Schmidt's -- Rose & Vanilla:
         id: 1025
-        name: Schmidt's Rose & Vanilla
-        manufacturer: Schmidt's
         scent: Rose & Vanilla
         category: deodorant
         type: Jar Solid
@@ -29,10 +25,8 @@ Schmidt's Rose & Vanilla:
         affiliate_link: http://amzn.to/2nePxko
         published: false
 
-Schmidt's Bergamot & Lime:
+Schmidt's -- Bergamot & Lime:
         id: 1024
-        name: Schmidt's Bergamot & Lime
-        manufacturer: Schmidt's
         scent: Bergamot & Lime
         category: deodorant
         type: Jar Solid
@@ -40,10 +34,8 @@ Schmidt's Bergamot & Lime:
         affiliate_link: http://amzn.to/2mjkt3G
         published: false
 
-Schmidt's Fragrance-Free:
+Schmidt's -- Fragrance-Free:
         id: 1019
-        name: Schmidt's Fragrance-Free
-        manufacturer: Schmidt's
         scent: Fragrance-Free
         category: deodorant
         type: Jar Solid
@@ -51,10 +43,8 @@ Schmidt's Fragrance-Free:
         affiliate_link: http://amzn.to/2neMjNU
         published: false
 
-Schmidt's Ylang-Ylang & Calendula:
+Schmidt's -- Ylang-Ylang & Calendula:
         id: 1018
-        name: Schmidt's Ylang-Ylang & Calendula
-        manufacturer: Schmidt's
         scent: Ylang-Ylang & Calendula
         category: deodorant
         type: Jar Solid
@@ -62,10 +52,8 @@ Schmidt's Ylang-Ylang & Calendula:
         affiliate_link: http://amzn.to/2lEaby4
         published: false
 
-Schmidt's Cedarwood & Juniper:
+Schmidt's -- Cedarwood & Juniper:
         id: 1017
-        name: Schmidt's Cedarwood & Juniper
-        manufacturer: Schmidt's
         scent: Cedarwood & Juniper
         category: deodorant
         type: Jar Solid
@@ -75,7 +63,6 @@ Schmidt's Cedarwood & Juniper:
 
 Schmidt's -- Lavender & Sage:
         id: 1002
-        name: Schmidt's -- Lavender & Sage
         category: deodorant
         type: Jar Solid
         scent: Lavender & Sage
@@ -84,8 +71,6 @@ Schmidt's -- Lavender & Sage:
         description: Handcrafted in Portland, OR, this award-winning deodorant is non-greasy and comes with an applicator.
         bottom_line: The soothing shea butter base is surprisingly non-greasy and provides extra nourishment for those who shave. In 2010 Jaime Schmidt was pregnant and really wanted an all natural deodorant that actually worked. So, she made some. The Portland company has since been named “Best Natural Deodorant” by InStyle magazine...not to mention the oodles of other magazines and news outlets that love this product. Even celebrities like Alicia Silverstone have endorsed schmidts, because let’s face it - harmful deodorants are like so five years ago.
         applicator: Includes a plastic applicator like a mini shovel.
-        manufacturer: Schmidt's
-        heading: [Schmidt's, Lavender + Sage]
         images:
                 - [schmidts-lavender-and-sage/schmidts-lavender-and-sage.jpg, "sample text"]
                 - [schmidts-lavender-and-sage/schmidts-lavender-and-sage-texture.jpg, "sample text"]
@@ -105,12 +90,10 @@ Schmidt's -- Lavender & Sage:
         ingredients: [Butyrospermum parkii (shea butter), Sodium bicarbonate (baking soda), Maranta arundinacea (arrowroot) powder, Theobroma cacao (cocoa) seed butter, Essential oils, Tocopherol (vitamin E)]
 
 Herban Cowboy:
-        name: Herban Cowboy
         category: deodorant
         description: With it's masculine, woodsy fragrance, Urben Cowboy offers a new take on natural deodorant for men.
         scent: Forest
         type: Solid Stick
-        manufacturer: Herban Cowboy
         id: 1003
         price: 6.99
         stars: 5.0
@@ -123,12 +106,10 @@ Herban Cowboy:
         published: false
 
 EO Organic Deodorant Spray:
-        name: EO Organic Deodorant Spray
         category: deodorant
         description: A perfume for your armpits!  With one of smallest ingredient lists to be found, EO Organic Deodorant Spray boasts only essential oils and organic alchol on the label.
         scent: Lavender
         type: Spray (Pump)
-        manufacturer: EO Organic
         id: 1004
         price: 8.99
         stars: 2.4
@@ -137,11 +118,9 @@ EO Organic Deodorant Spray:
         image: eo-organic-lavender-deodorant.jpg
         published: false
 
-Naturally Sourced Tea Tree:
+Naturally Sourced -- Tea Tree:
         id: 1016
-        name: Naturally Sourced Tea Tree
         scent: Tea Tree
-        manufacturer: Naturally Sourced
         asin: B01E3D2CEG
         category: deodorant
         type: Jar Solid
@@ -150,7 +129,6 @@ Naturally Sourced Tea Tree:
 
 Naturally Sourced -- Lavender:
         id: 1015
-        name: Naturally Sourced Lavender
         category: deodorant
         type: Jar Solid
         price_rating: 4
@@ -160,8 +138,6 @@ Naturally Sourced -- Lavender:
         description: Unique ingredients like activated charcoal, colloidal silver and vodka create a dynamic formula that works wonders.
         bottom_line: The activated charcoal not only absorbs moisture (1000x its own weight!), but also draws toxins from the body. This makes it a great fit for someone wanting to transition to a natural deodorant. Naturally Sourced also includes unique ingredients like colloidal silver - known for its astonishing antibacterial properties and vodka - a natural preservative and another agent to kill and prevent odor causing bacteria. The greyish hue is due to the natural charcoal, but it disappears when rubbed into the skin and doesn’t stain. This formula uses a minimal amount of baking soda to prevent a sensitive skin reaction.
         applicator: None included.
-        manufacturer: Naturally Sourced
-        heading: [Naturally Sourced, Lavender]
         images:
                 - [naturally-sourced-lavender/naturally-sourced-lavender-deodorant.jpg, "sample text"]
                 - [naturally-sourced-lavender/naturally-sourced-lavender-deodorant-texture.jpg, "sample text"]
@@ -174,10 +150,8 @@ Naturally Sourced -- Lavender:
         fakespot_rating: A
         fakespot_link: http://fakespot.com/product/naturally-sourced-best-natural-deodorant-lavender-with-activated-charcoal-powder-all-natural-and-organic-ingredients-aluminum-free-parabens-free-phthalates-free
 
-Primal Pit Paste Jacked Up Jasmine:
+Primal Pit Paste -- Jacked Up Jasmine:
         id: 1019
-        name: Primal Pit Paste Jacked up Jasmine
-        manufacturer: Primal Pit Paste
         scent: Jacked Up Jasmine
         category: deodorant
         type: Jar Solid
@@ -185,10 +159,8 @@ Primal Pit Paste Jacked Up Jasmine:
         affiliate_link: http://amzn.to/2neTjKs
         published: false
 
-Primal Pit Paste Orange Creamscicle:
+Primal Pit Paste -- Orange Creamscicle:
         id: 1020
-        name: Primal Pit Paste Orange Creamscicle
-        manufacturer: Primal Pit Paste
         scent: Orange Creamscicle
         category: deodorant
         type: Jar Solid
@@ -196,10 +168,8 @@ Primal Pit Paste Orange Creamscicle:
         affiliate_link: http://amzn.to/2mBGgFQ
         published: false
 
-Primal Pit Paste Patchouli:
+Primal Pit Paste -- Patchouli:
         id: 1021
-        name: Primal Pit Paste Patchouli
-        manufacturer: Primal Pit Paste
         scent: Patchouli
         category: deodorant
         type: Jar Solid
@@ -207,10 +177,8 @@ Primal Pit Paste Patchouli:
         affiliate_link: http://amzn.to/2mYQotj
         published: false
 
-Primal Pit Paste Thyme & Lemongrass:
+Primal Pit Paste -- Thyme & Lemongrass:
         id: 1022
-        name: Primal Pit Paste Thyme & Lemongrass
-        manufacturer: Primal Pit Paste
         scent: Thyme & Lemongrass
         category: deodorant
         type: Jar Solid
@@ -218,10 +186,8 @@ Primal Pit Paste Thyme & Lemongrass:
         affiliate_link: http://amzn.to/2mZ9Lmf
         published: false
 
-Primal Pit Paste Royal & Rogue:
+Primal Pit Paste -- Royal & Rogue:
         id: 1026
-        name: Primal Pit Paste Royal & Rogue
-        manufacturer: Primal Pit Paste
         scent: Royal & Rogue
         category: deodorant
         type: Jar Solid
@@ -229,10 +195,8 @@ Primal Pit Paste Royal & Rogue:
         affiliate_link: http://amzn.to/2lZ5l9P
         published: false
 
-Primal Pit Paste Vanilla Lavender Light:
+Primal Pit Paste -- Vanilla Lavender Light:
         id: 1028
-        name: Primal Pit Paste Vanilla Lavender Light
-        manufacturer: Primal Pit Paste
         scent: Vanilla Lavender Light
         category: deodorant
         type: Jar Solid
@@ -240,10 +204,8 @@ Primal Pit Paste Vanilla Lavender Light:
         affiliate_link: http://amzn.to/2lYSSDe
         published: false
 
-Primal Pit Paste Unscented Light:
+Primal Pit Paste -- Unscented Light:
         id: 1027
-        name: Primal Pit Paste Unscented Light
-        manufacturer: Primal Pit Paste
         scent: Unscented Light
         category: deodorant
         type: Jar Solid
@@ -251,10 +213,8 @@ Primal Pit Paste Unscented Light:
         affiliate_link: http://amzn.to/2neRxsG
         published: false
 
-Primal Pit Paste Unscented:
+Primal Pit Paste -- Unscented:
         id: 1023
-        name: Primal Pit Paste Unscented
-        manufacturer: Primal Pit Paste
         scent: Unscented
         category: deodorant
         type: Jar Solid
@@ -264,7 +224,6 @@ Primal Pit Paste Unscented:
 
 Primal Pit Paste -- Lavender:
         id: 1014
-        name: Primal Pit Paste Lavender
         category: deodorant
         type: Jar Solid
         scent: Lavender
@@ -273,10 +232,8 @@ Primal Pit Paste -- Lavender:
         scent_strength: 4
         description: Invented by a CrossFit trainer for the active person who wants natural protection against body odor.
         bottom_line: |
-                Primal Pit Paste is fantastic for more vigorous activities at the gym or outdoors. The all natural and mostly organic ingredients eliminate smelly bacteria while still allowing your body to sweat (but not too much). The Florida Mom/CrossFit trainer, Amy Cazin, was determined to create a formula for the whole family...even kids! Her company now handcrafts an extensive line in Austin, Texas. If you’re sensitive to baking soda, they also have “light” less baking soda #{ link_to "options", data.products["Primal Pit Paste Vanilla Lavender Light"].affiliate_link }. The consistency may seem pretty thick, but it goes on clear and absorbs into the skin quickly.
+                Primal Pit Paste is fantastic for more vigorous activities at the gym or outdoors. The all natural and mostly organic ingredients eliminate smelly bacteria while still allowing your body to sweat (but not too much). The Florida Mom/CrossFit trainer, Amy Cazin, was determined to create a formula for the whole family...even kids! Her company now handcrafts an extensive line in Austin, Texas. If you’re sensitive to baking soda, they also have “light” less baking soda #{ link_to "options", data.products["Primal Pit Paste -- Vanilla Lavender Light"].affiliate_link }. The consistency may seem pretty thick, but it goes on clear and absorbs into the skin quickly.
         applicator: Includes a small wooden applicator - like a mini popsicle stick.
-        manufacturer: Primal Pit Paste
-        heading: [Primal Pit Paste, Lavender]
         path: products/deodorant/primal-pit-paste-lavender
         image: primal-pit-paste-lavender/primal-pit-paste-lavender.jpg
         images:
@@ -301,23 +258,18 @@ Primal Pit Paste -- Lavender:
 
 
 Pana Cosmetic Spatulas:
-        name: Pana Cosmetic Spatulas
         id: 1029
         asin: B01CTYUFJA
         affiliate_link: http://amzn.to/2mJW4X7
         published: false
 
 Molivera Organics -- Bentonite Clay:
-
-        name: Molivera Organics Bentonite Clay
         category: detox
         type: Tub
         description: Mineral rich treatment for skin and hair. Sourced from the volcanic ash in Fort Benton, Wyoming.
         price_rating: 3
         manufacturer_desc: Detoxifying and beautifying mask helps clear up acne and blackheads. Tightens skin, shrinks pores and helps regenerate skin tissue, combating wrinkles and encouraging youthful, glowing skin. Clarifies hair for softness and manageability.
         bottom_line: Bentonite Clay a.k.a. “Indian Healing Clay” produces a negative electrical charge when mixed with water that binds to positively charged toxins and heavy metals. Molivera Organics is sodium based - as opposed to  calcium based - and can absorb several times its dry mass while also carrying a higher negative ionic charge.  They produce their clay incredibly fine which makes for a super creamy mask that tightens up and tingles just right. The convenient tub is opaque to avoid sun damage.
-        manufacturer: Molivera Organics
-        heading: [Molivera Organics, Bentonite Clay]
         images:
                 - [molivera-bentonite/molivera-bentonite_profile_IMG_6831.jpg, "molivera organics bentonite clay"]
                 - [molivera-bentonite/molivera-bentonite_open.jpg, "molivera organics bentonite clay close up"]
@@ -329,16 +281,12 @@ Molivera Organics -- Bentonite Clay:
 
 
 Zen Charcoal -- Hardwood Activated Charcoal:
-
-        name: Zen Charcoal Hardwood Activated Charcoal
         category: detox
         type: Bag
         description: Expertly crafted so it blends beautifully into liquids and pastes. Comes with a handy scoop.
         price_rating: 2
         manufacturer_desc: Used for thousands of years by diverse cultures all around the world, activated charcoal powder is a magical material which has dozens of uses. This is due to the incredible number of tiny pores in the powder, which attract and eliminate dirt, impurities, toxins and other nasty things from your teeth, skin, hair and ever your digestive tract.
         bottom_line: The powdered form of activated charcoal is a better value and more versatile than capsules or premixed masks. Zen Charcoal ensures the highest quality by sourcing their product from USA-grown renewable Eastern Hardwood. Eastern Hardwood has better absorption abilities (drawing toxins out) compared to other woods like bamboo. The mylar bag is easy to store or transfer to another container.
-        manufacturer: Zen Charcoal
-        heading: [Zen Charcoal, Hardwood Activated Charcoal]
         images:
                 - [zen-charcoal/zen-charcoal-profile.jpg, "zen hardwood activated charcoal"]
                 - [zen-charcoal/zen-charcoal-dish.jpg, "zen hardwood activated charcoal close up"]
@@ -349,16 +297,12 @@ Zen Charcoal -- Hardwood Activated Charcoal:
         published: true
 
 Viva Naturals -- Apple Cider Vinegar:
-
-        name: Viva Naturals Apple Cider Vinegar
         category: detox
         type: Bottle
         description: Don’t let the pleasant apple taste fool you. Viva’s ACV is not only delicious but an effective alkalizer too, making daily use easy as pie.
         price_rating: 2
         manufacturer_desc: Naturally fermented from certified organic apples, a traditional method used for tangy, wholesome flavor. Not your average vinegar, our ACV is unfiltered, raw and unpasteurized, preserving live cultures known as the “Mother” to keep enzymes and nutrients intact….free from preservatives and is enjoyed by many as a nourishing tonic, culinary wonder and household must-have for its unique alkalizing properties.
         bottom_line: The apple flavor really comes through with less “vinegar-burn” compared to other brands. Easy to drink with just hot water and honey. The plastic bottle is lightweight and nicer to store than glass.
-        manufacturer: Viva Naturals
-        heading: [Viva Naturals, Apple Cider Vinegar]
         images:
                 - [viva-naturals-apple-cider-vinegar/viva-APV_profile.jpg, "Viva Naturals Apple Cider Vinegar"]
                 - [viva-naturals-apple-cider-vinegar/viva-APV_bowl.jpg, "Viva Naturals Apple Cider Vinegar"]
@@ -368,8 +312,6 @@ Viva Naturals -- Apple Cider Vinegar:
         published: true
 
 Thayers -- Lavender Witch Hazel:
-
-        name: Thayers Lavender Witch Hazel
         category: detox
         type: Bottle
         description: Our go to alcohol-free toner for glowing, clean skin.
@@ -378,8 +320,6 @@ Thayers -- Lavender Witch Hazel:
         manufacturer_desc: A natural gentle skin toner derived from a time honored Native-American formula. Now people with sensitive skin have an alcohol-free lavender witch hazel toner, with delicate, soothing, calming natural lavender water. This all-natural toner for healthy looking skin adds moisture while helping to protect the skin from airborne impurities. Witch hazel helps tighten pores and to smooth and beautify the skin. Thayers proprietary witch hazel extract (derived from the bark) is not distilled, thereby maintaining all the beneficial natural tannins.
         bottom_line: Not only does this work wonderfully as a toner, it's also an effective aftershave, calms down bug bites and soothes postnatal healing.
         scent_description: The lavender is hardly noticeable and wears off quickly.
-        manufacturer: Thayers
-        heading: [Thayers, Lavender Witch Hazel]
         images:
                 - [thayers-witch-hazel-profile.jpg, "thayers witch hazel lavender"]
         asin: B000PP15L8
@@ -388,8 +328,6 @@ Thayers -- Lavender Witch Hazel:
         published: true
 
 SheaMoisture -- African Black Soap:
-
-        name: SheaMoisture African Black Soap
         category: soap
         type: bar
         description: Silky smooth bar with its own twist on ingredients.
@@ -398,8 +336,6 @@ SheaMoisture -- African Black Soap:
         manufacturer_desc: African Black Soap, made from palm ash, tamarind extract and plantain peel has been used in Africa for centuries to treat eczema, acne, oily skin, psoriasis and other skin ailments. Combined with the healing and hydrating properties of Shea Butter, this healing soap should be used daily to balance and resolve problem skin.
         bottom_line: This is a great introduction to ABS if you’re unsure about the raw stuff. It's deep black color is smooth to touch and it includes clever ingredients like oatmeal (<em>anti-inflammatory, moisturizer</em>) and rosemary extract (<em>natural preservative, antioxidant</em>).
         scent_description: Sweet banana and cocoa aromas linger softly on your skin.
-        manufacturer: SheaMoisture
-        heading: [SheaMoisture, African Black Soap]
         images:
                 - [sheamoisture-blacksoap/sheamoisture-blacksoap-profile.jpg, "SheaMoisture African Black Soap Bar shea butter"]
                 - [sheamoisture-blacksoap/sheamoisture-blacksoap-opened.jpg, "SheaMoisture African Black Soap Bar shea butter"]
@@ -412,8 +348,6 @@ SheaMoisture -- African Black Soap:
         published: true
 
 Dr. Woods -- Raw Black Soap:
-
-        name: Dr. Woods Raw Black Soap
         category: soap
         type: liquid
         description: Huge bottle full of quality ingredients that’s great for sharing and will last you ages.
@@ -422,8 +356,6 @@ Dr. Woods -- Raw Black Soap:
         manufacturer_desc: Dr. Woods Raw Black Soap is a natural wonder that lifts away tired skin cells to leave your skin smooth, hydrated and exceptionally healthy. Our Raw Black Soap formula is a gentle exfoliant and a powerful, acne-fighting deep cleanser that rejuvenates the skin without any need for harsh detergents or toxic additives.
         bottom_line: A little goes a long way and it even works great as a therapeutic bubble bath. In addition to the traditional palm kernel oil, Dr. Woods uses olive and hemp oils, rich in fatty acids to reduce inflammation.
         scent_description: Warm and spicy amber-like fragrance makes it inviting without overpowering.
-        manufacturer: Dr. Woods
-        heading: [Dr. Woods, Raw Black Soap]
         images:
                 - [drwoods-blacksoap/drwoods-blacksoap-profile.jpg, "dr woods african black soap liquid"]
                 - [drwoods-blacksoap/drwoods-blacksoap-pouring.jpg, "dr woods african black soap liquid"]
@@ -435,8 +367,6 @@ Dr. Woods -- Raw Black Soap:
         published: true
 
 Sky Organics -- African Black Bar Soap:
-
-        name: Sky Organics African Black Bar Soap
         category: soap
         type: bar
         description: This one pound block of raw goodness is a powerful degreaser that won't disappoint.
@@ -445,8 +375,6 @@ Sky Organics -- African Black Bar Soap:
         manufacturer_desc: "Sky Organics Black Soap is sourced directly from organic artisanal farmers in Ghana. African Black Soap is revered for having skin nourishing benefits due to an abundance of antioxidants which protect the skin from free radical damage, which is a cause of premature skin aging, wrinkles and facial lines."
         bottom_line: Prime example of a traditional raw recipe. Don't be intimidated by the size, it cuts down easily with a kitchen knife. We even put a small chunk in a soap dispenser with water and essential oils to make our own personalized liquid soap.
         scent_description: Mild and earthy.
-        manufacturer: Sky Organics
-        heading: [Sky Organics, African Black Bar Soap]
         images:
                 - [skyorganics-blacksoap/skyorganics-blacksoap-profile.jpg, "Sky Organics Raw African Black Soap"]
                 - [skyorganics-blacksoap/skyorganics-blacksoap-opened.jpg, "Sky Organics Raw African Black Soap"]
@@ -456,44 +384,35 @@ Sky Organics -- African Black Bar Soap:
         affiliate_link: http://amzn.to/2raTeNW
         published: true
 
-Thayers Cucumber Witch Hazel:
-        name: Thayers Cucumber Witch Hazel
-        manufacturer: Thayers
+Thayers -- Cucumber Witch Hazel:
         category: toner
         scent: cucumber
         asin: B001BR97A0
         affiliate_link: http://amzn.to/2qhpgCT
         published: false
 
-Thayers Original Witch Hazel:
-        name: Thayers Original Witch Hazel
-        manufacturer: Thayers
+Thayers -- Original Witch Hazel:
         category: toner
         scent: original
         asin: B000S823S6
         affiliate_link: http://amzn.to/2rO1CjI
         published: false
 
-Thayers Rose Petal Witch Hazel:
-        name: Thayers Rose Petal Witch Hazel
-        manufacturer: Thayers
+Thayers -- Rose Petal Witch Hazel:
         category: toner
         scent: rose petal
         asin: B007HD570Q
         affiliate_link: http://amzn.to/2rNGWrY
         published: false
 
-Thayers Unscented Witch Hazel:
-        name: Thayers Unscented Witch Hazel
-        manufacturer: Thayers
+Thayers -- Unscented Witch Hazel:
         category: toner
         scent: unscented
         asin: B001DJDP7C
         affiliate_link: http://amzn.to/2qMApiB
         published: false
 
-Brooklyn Botany Camellia Wonder Oil:
-        name: Brooklyn Botany Camellia Wonder Oil
+Brooklyn Botany -- Camellia Wonder Oil:
         asin:  B06ZYCPDWB
         affiliate_link: http://amzn.to/2qhBATO
         published: false

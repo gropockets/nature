@@ -53,6 +53,10 @@ module SiteHelpers
         #"/products/#{product.category}/#{product.name.gsub(/\'/, "").parameterize}.html"
     #end
 
+    def safestring(s)
+        s.gsub(/\'/, "").parameterize
+    end
+
     def get_brand_name(productkey)
         productkey.split(/--/).first.strip
     end
@@ -66,13 +70,14 @@ module SiteHelpers
     end
     
     # return array of affiliate links for other scents/flavors 
-    def get_other_varieties(product_details)
+    def get_other_varieties(product)
         variety = []
+        product_details = data.products[product]
         data.products.each do |key, this|
-            if product_details.manufacturer.eql?(this.manufacturer) && 
+            if get_brand_name(product).eql?(get_brand_name(key)) && 
                     product_details.category.eql?(this.category) && 
                     product_details.type.eql?(this.type) &&
-                    !product_details.id.equal?(this.id)
+                    !product.eql?(key)
                 variety.push(link_to(this.scent, this.affiliate_link))
             end
         end

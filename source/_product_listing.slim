@@ -60,10 +60,10 @@
         strong Ingredients: 
         = product_details.ingredients.join(", ")
 
-  - if !get_other_varieties(product_details).empty?
+  - if !get_other_varieties(product).empty?
     .row: .col-xs-12.varieties
         p 
           strong Other scents: 
-          = get_other_varieties(product_details).join(", ")
+          = get_other_varieties(product).join(", ")
 
 
