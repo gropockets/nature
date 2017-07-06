@@ -5,3 +5,5 @@ build/
 source/test/
 .sass-cache/
 **/*.lnk
+# uncompressed images
+**/rawpics/
