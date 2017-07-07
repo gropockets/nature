@@ -142,16 +142,17 @@ textarea.form-control {
 .carousel-indicators {
   bottom: 0px; }
 
-.carousel-control.right {
-  background-image: none; }
-
-.carousel-control.left {
-  background-image: none; }
+a.carousel-control {
+  border-bottom: none !important; }
+  a.carousel-control.right {
+    background-image: none; }
+  a.carousel-control.left {
+    background-image: none; }
 
 @media (min-width: 992px) {
   .carousel-inner > .item {
     height: 210px; } }
-.carousel-inner > .item > img {
+.carousel-inner > .item > picture > img {
   max-height: 100%;
   margin: 0 auto; }
 
